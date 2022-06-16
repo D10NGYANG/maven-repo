@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ByteArrayMultiplatformTest/1.0-SNAPSHOT/ByteArrayMultiplatformTest-1.0-SNAPSHOT.module",
+    "group": "me.d10ng",
+    "module": "ByteArrayMultiplatformTest",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest-jslegacy-1.0-SNAPSHOT.jar",
+          "url": "ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.jar",
+          "size": 2846,
+          "sha512": "f942493541606a9171ab8d1e95563e6fcf480c0a3f7380ee1ed3600e9dc3b0e2e91c2c7a1eabafeb4033045d41fbcfb36dccdc147086dd56d6796a64945ef90d",
+          "sha256": "a1ef0f8f949410216b8a788d2fb283a9ecd0b3923b38ab08289ed0468e48c8fa",
+          "sha1": "a09b118d2aff0c73212b02ae0b93bab9cf39098a",
+          "md5": "ac5fe9f864c912d555f319d3eb43ff6c"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest-jslegacy-1.0-SNAPSHOT.jar",
+          "url": "ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.jar",
+          "size": 2846,
+          "sha512": "f942493541606a9171ab8d1e95563e6fcf480c0a3f7380ee1ed3600e9dc3b0e2e91c2c7a1eabafeb4033045d41fbcfb36dccdc147086dd56d6796a64945ef90d",
+          "sha256": "a1ef0f8f949410216b8a788d2fb283a9ecd0b3923b38ab08289ed0468e48c8fa",
+          "sha1": "a09b118d2aff0c73212b02ae0b93bab9cf39098a",
+          "md5": "ac5fe9f864c912d555f319d3eb43ff6c"
+        }
+      ]
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest-jsir-1.0-SNAPSHOT.klib",
+          "url": "ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.klib",
+          "size": 3473,
+          "sha512": "5d44a175cc8126e2757176a0a07d3dc4ece4abe24e7ef19172be5b0f0fa51c35185057ddf963465440eb0c58537aa923a78fc5025c3690ee65615df6617ca275",
+          "sha256": "e99aa38e426feb60164d4c2ae19267424c95262c53e4bb9d7d16f0f2dcec0b71",
+          "sha1": "771e3cc209433ba99c2f45c2036f7030ca19a1d2",
+          "md5": "2e19667deb7e24692969e21e430d8830"
+        }
+      ]
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest-jsir-1.0-SNAPSHOT.klib",
+          "url": "ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.klib",
+          "size": 3473,
+          "sha512": "5d44a175cc8126e2757176a0a07d3dc4ece4abe24e7ef19172be5b0f0fa51c35185057ddf963465440eb0c58537aa923a78fc5025c3690ee65615df6617ca275",
+          "sha256": "e99aa38e426feb60164d4c2ae19267424c95262c53e4bb9d7d16f0f2dcec0b71",
+          "sha1": "771e3cc209433ba99c2f45c2036f7030ca19a1d2",
+          "md5": "2e19667deb7e24692969e21e430d8830"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.d10ng",
+    "module": "ByteArrayMultiplatformTest",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest-metadata-1.0-SNAPSHOT.jar",
+          "url": "ByteArrayMultiplatformTest-1.0-SNAPSHOT.jar",
+          "size": 3324,
+          "sha512": "c25745390f22812bcc100a100af472c4c943c844f163c3f273e65ae4ec8091e6d4f420f9407a89b37f77783973e321a05685f8a18cbe7abc5f19f6be2ab4c01c",
+          "sha256": "6c9a342f94301dfd5baa6d4c1d4759b78ab538a8963a7b4804facbd0deafafb5",
+          "sha1": "4a4c56a24d1465cd54a667ece63741ec7cd180ab",
+          "md5": "02ae832682844a83d2e02d85730c1b23"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-js/1.0-SNAPSHOT/ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-js",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-js/1.0-SNAPSHOT/ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-js",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-js/1.0-SNAPSHOT/ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-js",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-js/1.0-SNAPSHOT/ByteArrayMultiplatformTest-js-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-js",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-jvm/1.0-SNAPSHOT/ByteArrayMultiplatformTest-jvm-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-jvm",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-jvm/1.0-SNAPSHOT/ByteArrayMultiplatformTest-jvm-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-jvm",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-native/1.0-SNAPSHOT/ByteArrayMultiplatformTest-native-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-native",
+        "version": "1.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ByteArrayMultiplatformTest-native/1.0-SNAPSHOT/ByteArrayMultiplatformTest-native-1.0-SNAPSHOT.module",
+        "group": "me.d10ng",
+        "module": "ByteArrayMultiplatformTest-native",
+        "version": "1.0-SNAPSHOT"
+      }
+    }
+  ]
+}

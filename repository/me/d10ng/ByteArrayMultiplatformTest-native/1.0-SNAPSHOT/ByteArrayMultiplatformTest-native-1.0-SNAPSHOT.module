@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ByteArrayMultiplatformTest/1.0-SNAPSHOT/ByteArrayMultiplatformTest-1.0-SNAPSHOT.module",
+    "group": "me.d10ng",
+    "module": "ByteArrayMultiplatformTest",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest.klib",
+          "url": "ByteArrayMultiplatformTest-native-1.0-SNAPSHOT.klib",
+          "size": 7617,
+          "sha512": "9b87b3f8236a611db4d144d02dc144cccf418438d5e927f3d020d606df8e933c3085e9c4c29201757162cb48a18eac4c090a3e86ddc8267c5b7475d0784f6d72",
+          "sha256": "4257e48db7cc6d1d8b3751191d2956ee96a4270d9ec1ecd94f473fe68a992612",
+          "sha1": "188ab301e305dfd13fcfcdcc86e8923414d8da0e",
+          "md5": "77fa4c2f5c851e337afb0179ed2f6417"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ByteArrayMultiplatformTest-native-1.0-SNAPSHOT-metadata.jar",
+          "url": "ByteArrayMultiplatformTest-native-1.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "e7f084758619363529b82dd331929511c83a484da142f48eae349ed743f76e452b35e8dd69d626b1490bc27e81599908d9dc5b9ba6489d3f00714617dd7c78e5",
+          "sha256": "6fb3f9bd463e995fcc1fafbed66da974360690b8aaef4f2f78484d6d3db2e22e",
+          "sha1": "f7cf2124e92cf01c6b2dffa1ace01885684bf5e0",
+          "md5": "ff75cb9807cba21ba0b909528e26a7fa"
+        }
+      ]
+    }
+  ]
+}
