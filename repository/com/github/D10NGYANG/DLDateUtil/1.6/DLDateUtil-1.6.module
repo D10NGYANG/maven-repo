@@ -1,0 +1,276 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-metadata-1.6-all.jar",
+          "url": "DLDateUtil-1.6-all.jar",
+          "size": 5688,
+          "sha512": "5169be940fbba04acd18e7870e50a92299f2af899590f667673133f359908dd279ac9d24071bc9c4caee3bf18fab3e930dfa432e214cae4f71328fedb238352f",
+          "sha256": "06f400db0d3b9ceecf5f32c53c911514f8f1bf99a4c0d0a48dcfc123c0473651",
+          "sha1": "9345ddc2eb825e0863ed35bfac5d88ddd1d9f34c",
+          "md5": "0dcd676da369480b12499f3f60a6b1a6"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-1.6.jar",
+          "url": "DLDateUtil-1.6.jar",
+          "size": 4492,
+          "sha512": "43fc307e1dc9f6cadedd73a349ba4cd13c7e99da5125dffa67c0369f7a06ef549baad139d83aae5b40a220b6afc44de89f2969a04d75f7fed3f15c8f897943af",
+          "sha256": "7d2c5f4b44804a7669908ee3d22ddc5bfd0d3742e3509aca845f7fe5b822b78f",
+          "sha1": "1980cf6bea0fd253a1404b9025e1b1537ad49d6a",
+          "md5": "9ede1d806e45ab6d1ff7478461d2ef6a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosarm64/1.6/DLDateUtil-iosarm64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosarm64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosarm64/1.6/DLDateUtil-iosarm64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosarm64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosx64/1.6/DLDateUtil-iosx64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosx64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosx64/1.6/DLDateUtil-iosx64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosx64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-js/1.6/DLDateUtil-js-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-js",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-js/1.6/DLDateUtil-js-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-js",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-jvm/1.6/DLDateUtil-jvm-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-jvm",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-jvm/1.6/DLDateUtil-jvm-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-jvm",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-linuxx64/1.6/DLDateUtil-linuxx64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-linuxx64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-macosx64/1.6/DLDateUtil-macosx64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-macosx64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-macosx64/1.6/DLDateUtil-macosx64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-macosx64",
+        "version": "1.6"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-mingwx64/1.6/DLDateUtil-mingwx64-1.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-mingwx64",
+        "version": "1.6"
+      }
+    }
+  ]
+}

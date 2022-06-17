@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.6/DLDateUtil-1.6.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.6.jar",
+          "url": "DLDateUtil-js-1.6.jar",
+          "size": 43153,
+          "sha512": "67d2e66365c3eacbfebb3a11441e45427cad89c4aab65335dd38d0750c7a5647ff5e417c047d9dd7bc7020822c4595f18ffb9e4d4a23af8adb2e0bfb301c72c7",
+          "sha256": "35cc24aa487280f56d78f90ade3755fe4b1ad7df0a95f7802a9fd3fd611dbb1a",
+          "sha1": "37b16aba5105fd94d51c286998605b81b8a2485c",
+          "md5": "df6a21a8bbdf13185860113a30ee8c53"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.6.jar",
+          "url": "DLDateUtil-js-1.6.jar",
+          "size": 43153,
+          "sha512": "67d2e66365c3eacbfebb3a11441e45427cad89c4aab65335dd38d0750c7a5647ff5e417c047d9dd7bc7020822c4595f18ffb9e4d4a23af8adb2e0bfb301c72c7",
+          "sha256": "35cc24aa487280f56d78f90ade3755fe4b1ad7df0a95f7802a9fd3fd611dbb1a",
+          "sha1": "37b16aba5105fd94d51c286998605b81b8a2485c",
+          "md5": "df6a21a8bbdf13185860113a30ee8c53"
+        }
+      ]
+    }
+  ]
+}

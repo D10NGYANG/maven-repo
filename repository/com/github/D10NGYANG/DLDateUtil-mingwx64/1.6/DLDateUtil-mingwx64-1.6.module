@@ -1,0 +1,56 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.6/DLDateUtil-1.6.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil.klib",
+          "url": "DLDateUtil-mingwx64-1.6.klib",
+          "size": 52102,
+          "sha512": "102b15f3d52d3780f6fa91387f09e7cd5add6a3d6e74d0b9e1822d41a7962a38cf6aa573b75fe24ddd0ac2678919bb0a96d13a30df5a5964361466847e7618ed",
+          "sha256": "d4fc48791948b983d5d733c34d8d90f22e480d57d1c542cec1295c3557f56b85",
+          "sha1": "4b9392156a8c8b6dddf53f820f154fdf64666766",
+          "md5": "14fe6f9843804efeb64c00528d803ccf"
+        }
+      ]
+    }
+  ]
+}

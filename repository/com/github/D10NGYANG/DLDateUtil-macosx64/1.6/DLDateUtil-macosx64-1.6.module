@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.6/DLDateUtil-1.6.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil.klib",
+          "url": "DLDateUtil-macosx64-1.6.klib",
+          "size": 52168,
+          "sha512": "aef97993311bdd14f8d0d7b5925cc4185a707ffbef69cdf6b1cc668fd4726acd749dc21282210b75bbd5c9c8825ede42dc0ab6cd37cbd436db6cbd1e831d34c2",
+          "sha256": "9a0a1c9a0700c8757dfe4dded284b430249a57cb88c717218ba1007a191cf81b",
+          "sha1": "060569ff83dc6f961cac8431dae2ae62f91e217d",
+          "md5": "c529546b914fa221cc59a823bd8d51a3"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-macosx64-1.6-metadata.jar",
+          "url": "DLDateUtil-macosx64-1.6-metadata.jar",
+          "size": 261,
+          "sha512": "dfbb039a8237ca5aad61636352fc4b45916ff02077157c9333ac77e42e6d148f4d162169e0c837b4ccee4f52bff22d6b4d2e826eea47369afd3247b9fc579a7c",
+          "sha256": "1f5d8c2f13f977423ea2becac6305f0e777cc23b627b3a80c9b81c7ec3f4b39f",
+          "sha1": "becccf0856cc7af5d3d043bb0e4eb6f3732f7387",
+          "md5": "aec8785dcc6678894534d49a8e88acfe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.6/DLDateUtil-1.6.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil.klib",
+          "url": "DLDateUtil-linuxx64-1.6.klib",
+          "size": 52101,
+          "sha512": "251196ad34ee351d6f44a69d9ec6781420b5288765b1a9010767e63580633c822182ddbfe62c55f776a6f2b0af353edaa1e00b49d21b81357ab403b8402f727e",
+          "sha256": "b07cd3488466eba9c2234182441f673ce9d822c752880419bd528f06a767b34e",
+          "sha1": "938cbdb6066f7c5b6d1dcd91a93ce7fa09ddf7fe",
+          "md5": "8c1f36b0297640aab7e9cc0e580303f2"
+        }
+      ]
+    }
+  ]
+}
