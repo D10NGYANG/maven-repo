@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-metadata-1.7.jar",
+          "url": "DLDateUtil-1.7.jar",
+          "size": 5476,
+          "sha512": "470d309afe93e4ca6f29f31aa9f3b09126e296179ad28c7da76dce65b92141878ff437e9058a24f7ea477c90d09dd86c3389d9cc5b99c01c6e80b60a0b2a3ad8",
+          "sha256": "cebb76fa9dc46f9ca4a63929a1158609581e40d82a7b4dea5df6b265e12e09b5",
+          "sha1": "dbe7bbf65a4d768a02e96bef8a92ca9374e44a38",
+          "md5": "7f76f3510f1cdfedddc9e443dc42c998"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosarm64/1.7/DLDateUtil-iosarm64-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosarm64",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosarm64/1.7/DLDateUtil-iosarm64-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosarm64",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosx64/1.7/DLDateUtil-iosx64-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosx64",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-iosx64/1.7/DLDateUtil-iosx64-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-iosx64",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-js/1.7/DLDateUtil-js-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-js",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-js/1.7/DLDateUtil-js-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-js",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-jvm/1.7/DLDateUtil-jvm-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-jvm",
+        "version": "1.7"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLDateUtil-jvm/1.7/DLDateUtil-jvm-1.7.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDateUtil-jvm",
+        "version": "1.7"
+      }
+    }
+  ]
+}

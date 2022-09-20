@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.7/DLDateUtil-1.7.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-jvm-1.7.jar",
+          "url": "DLDateUtil-jvm-1.7.jar",
+          "size": 27686,
+          "sha512": "a34a0fcf6d22eea27815fd70ffc6b40554fc4a7d77d0ea7efe98bd0691e14bc35d5696e1c0006bebbc0ad740918df2c543ad8d249c358784e3acf6c1f9cc7873",
+          "sha256": "5df4b12e061bc16325ef67dc65d1a9e91be0fbfeee482add3ca06e4e7f4e77e3",
+          "sha1": "82390b0e47cce5d62e9701f52cd123a5ee66c606",
+          "md5": "20893c42560b029ef3014d6c1f09c759"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-jvm-1.7.jar",
+          "url": "DLDateUtil-jvm-1.7.jar",
+          "size": 27686,
+          "sha512": "a34a0fcf6d22eea27815fd70ffc6b40554fc4a7d77d0ea7efe98bd0691e14bc35d5696e1c0006bebbc0ad740918df2c543ad8d249c358784e3acf6c1f9cc7873",
+          "sha256": "5df4b12e061bc16325ef67dc65d1a9e91be0fbfeee482add3ca06e4e7f4e77e3",
+          "sha1": "82390b0e47cce5d62e9701f52cd123a5ee66c606",
+          "md5": "20893c42560b029ef3014d6c1f09c759"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.7/DLDateUtil-1.7.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.7.klib",
+          "url": "DLDateUtil-js-1.7.klib",
+          "size": 54721,
+          "sha512": "5758e0f667ab009e9164ec12ed5cd449789be15d48b323b386b78450e49605d14b1121eafa1fbd1d35426b6dd11b6b7319c5b606ef8a970c69548854bc3871fe",
+          "sha256": "cf3fa4232ac7fe46c3831df4e156bb844ea4e932c5a5b9e8dffcf62364252597",
+          "sha1": "a7020884939db12dfd6801bf5763b75fcf72d4d0",
+          "md5": "4120b6d19cccadb26e6ec90b4c128d90"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.7.klib",
+          "url": "DLDateUtil-js-1.7.klib",
+          "size": 54721,
+          "sha512": "5758e0f667ab009e9164ec12ed5cd449789be15d48b323b386b78450e49605d14b1121eafa1fbd1d35426b6dd11b6b7319c5b606ef8a970c69548854bc3871fe",
+          "sha256": "cf3fa4232ac7fe46c3831df4e156bb844ea4e932c5a5b9e8dffcf62364252597",
+          "sha1": "a7020884939db12dfd6801bf5763b75fcf72d4d0",
+          "md5": "4120b6d19cccadb26e6ec90b4c128d90"
+        }
+      ]
+    }
+  ]
+}
