@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLMapboxUtil",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mapbox.maps",
+          "module": "android",
+          "version": {
+            "requires": "10.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMapboxUtil-0.9.1.aar",
+          "url": "DLMapboxUtil-0.9.1.aar",
+          "size": 813200,
+          "sha512": "e422c01e28852069526ec5663cc9eeff3f62b06af0560142059876e612ece64cba8dfe4752c4a757dd2a1b187dd02106ea82a31489d789808f32ba6d149519bd",
+          "sha256": "bdcffffbc9a0ad6e8bf9bd444a8c2bbab590570539d3404948376784c8781ca9",
+          "sha1": "2bf3d5a2f0ee5ff0e8d7d90519082a6e41fb7efc",
+          "md5": "aa5110bca3c72a551f831163e3f55483"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.mapbox.maps",
+          "module": "android",
+          "version": {
+            "requires": "10.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLBasicJetpackComposeApp",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLGpsUtil",
+          "version": {
+            "requires": "2.1-RC01"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLTianDiTuApi",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLHttpUtil",
+          "version": {
+            "requires": "0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMapboxUtil-0.9.1.aar",
+          "url": "DLMapboxUtil-0.9.1.aar",
+          "size": 813200,
+          "sha512": "e422c01e28852069526ec5663cc9eeff3f62b06af0560142059876e612ece64cba8dfe4752c4a757dd2a1b187dd02106ea82a31489d789808f32ba6d149519bd",
+          "sha256": "bdcffffbc9a0ad6e8bf9bd444a8c2bbab590570539d3404948376784c8781ca9",
+          "sha1": "2bf3d5a2f0ee5ff0e8d7d90519082a6e41fb7efc",
+          "md5": "aa5110bca3c72a551f831163e3f55483"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLMapboxUtil-0.9.1-sources.jar",
+          "url": "DLMapboxUtil-0.9.1-sources.jar",
+          "size": 45729,
+          "sha512": "e0c2f42804695b4fca213c1006cf8f9a726f60518a8c5b8c2c054e05162bc6a2ce09f1a97b63b4341d1d4214181bc27ecf13eccc411623c269af48385887b0af",
+          "sha256": "a227218fedc064e0ca39816d774693ec437d7c0ed94dd3e1437389ea1e919456",
+          "sha1": "d1b96e96b0479c171e52d8e4c1091985f0acfe3f",
+          "md5": "a5333f5ef45e6d7f5d236b1a2310e326"
+        }
+      ]
+    }
+  ]
+}
