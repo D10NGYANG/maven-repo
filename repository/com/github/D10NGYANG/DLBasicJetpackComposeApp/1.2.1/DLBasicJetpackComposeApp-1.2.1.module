@@ -1,8 +1,8 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.github.D10NG",
-    "module": "BasicLib",
+    "group": "com.github.D10NGYANG",
+    "module": "DLBasicJetpackComposeApp",
     "version": "1.2.1",
     "attributes": {
       "org.gradle.status": "release"
@@ -292,8 +292,8 @@
       ],
       "files": [
         {
-          "name": "BasicLib-1.2.1.aar",
-          "url": "BasicLib-1.2.1.aar",
+          "name": "DLBasicJetpackComposeApp-1.2.1.aar",
+          "url": "DLBasicJetpackComposeApp-1.2.1.aar",
           "size": 705801,
           "sha512": "805d835a0e05d75678ebd8cde8ac7d02fb408ede8d1a0e1766df23e39ffdb1c8adea5755e122f07b2608a25a4af5ec1d8c34eb6070cc7d727e0f69f9a667605c",
           "sha256": "b3a7afd2042a2b13b0757f4c8043e7f6c2cd1de2c7331dd6974822a3c68406d4",
@@ -587,8 +587,8 @@
       ],
       "files": [
         {
-          "name": "BasicLib-1.2.1.aar",
-          "url": "BasicLib-1.2.1.aar",
+          "name": "DLBasicJetpackComposeApp-1.2.1.aar",
+          "url": "DLBasicJetpackComposeApp-1.2.1.aar",
           "size": 705801,
           "sha512": "805d835a0e05d75678ebd8cde8ac7d02fb408ede8d1a0e1766df23e39ffdb1c8adea5755e122f07b2608a25a4af5ec1d8c34eb6070cc7d727e0f69f9a667605c",
           "sha256": "b3a7afd2042a2b13b0757f4c8043e7f6c2cd1de2c7331dd6974822a3c68406d4",
@@ -607,8 +607,8 @@
       },
       "files": [
         {
-          "name": "BasicLib-1.2.1-sources.jar",
-          "url": "BasicLib-1.2.1-sources.jar",
+          "name": "DLBasicJetpackComposeApp-1.2.1-sources.jar",
+          "url": "DLBasicJetpackComposeApp-1.2.1-sources.jar",
           "size": 39037,
           "sha512": "1bca225dbdd8052c56e09bf5a94a2ca5cae764665c9b2f4ca2efbad9ffad5b4a64bf8e39c4f28f7c87e25d03edb13457cb273269ffb61d40f2942faccd21d653",
           "sha256": "0bfa845d071b9b701d449cca03030290d57c1480681243c825c33f6d975ddf79",
