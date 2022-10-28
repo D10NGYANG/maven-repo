@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.7.1/DLDateUtil-1.7.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil.klib",
+          "url": "DLDateUtil-iosx64-1.7.1.klib",
+          "size": 56419,
+          "sha512": "3fc6669704262b4a8fa54c3cbbe74ee4b7f9fbfe37c2a73c7c617298396a6316c5f39ea9faa4fe0b2e61f87c8cff778211dc4927b731ee82a201d469fd58a9b6",
+          "sha256": "b7fb3e69ac1bfdb1c0e5bcf028e95c60dd91cc305bb7f29fe3382b89fdca92e8",
+          "sha1": "13529aa694195b922b272523893fbc7dd61e7ed8",
+          "md5": "bbb35fc2a0b9f5462c64f3eced3c95f3"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iosx64-1.7.1-metadata.jar",
+          "url": "DLDateUtil-iosx64-1.7.1-metadata.jar",
+          "size": 261,
+          "sha512": "cbf3cc7736d9d3555b633b795a0e57f3a8c51088b5bc01bffdcd35ecb29838739a662701ef06f8eda880503615d690b2d802c34b5258700d80651f559df41c60",
+          "sha256": "3f4c6f3ed3a521fb2648a7c5d295b273e46af4eccba62249621e140ff3e743a7",
+          "sha1": "2956eced45d38b3766637cc3c62a6880a6490c26",
+          "md5": "0b8ccb03c65f9d2fc11678eb95cd4bef"
+        }
+      ]
+    }
+  ]
+}
