@@ -1,0 +1,621 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NG",
+    "module": "BasicLib",
+    "version": "1.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-appcompat-theme",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager-indicators",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-swiperefresh",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-placeholder",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-placeholder-material",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-drawablepainter",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-flowlayout",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-animation",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-webview",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCoroutinesUtil",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLAppUtil",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDateUtil",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLTextUtil",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BasicLib-1.2.1.aar",
+          "url": "BasicLib-1.2.1.aar",
+          "size": 705801,
+          "sha512": "805d835a0e05d75678ebd8cde8ac7d02fb408ede8d1a0e1766df23e39ffdb1c8adea5755e122f07b2608a25a4af5ec1d8c34eb6070cc7d727e0f69f9a667605c",
+          "sha256": "b3a7afd2042a2b13b0757f4c8043e7f6c2cd1de2c7331dd6974822a3c68406d4",
+          "sha1": "6704e94a295c26133d7de538d3ea77bccbef0a1a",
+          "md5": "2e69fe375292afc2dc9963e182399bff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-livedata",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-appcompat-theme",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-pager-indicators",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-swiperefresh",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-placeholder",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-placeholder-material",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-drawablepainter",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-flowlayout",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-permissions",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-animation",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-webview",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common-java8",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCoroutinesUtil",
+          "version": {
+            "requires": "0.3"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLAppUtil",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDateUtil",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLTextUtil",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BasicLib-1.2.1.aar",
+          "url": "BasicLib-1.2.1.aar",
+          "size": 705801,
+          "sha512": "805d835a0e05d75678ebd8cde8ac7d02fb408ede8d1a0e1766df23e39ffdb1c8adea5755e122f07b2608a25a4af5ec1d8c34eb6070cc7d727e0f69f9a667605c",
+          "sha256": "b3a7afd2042a2b13b0757f4c8043e7f6c2cd1de2c7331dd6974822a3c68406d4",
+          "sha1": "6704e94a295c26133d7de538d3ea77bccbef0a1a",
+          "md5": "2e69fe375292afc2dc9963e182399bff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BasicLib-1.2.1-sources.jar",
+          "url": "BasicLib-1.2.1-sources.jar",
+          "size": 39037,
+          "sha512": "1bca225dbdd8052c56e09bf5a94a2ca5cae764665c9b2f4ca2efbad9ffad5b4a64bf8e39c4f28f7c87e25d03edb13457cb273269ffb61d40f2942faccd21d653",
+          "sha256": "0bfa845d071b9b701d449cca03030290d57c1480681243c825c33f6d975ddf79",
+          "sha1": "96088f9f333931e4f29073c4d76fb1b8142f6cb2",
+          "md5": "f9d178a2e9b04c105f7fc657ba2cde4a"
+        }
+      ]
+    }
+  ]
+}
