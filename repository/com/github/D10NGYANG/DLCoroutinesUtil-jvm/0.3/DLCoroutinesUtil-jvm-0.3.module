@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCoroutinesUtil/0.3/DLCoroutinesUtil-0.3.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCoroutinesUtil",
+    "version": "0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCoroutinesUtil-jvm-0.3.jar",
+          "url": "DLCoroutinesUtil-jvm-0.3.jar",
+          "size": 7521,
+          "sha512": "438a40ac8c2985b661ebdfd52b19fe4c6bef1fa6f0c6d400e5b3d323d9efff314b5c8566a0cab2e69b2e21f150bf910ba2149617a96ceb992ebfac412b2899d6",
+          "sha256": "c1bbc7b09638924214c47112f7c5c43bc6f118a9d7c42331d660f095cc7b5de7",
+          "sha1": "2c9016623ebf98b94361e956f70b520ce4604c62",
+          "md5": "ec97503d587560e796430e5e29caa18d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCoroutinesUtil-jvm-0.3.jar",
+          "url": "DLCoroutinesUtil-jvm-0.3.jar",
+          "size": 7521,
+          "sha512": "438a40ac8c2985b661ebdfd52b19fe4c6bef1fa6f0c6d400e5b3d323d9efff314b5c8566a0cab2e69b2e21f150bf910ba2149617a96ceb992ebfac412b2899d6",
+          "sha256": "c1bbc7b09638924214c47112f7c5c43bc6f118a9d7c42331d660f095cc7b5de7",
+          "sha1": "2c9016623ebf98b94361e956f70b520ce4604c62",
+          "md5": "ec97503d587560e796430e5e29caa18d"
+        }
+      ]
+    }
+  ]
+}
