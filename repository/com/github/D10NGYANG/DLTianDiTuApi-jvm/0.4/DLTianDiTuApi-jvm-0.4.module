@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLTianDiTuApi/0.4/DLTianDiTuApi-0.4.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLTianDiTuApi",
+    "version": "0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.4.jar",
+          "url": "DLTianDiTuApi-jvm-0.4.jar",
+          "size": 140865,
+          "sha512": "75845d5bd908ea01aced2bd7d06d0b7cb6776e727742ee676be4a509990e33c8bc47b2d6dbedb4cafba05ec7633697c47d70729a75120488ceaa7d055fe9e778",
+          "sha256": "c7267b681922db37ff7831a94f9b77ada984d4989256a569985bd3917331e7e8",
+          "sha1": "f80eb97801e42c3e29f68415dbf3a80ca897fb41",
+          "md5": "f653fa77d8d55c1fa9aea30d5f2cef02"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLHttpUtil",
+          "version": {
+            "requires": "0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.4.jar",
+          "url": "DLTianDiTuApi-jvm-0.4.jar",
+          "size": 140865,
+          "sha512": "75845d5bd908ea01aced2bd7d06d0b7cb6776e727742ee676be4a509990e33c8bc47b2d6dbedb4cafba05ec7633697c47d70729a75120488ceaa7d055fe9e778",
+          "sha256": "c7267b681922db37ff7831a94f9b77ada984d4989256a569985bd3917331e7e8",
+          "sha1": "f80eb97801e42c3e29f68415dbf3a80ca897fb41",
+          "md5": "f653fa77d8d55c1fa9aea30d5f2cef02"
+        }
+      ]
+    }
+  ]
+}

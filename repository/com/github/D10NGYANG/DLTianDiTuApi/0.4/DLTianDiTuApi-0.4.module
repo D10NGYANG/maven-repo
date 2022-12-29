@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLTianDiTuApi",
+    "version": "0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLTianDiTuApi-metadata-0.4.jar",
+          "url": "DLTianDiTuApi-0.4.jar",
+          "size": 645,
+          "sha512": "c9cffd5142d2aea3ee65ac26cf5f6f9530b062f85cb8c41415a4c0cd840e316a6be793768b65b10ed86aca8d19c4e24523e14232f10727177ebf32dab9532c56",
+          "sha256": "30b6cae63f605c57e6dfdb86cdff9a64fc72c069cbab95e7fd7d5399f750301f",
+          "sha1": "1d4a3f898f1d610020a79572d8ba340d8ef89770",
+          "md5": "ca862f888b57c309a288d48e07d3e15f"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLTianDiTuApi-jvm/0.4/DLTianDiTuApi-jvm-0.4.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLTianDiTuApi-jvm",
+        "version": "0.4"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLTianDiTuApi-jvm/0.4/DLTianDiTuApi-jvm-0.4.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLTianDiTuApi-jvm",
+        "version": "0.4"
+      }
+    }
+  ]
+}
