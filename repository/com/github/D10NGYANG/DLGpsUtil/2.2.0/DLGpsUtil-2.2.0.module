@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.github.D10NG",
+    "group": "com.github.D10NGYANG",
     "module": "DLGpsUtil",
     "version": "2.2.0",
     "attributes": {
