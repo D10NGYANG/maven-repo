@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLatLngUtil/1.5.1/DLLatLngUtil-1.5.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLatLngUtil",
+    "version": "1.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-jvm-1.5.1.jar",
+          "url": "DLLatLngUtil-jvm-1.5.1.jar",
+          "size": 17151,
+          "sha512": "7f4b942cad9e5842670270fb8e297f25fc097859a071debce099f99374813b919eb45e9ae9d7f179f58a7e573e66a8f47cfcf18e61750c64781500d5bee2f479",
+          "sha256": "9105f8b6925cddc6d535874930c3fa0177e43a93cc3d82122bd0c38a58da9518",
+          "sha1": "fda5314820a17e3c423d0d4a82b1d1b606bcc7e1",
+          "md5": "e875937f4bd841b21e36f669cee1eae7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-jvm-1.5.1.jar",
+          "url": "DLLatLngUtil-jvm-1.5.1.jar",
+          "size": 17151,
+          "sha512": "7f4b942cad9e5842670270fb8e297f25fc097859a071debce099f99374813b919eb45e9ae9d7f179f58a7e573e66a8f47cfcf18e61750c64781500d5bee2f479",
+          "sha256": "9105f8b6925cddc6d535874930c3fa0177e43a93cc3d82122bd0c38a58da9518",
+          "sha1": "fda5314820a17e3c423d0d4a82b1d1b606bcc7e1",
+          "md5": "e875937f4bd841b21e36f669cee1eae7"
+        }
+      ]
+    }
+  ]
+}

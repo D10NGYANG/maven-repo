@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLatLngUtil/1.5.1/DLLatLngUtil-1.5.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLatLngUtil",
+    "version": "1.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil.klib",
+          "url": "DLLatLngUtil-iosx64-1.5.1.klib",
+          "size": 36696,
+          "sha512": "eabb83b416e060431230e124eb24633242cd81beef8fa878ac175165d52418333b9066cacd8967f9a0a2123a431101754266015bfc7eca239ff49ddc3fee0812",
+          "sha256": "575aa787bbe24602bc7302f67fee731504cdf1649d19dfbec2198852b2518bda",
+          "sha1": "d46dd1c388af049cf479dfa7e93cade40a81c16f",
+          "md5": "44d47ad71174bbf8b88115b06f5ae7d1"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-iosx64-1.5.1-metadata.jar",
+          "url": "DLLatLngUtil-iosx64-1.5.1-metadata.jar",
+          "size": 261,
+          "sha512": "7976fe14f01328f3513b82a25613eee998f9ac0e58bc095a69a2aab8398469ff85724b0e4ea0643b8816100f627866c1c95a305cd40cdab49d3d869595d6eac0",
+          "sha256": "33718a867281c051e07e2403c241ff2b54b0df8cbe4c88277201eb908a95e663",
+          "sha1": "42ff83ac363b84c4506cfcee0d53db26954f3016",
+          "md5": "88380dbcd2342636702b2cfb8c9a8ff5"
+        }
+      ]
+    }
+  ]
+}
