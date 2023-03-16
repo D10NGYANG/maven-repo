@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCoroutinesUtil/0.4.0/DLCoroutinesUtil-0.4.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCoroutinesUtil",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCoroutinesUtil-js-0.4.0.klib",
+          "url": "DLCoroutinesUtil-js-0.4.0.klib",
+          "size": 5331,
+          "sha512": "baf8824cc747e2bbd720f5f3b291ad36081bbe9991f1d8833063a871ddc4b9403a5f716f369b5fe1c0b3390aa7e365208143af8a6cf3e8ce687bec43cd92bef0",
+          "sha256": "50ea7f78c91fbb35f9c18dfcfe30a605d0306cd1f498c0b364e40b010c0090ad",
+          "sha1": "b3c4fd46c545615e1fb52118457b96617995a9ef",
+          "md5": "1ca3b7d023f6fab3868ee63bf1a1fd3c"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCoroutinesUtil-js-0.4.0.klib",
+          "url": "DLCoroutinesUtil-js-0.4.0.klib",
+          "size": 5331,
+          "sha512": "baf8824cc747e2bbd720f5f3b291ad36081bbe9991f1d8833063a871ddc4b9403a5f716f369b5fe1c0b3390aa7e365208143af8a6cf3e8ce687bec43cd92bef0",
+          "sha256": "50ea7f78c91fbb35f9c18dfcfe30a605d0306cd1f498c0b364e40b010c0090ad",
+          "sha1": "b3c4fd46c545615e1fb52118457b96617995a9ef",
+          "md5": "1ca3b7d023f6fab3868ee63bf1a1fd3c"
+        }
+      ]
+    }
+  ]
+}

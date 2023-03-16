@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLLatLngUtil",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLLatLngUtil-metadata-1.5.0.jar",
+          "url": "DLLatLngUtil-1.5.0.jar",
+          "size": 5982,
+          "sha512": "a5122234e695b51cb30dddbef409be6c0fc8c89d5d6bab5c081b8b1e3e74bdba5359340bcca4ffabb56f3531c8100aaa251346ac8db3f0c3480b11117c4714b5",
+          "sha256": "973e7613fb923b0be6076a6fb32d8ce3565ec4d7add0aa2e3ed1eaa335c67985",
+          "sha1": "59d7b6dc0748c59f48489e3d027e56869077c051",
+          "md5": "9a3e209a87990ff1eea125a7c684f399"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-js/1.5.0/DLLatLngUtil-js-1.5.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-js/1.5.0/DLLatLngUtil-js-1.5.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-js",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-jvm/1.5.0/DLLatLngUtil-jvm-1.5.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-jvm",
+        "version": "1.5.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-jvm/1.5.0/DLLatLngUtil-jvm-1.5.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-jvm",
+        "version": "1.5.0"
+      }
+    }
+  ]
+}

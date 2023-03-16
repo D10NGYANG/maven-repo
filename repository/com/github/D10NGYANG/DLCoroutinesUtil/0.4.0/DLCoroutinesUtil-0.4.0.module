@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLCoroutinesUtil",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLCoroutinesUtil-metadata-0.4.0.jar",
+          "url": "DLCoroutinesUtil-0.4.0.jar",
+          "size": 3479,
+          "sha512": "c4eacf1d304d5fe1cfa03ec4c1e545e5b65e5a9005a1b42d60764df1b2970b055071b413c979f6af26f3777162948742603822155ba5347a7b64c09c18cdb781",
+          "sha256": "dfded8bc23cfe0404fe4a69950bef2e97aedd44f652e284625ef7d9a8ccf0631",
+          "sha1": "4c55ec7118beecc732c2b42e576015a237b84f2e",
+          "md5": "7ef122152ac3f363275735c6abc39d5a"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCoroutinesUtil-js/0.4.0/DLCoroutinesUtil-js-0.4.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCoroutinesUtil-js",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCoroutinesUtil-js/0.4.0/DLCoroutinesUtil-js-0.4.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCoroutinesUtil-js",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCoroutinesUtil-jvm/0.4.0/DLCoroutinesUtil-jvm-0.4.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCoroutinesUtil-jvm",
+        "version": "0.4.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCoroutinesUtil-jvm/0.4.0/DLCoroutinesUtil-jvm-0.4.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCoroutinesUtil-jvm",
+        "version": "0.4.0"
+      }
+    }
+  ]
+}
