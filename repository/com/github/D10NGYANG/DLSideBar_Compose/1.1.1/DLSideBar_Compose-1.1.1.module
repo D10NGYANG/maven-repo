@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "com.github.D10NG",
+    "group": "com.github.D10NGYANG",
     "module": "DLSideBar_Compose",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "DLSideBar_Compose-1.1.0.aar",
-          "url": "DLSideBar_Compose-1.1.0.aar",
+          "name": "DLSideBar_Compose-1.1.1.aar",
+          "url": "DLSideBar_Compose-1.1.1.aar",
           "size": 22494,
           "sha512": "ff9943f7339b0d93580dd2b2547ae9fe91169b588dd0f38377325c44177155877338aedebc2ea99e8f88bb73b01405eb69cb0c1e4a578afaba38e69077d4ce58",
           "sha256": "7e3d2b5f8240c11d750011c3f811f2743d5252a543fa65322a82004b9543e002",
@@ -88,8 +88,8 @@
       ],
       "files": [
         {
-          "name": "DLSideBar_Compose-1.1.0.aar",
-          "url": "DLSideBar_Compose-1.1.0.aar",
+          "name": "DLSideBar_Compose-1.1.1.aar",
+          "url": "DLSideBar_Compose-1.1.1.aar",
           "size": 22494,
           "sha512": "ff9943f7339b0d93580dd2b2547ae9fe91169b588dd0f38377325c44177155877338aedebc2ea99e8f88bb73b01405eb69cb0c1e4a578afaba38e69077d4ce58",
           "sha256": "7e3d2b5f8240c11d750011c3f811f2743d5252a543fa65322a82004b9543e002",
@@ -108,8 +108,8 @@
       },
       "files": [
         {
-          "name": "DLSideBar_Compose-1.1.0-sources.jar",
-          "url": "DLSideBar_Compose-1.1.0-sources.jar",
+          "name": "DLSideBar_Compose-1.1.1-sources.jar",
+          "url": "DLSideBar_Compose-1.1.1-sources.jar",
           "size": 2294,
           "sha512": "87d8c12a43d8bb6fad11e1fd7efcf5d4e3fc6e32ad3ccf234b20e37e9d493998c67472049ade1b8a0fc27d0824d2f49ae8c480e750f7bdc96050d85efb9cd67d",
           "sha256": "371fc60d3619f3306c60acfecef248b4b84c3343fe774d5c11745b2a18f52c60",
