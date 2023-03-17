@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLAppUtil",
+    "version": "2.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.2.1.aar",
+          "url": "DLAppUtil-2.2.1.aar",
+          "size": 200599,
+          "sha512": "ca53a8ae649fcc8304db37253b468852d0a466f472fd47d1cd582bddf93331381b26cc8d91e630d22f0ec411ca088ec22e999977a1dfa56aa3ec697e6f37af1d",
+          "sha256": "649d0209c3531b919b01c6c369dca61dc65255f63381b3dc80faa1781f2d61e6",
+          "sha1": "f1ba5f5517ad67176c0808398caa67fff9212b2b",
+          "md5": "c4a1c5d2811953ec037891f9f4374395"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.2.1.aar",
+          "url": "DLAppUtil-2.2.1.aar",
+          "size": 200599,
+          "sha512": "ca53a8ae649fcc8304db37253b468852d0a466f472fd47d1cd582bddf93331381b26cc8d91e630d22f0ec411ca088ec22e999977a1dfa56aa3ec697e6f37af1d",
+          "sha256": "649d0209c3531b919b01c6c369dca61dc65255f63381b3dc80faa1781f2d61e6",
+          "sha1": "f1ba5f5517ad67176c0808398caa67fff9212b2b",
+          "md5": "c4a1c5d2811953ec037891f9f4374395"
+        }
+      ]
+    }
+  ]
+}
