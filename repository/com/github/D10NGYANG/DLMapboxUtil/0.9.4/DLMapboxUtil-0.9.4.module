@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLMapboxUtil",
+    "version": "0.9.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mapbox.maps",
+          "module": "android",
+          "version": {
+            "requires": "10.11.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMapboxUtil-0.9.4.aar",
+          "url": "DLMapboxUtil-0.9.4.aar",
+          "size": 844485,
+          "sha512": "f22659a3dc470348885206732e7c7a721f0b0d517c8dc0e73304d1ed26d95d4b2146c63e9aaa211bba91de5aac6ebd6773b61598dc4ef1e98c0d3a24dcfc3d60",
+          "sha256": "909b7c6fe808ecc54aa54ddf294efdfb3aa573e7d450488af38a562fd1c9f8b1",
+          "sha1": "f3299ea3d8f34cb7abfb4a77a3700b67e0094978",
+          "md5": "a1a371d83c90cb92bd322f1c60618189"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.github.raamcosta.compose-destinations",
+          "module": "animations-core",
+          "version": {
+            "requires": "1.7.36-beta"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLJetpackComposeUtil",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLAppUtil",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLGpsUtil",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLatLngUtil-jvm",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLTianDiTuApi-jvm",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLHttpUtil-jvm",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "com.mapbox.maps",
+          "module": "android",
+          "version": {
+            "requires": "10.11.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMapboxUtil-0.9.4.aar",
+          "url": "DLMapboxUtil-0.9.4.aar",
+          "size": 844485,
+          "sha512": "f22659a3dc470348885206732e7c7a721f0b0d517c8dc0e73304d1ed26d95d4b2146c63e9aaa211bba91de5aac6ebd6773b61598dc4ef1e98c0d3a24dcfc3d60",
+          "sha256": "909b7c6fe808ecc54aa54ddf294efdfb3aa573e7d450488af38a562fd1c9f8b1",
+          "sha1": "f3299ea3d8f34cb7abfb4a77a3700b67e0094978",
+          "md5": "a1a371d83c90cb92bd322f1c60618189"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLMapboxUtil-0.9.4-sources.jar",
+          "url": "DLMapboxUtil-0.9.4-sources.jar",
+          "size": 44344,
+          "sha512": "99e3087393865c283a3543c5cf3d7667afa56121674f667d8923b85af86dfff9aeda4dbd45515a67cf321992bb277cc3e362a493890a2d6ae8a6d645c588fee8",
+          "sha256": "41e982e63468a2a0131d87e337fe2fab3f6cd2e2e20572f4e8ea5c53768e7f82",
+          "sha1": "68c806fbd9108ba90a0632d804d505cf248116b5",
+          "md5": "9afe6c0d93bbccde0511e99d29d4edc9"
+        }
+      ]
+    }
+  ]
+}
