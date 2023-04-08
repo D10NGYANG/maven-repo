@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLatLngUtil/1.6.7/DLLatLngUtil-1.6.7.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLatLngUtil",
+    "version": "1.6.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-js-1.6.7.klib",
+          "url": "DLLatLngUtil-js-1.6.7.klib",
+          "size": 60686,
+          "sha512": "0b822452fd1c2cd23b271744efc23501680028bdb6b19991f0a81827850251de9184434b65567baf0297a953eba0d73db39187f02b52dfa1dcbaeca7c632146f",
+          "sha256": "ba6f2a18f888132a65d102d50e54b5aa430b8b48d89043fa7b57d2187fd91ee1",
+          "sha1": "37ddf7b982c7ba549e2d1d2cf06fd09ae2fd7430",
+          "md5": "d986647b7852c7b6e73ab6a9cefc3209"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-js-1.6.7.klib",
+          "url": "DLLatLngUtil-js-1.6.7.klib",
+          "size": 60686,
+          "sha512": "0b822452fd1c2cd23b271744efc23501680028bdb6b19991f0a81827850251de9184434b65567baf0297a953eba0d73db39187f02b52dfa1dcbaeca7c632146f",
+          "sha256": "ba6f2a18f888132a65d102d50e54b5aa430b8b48d89043fa7b57d2187fd91ee1",
+          "sha1": "37ddf7b982c7ba549e2d1d2cf06fd09ae2fd7430",
+          "md5": "d986647b7852c7b6e73ab6a9cefc3209"
+        }
+      ]
+    }
+  ]
+}
