@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLLatLngUtil",
+    "version": "1.6.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-metadata-1.6.6.jar",
+          "url": "DLLatLngUtil-1.6.6.jar",
+          "size": 7089,
+          "sha512": "8604d32e24d8e4f0fbdbac3d7cabeed4417f87368e013f6712265c3880d7c40d08081354121d301700631b3d88d64fe4258c9607d7eabac5f4ea8923ec3937a5",
+          "sha256": "4ea64fc185fc1b384ab46d04f8da2a58e680bb94759a6b4b5e382b4bba6e42dc",
+          "sha1": "9aa52452f1312458605329cc8d986c06f3a6f1ce",
+          "md5": "25005b3518d0e395d4ff6aefb8db49fb"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-iosarm64/1.6.6/DLLatLngUtil-iosarm64-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-iosarm64",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-iosarm64/1.6.6/DLLatLngUtil-iosarm64-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-iosarm64",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-iosx64/1.6.6/DLLatLngUtil-iosx64-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-iosx64",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-iosx64/1.6.6/DLLatLngUtil-iosx64-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-iosx64",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-js/1.6.6/DLLatLngUtil-js-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-js",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-js/1.6.6/DLLatLngUtil-js-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-js",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-jvm/1.6.6/DLLatLngUtil-jvm-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-jvm",
+        "version": "1.6.6"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLatLngUtil-jvm/1.6.6/DLLatLngUtil-jvm-1.6.6.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLatLngUtil-jvm",
+        "version": "1.6.6"
+      }
+    }
+  ]
+}
