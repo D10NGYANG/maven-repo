@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLGpsUtil",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLGpsUtil-2.3.0.aar",
+          "url": "DLGpsUtil-2.3.0.aar",
+          "size": 21621,
+          "sha512": "f25440c99d7b78ac89c4b67df721add906843f79fe80192761a1c85d257396be23a52eff36aaa6c5d0067d2bb7211c2fac688c0c843783c18852d5daa565eafc",
+          "sha256": "08b7a763ffd5378d04f3382eb72756adc812d8f2251e548584cd27a6bc373bd1",
+          "sha1": "d01d5e738961ed17cd842beab540e32d590b98c0",
+          "md5": "5671e30870c6dc9a199d7c660c5b26ee"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLatLngUtil-jvm",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "location",
+          "version": {
+            "requires": "latest.integration"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLGpsUtil-2.3.0.aar",
+          "url": "DLGpsUtil-2.3.0.aar",
+          "size": 21621,
+          "sha512": "f25440c99d7b78ac89c4b67df721add906843f79fe80192761a1c85d257396be23a52eff36aaa6c5d0067d2bb7211c2fac688c0c843783c18852d5daa565eafc",
+          "sha256": "08b7a763ffd5378d04f3382eb72756adc812d8f2251e548584cd27a6bc373bd1",
+          "sha1": "d01d5e738961ed17cd842beab540e32d590b98c0",
+          "md5": "5671e30870c6dc9a199d7c660c5b26ee"
+        }
+      ]
+    }
+  ]
+}
