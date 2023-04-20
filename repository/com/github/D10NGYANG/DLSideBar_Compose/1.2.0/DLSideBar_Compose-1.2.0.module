@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLSideBar_Compose",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSideBar_Compose-1.2.0.aar",
+          "url": "DLSideBar_Compose-1.2.0.aar",
+          "size": 22099,
+          "sha512": "2732d45162a745e1da1add2e313fb32b9e7affdbec80fd19a96d8e7c133f29a0440ed3ea94c2a20fb8818347dd470f7df31ec5c8a2a5836296f81da53cbee228",
+          "sha256": "d87d60f22b96a6bfbb473abc55006f78a8e35dea9f7ee868a13f5d6393ae2dd1",
+          "sha1": "fd80dd35eaf57f3f1ddac3a3f2f119ae157fd034",
+          "md5": "fab06e919576d5d01a2a14f7b5a1f4ab"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.10"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.01.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSideBar_Compose-1.2.0.aar",
+          "url": "DLSideBar_Compose-1.2.0.aar",
+          "size": 22099,
+          "sha512": "2732d45162a745e1da1add2e313fb32b9e7affdbec80fd19a96d8e7c133f29a0440ed3ea94c2a20fb8818347dd470f7df31ec5c8a2a5836296f81da53cbee228",
+          "sha256": "d87d60f22b96a6bfbb473abc55006f78a8e35dea9f7ee868a13f5d6393ae2dd1",
+          "sha1": "fd80dd35eaf57f3f1ddac3a3f2f119ae157fd034",
+          "md5": "fab06e919576d5d01a2a14f7b5a1f4ab"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLSideBar_Compose-1.2.0-sources.jar",
+          "url": "DLSideBar_Compose-1.2.0-sources.jar",
+          "size": 2294,
+          "sha512": "87d8c12a43d8bb6fad11e1fd7efcf5d4e3fc6e32ad3ccf234b20e37e9d493998c67472049ade1b8a0fc27d0824d2f49ae8c480e750f7bdc96050d85efb9cd67d",
+          "sha256": "371fc60d3619f3306c60acfecef248b4b84c3343fe774d5c11745b2a18f52c60",
+          "sha1": "74b079c899bb9e328d142340d704662a54ec0464",
+          "md5": "d9087ca4ca0a1cbb2625e829882fdb6f"
+        }
+      ]
+    }
+  ]
+}
