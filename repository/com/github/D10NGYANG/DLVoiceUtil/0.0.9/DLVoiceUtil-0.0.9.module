@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-0.0.9.aar",
+          "url": "DLVoiceUtil-0.0.9.aar",
+          "size": 27847,
+          "sha512": "2bd22addc1db1f12782e10489e935c523500bc16f4609d6e2677b3b50efb3488e33eec0252ae39365c060a4a09e511cb9152a48134916e0c1ddd5cce613cca38",
+          "sha256": "1598d7281a95ffc800ab380aeada35f08a9bc4a36567dd2f41cf8c3ea8b1e8eb",
+          "sha1": "3485e72ec592cbadd016897f865d9eb0c352b0ca",
+          "md5": "bc85afe2b98abbb29d8f9dd149355fe1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-0.0.9.aar",
+          "url": "DLVoiceUtil-0.0.9.aar",
+          "size": 27847,
+          "sha512": "2bd22addc1db1f12782e10489e935c523500bc16f4609d6e2677b3b50efb3488e33eec0252ae39365c060a4a09e511cb9152a48134916e0c1ddd5cce613cca38",
+          "sha256": "1598d7281a95ffc800ab380aeada35f08a9bc4a36567dd2f41cf8c3ea8b1e8eb",
+          "sha1": "3485e72ec592cbadd016897f865d9eb0c352b0ca",
+          "md5": "bc85afe2b98abbb29d8f9dd149355fe1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLVoiceUtil-0.0.9-sources.jar",
+          "url": "DLVoiceUtil-0.0.9-sources.jar",
+          "size": 4745,
+          "sha512": "e9a9b3be7c73ccb8c950178a46df179858ac9299789acd406415014a448629ee895c41be53ef12ae9de74faa1e3921fa23cfe0e8f057917b2274952471d62615",
+          "sha256": "1bcde217dcd7959b81404dfa1f7b680544e7e405c6346e1a5e80199ec192ab63",
+          "sha1": "fb5601fd3d8a44f04492f6b131fffe9ab0600621",
+          "md5": "9d8206320103710bff190ea5c6cedf93"
+        }
+      ]
+    }
+  ]
+}
