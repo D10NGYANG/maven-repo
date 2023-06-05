@@ -44,11 +44,11 @@
         {
           "name": "DLLatLngUtil.klib",
           "url": "DLLatLngUtil-iosx64-1.6.8.klib",
-          "size": 61890,
-          "sha512": "d87903340ef19cf90d0297fa2522dda1d55e9604489b0a2ff6808838913147e73fb73be38e26baa845557318e8fe68822c6fe40900d174791e7cc93bd941a26f",
-          "sha256": "8dc32e8aa0e5d2545f86c46d7dff026722d1e3fbcaa42037982e8acdbf623116",
-          "sha1": "a35909b1e65280f6411cf0b08b729a64652c2ef2",
-          "md5": "f29a49a798b3bde4979a7125ff534411"
+          "size": 61902,
+          "sha512": "3f625fef89da37de1f91ae0ed51a1da0733862e06d2dbfc385251192e9953757480412ee78b006f5c1120201590f0cbde9efa1ce80d528cd4798216fabcce291",
+          "sha256": "946ceb78a238403bf8561497a3e25f12fe0658be709f326f4590020127193058",
+          "sha1": "b07aca7564e0ed665ffe840844231c9840bc650c",
+          "md5": "653e4ebd72afe4d1a74ca37de123c85e"
         }
       ]
     },
@@ -82,10 +82,10 @@
           "name": "DLLatLngUtil-iosx64-1.6.8-metadata.jar",
           "url": "DLLatLngUtil-iosx64-1.6.8-metadata.jar",
           "size": 261,
-          "sha512": "130bdf21ff829b68cb5ab07f420edf35a669a04be756311bb6446cce80950bab8c6fb91591c29b140241d7625370772e059929a21ddd0cb1e00048f7d0c4dde2",
-          "sha256": "b75905912553fe70fc83d76716e4d86daa0f6c295052ba7b932695e94f172a12",
-          "sha1": "986c3da84f1d6bc64c5a86a970390b45aff7ad30",
-          "md5": "e63e15565ca1c88f9ce50dbce42ffa0e"
+          "sha512": "ad5788f06c3a7c3a7ced37a7e666dcdc39d8cecfa058035a5b3d71e9469bcae17003ca438196d9adc727d7878350a78c352883c2cdfe5a7dfd96a9ca0389d166",
+          "sha256": "d95c3c612e1ba394e0e12b7b31d2f828a91d6009864bd50ced33c5e372773e1f",
+          "sha1": "d43f747b55a1ed3fab0dd8370bd3c257ee22a59a",
+          "md5": "2ec810eddc75b129f2460390e7eaa85c"
         }
       ]
     }

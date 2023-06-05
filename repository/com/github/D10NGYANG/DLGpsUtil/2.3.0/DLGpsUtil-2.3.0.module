@@ -15,11 +15,12 @@
   },
   "variants": [
     {
-      "name": "releaseApiElements-published",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
       },
       "dependencies": [
         {
@@ -43,11 +44,12 @@
       ]
     },
     {
-      "name": "releaseRuntimeElements-published",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "androidJvm"
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
@@ -109,6 +111,26 @@
           "sha256": "08b7a763ffd5378d04f3382eb72756adc812d8f2251e548584cd27a6bc373bd1",
           "sha1": "d01d5e738961ed17cd842beab540e32d590b98c0",
           "md5": "5671e30870c6dc9a199d7c660c5b26ee"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLGpsUtil-2.3.0-sources.jar",
+          "url": "DLGpsUtil-2.3.0-sources.jar",
+          "size": 8020,
+          "sha512": "b435b51d3d2d6263c9bd41f60dffeed5a8b673326192994106c9653a6af44bdef6cc74071ec3d67d830f15e9279d93b04cce5464add2afb67ef07dd0fde88b18",
+          "sha256": "b30ff1f484dbc2af9fad17bc9f881c4bf5a7ced0adee8da14f565ce48fc78704",
+          "sha1": "5f9866c66ee6deb4ebcfc1539c3d887b8bbaf1a7",
+          "md5": "bda3a0108f6b97bd1ffc61396c33b19b"
         }
       ]
     }

@@ -36,11 +36,11 @@
         {
           "name": "DLLatLngUtil-jvm-1.6.8.jar",
           "url": "DLLatLngUtil-jvm-1.6.8.jar",
-          "size": 32059,
-          "sha512": "9c50a6e8662e6845cdd3a2b945a608cbc085f37a2312dbea8469693250bd81d1baf08a5d71f170fa6b565b6252c866f2916fe3c56c7c3bcb6ccac01f2989d9ca",
-          "sha256": "3b61ab1e4c56c375999f80684a3a7e6650bcbe12cd50cfdcf6a013c5d97e8507",
-          "sha1": "b8c02f0e2fafeb49d2e24e9ba05074de9b18067c",
-          "md5": "afc2eb4b330697ab1e2ab35f1cf9dca6"
+          "size": 32058,
+          "sha512": "e098d03bf06aaec17d64e07ccc7c90bf32a5e96e94b0a7484fbe06f9554775951637b54c0f56194d762d4e4abc8e69cfac1c8facde151d49c0b4957c04828803",
+          "sha256": "ddb2ae16efbefbc8693c8a647dff37c7279153ecb06da2144e38f67f87aa781d",
+          "sha1": "3bb5db39d1586c8896e3e13f42666a3703c53df8",
+          "md5": "519e1440dc96d41ef6c87fe862d76074"
         }
       ]
     },
@@ -72,11 +72,11 @@
         {
           "name": "DLLatLngUtil-jvm-1.6.8.jar",
           "url": "DLLatLngUtil-jvm-1.6.8.jar",
-          "size": 32059,
-          "sha512": "9c50a6e8662e6845cdd3a2b945a608cbc085f37a2312dbea8469693250bd81d1baf08a5d71f170fa6b565b6252c866f2916fe3c56c7c3bcb6ccac01f2989d9ca",
-          "sha256": "3b61ab1e4c56c375999f80684a3a7e6650bcbe12cd50cfdcf6a013c5d97e8507",
-          "sha1": "b8c02f0e2fafeb49d2e24e9ba05074de9b18067c",
-          "md5": "afc2eb4b330697ab1e2ab35f1cf9dca6"
+          "size": 32058,
+          "sha512": "e098d03bf06aaec17d64e07ccc7c90bf32a5e96e94b0a7484fbe06f9554775951637b54c0f56194d762d4e4abc8e69cfac1c8facde151d49c0b4957c04828803",
+          "sha256": "ddb2ae16efbefbc8693c8a647dff37c7279153ecb06da2144e38f67f87aa781d",
+          "sha1": "3bb5db39d1586c8896e3e13f42666a3703c53df8",
+          "md5": "519e1440dc96d41ef6c87fe862d76074"
         }
       ]
     }

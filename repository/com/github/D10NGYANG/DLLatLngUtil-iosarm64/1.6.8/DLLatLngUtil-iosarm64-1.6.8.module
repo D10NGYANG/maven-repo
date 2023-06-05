@@ -44,11 +44,11 @@
         {
           "name": "DLLatLngUtil.klib",
           "url": "DLLatLngUtil-iosarm64-1.6.8.klib",
-          "size": 61906,
-          "sha512": "207e1f0a895bef3506f4589227e97e3f18e5cebb6d8c0afe5ae2cd39ea3b10de48aaf4d63af8c806780d959da4ea5260721f85960dca6f2a690a06e599e3f819",
-          "sha256": "e36b536419e7eea7196355d19ec6235e65e5b3d3ee2cc9133609fadec0fca209",
-          "sha1": "b5ffe9926054b2042d2c890eecd38c906201c841",
-          "md5": "9bfcd57eb536430e39e01d869f9a7dc3"
+          "size": 61918,
+          "sha512": "8dbab6433424fefe111d213af47e7214d640db65f8106f5251d100720e6605943817c080529ca22b3b5b20eda27fd6082277e11a19587043767f52edf81c04c4",
+          "sha256": "4ee17abd4a038182db7d27b5293e2668486bd76fbed3cdcee664af3caf7a7d9f",
+          "sha1": "77375f7015291a57848906c5ae511d9b80a528aa",
+          "md5": "c7c814efc93502a4d11aca724b45abfc"
         }
       ]
     },
@@ -82,10 +82,10 @@
           "name": "DLLatLngUtil-iosarm64-1.6.8-metadata.jar",
           "url": "DLLatLngUtil-iosarm64-1.6.8-metadata.jar",
           "size": 261,
-          "sha512": "11e43934a17d12bf8e17cd725882c4770cc6d7760977ad512ca576a4278aca068f8fc23d42f93cc1e88e3e61fe9c10ac2c00b9556e81c4a591ed9d0e50b06cd0",
-          "sha256": "308ece8301141ec5686f8b06cbd243166230acf7341e1540e4996f443aff60bb",
-          "sha1": "72ed5282d44fa6f7bf78e1eb1af86c796b5bc981",
-          "md5": "4e4bdae6b8075ee8ab8d9bb4ad824bd1"
+          "sha512": "9e58da4f03dbd81bd293cfdff8ee707c56db4b12260a5df03f46904b8059666f8eb2805ce6410ccb3aecca72cdc2fa1b585bc9a59d7b933c60073032368c27e8",
+          "sha256": "ff81b7c0596718bf76b5733ac2fd606f2ac40b63719653a487abb86b6dcfd411",
+          "sha1": "93a86a92326cdb8747d541c899328b3f46c8c5a7",
+          "md5": "8e1854bbb6142d274919ec1ee1c23ff3"
         }
       ]
     }

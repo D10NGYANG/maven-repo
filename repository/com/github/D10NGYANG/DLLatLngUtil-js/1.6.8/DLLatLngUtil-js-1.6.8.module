@@ -43,11 +43,11 @@
         {
           "name": "DLLatLngUtil-js-1.6.8.klib",
           "url": "DLLatLngUtil-js-1.6.8.klib",
-          "size": 61833,
-          "sha512": "a270f8a723da6f9923493a13684ee5b4ae88c85c74120e6f4678c17fcd24d6eefe468ec8b2676a3c00a00839f288b3fdb9ff1525debb097a74da040069d2201e",
-          "sha256": "5bc5efd248b5e356d539cab8d483667dae3e006a914568b6b28f4d56592da353",
-          "sha1": "0ed621f4d1f189dcd264ba26a2ceae6f8b956813",
-          "md5": "3efc0125c79ec71540ed0f4c5ba474c1"
+          "size": 61846,
+          "sha512": "9de21319c8e7877665521146a2f1d34ef97cab4f3f3e1c1fe534c0af2854665b499873a302652f2ca2d153dbccdfb9ef131d1ff5c560a96109936444c038345b",
+          "sha256": "0b3c4003f1729808a7fbd57abdfea80b5627fe51ea1d640aa323e814e0ea7350",
+          "sha1": "a62a6afa04035082d6407091ee0942e32f9fbd43",
+          "md5": "1d0cd813d7c8acdeac3896deb7ee90d8"
         }
       ]
     },
@@ -79,11 +79,11 @@
         {
           "name": "DLLatLngUtil-js-1.6.8.klib",
           "url": "DLLatLngUtil-js-1.6.8.klib",
-          "size": 61833,
-          "sha512": "a270f8a723da6f9923493a13684ee5b4ae88c85c74120e6f4678c17fcd24d6eefe468ec8b2676a3c00a00839f288b3fdb9ff1525debb097a74da040069d2201e",
-          "sha256": "5bc5efd248b5e356d539cab8d483667dae3e006a914568b6b28f4d56592da353",
-          "sha1": "0ed621f4d1f189dcd264ba26a2ceae6f8b956813",
-          "md5": "3efc0125c79ec71540ed0f4c5ba474c1"
+          "size": 61846,
+          "sha512": "9de21319c8e7877665521146a2f1d34ef97cab4f3f3e1c1fe534c0af2854665b499873a302652f2ca2d153dbccdfb9ef131d1ff5c560a96109936444c038345b",
+          "sha256": "0b3c4003f1729808a7fbd57abdfea80b5627fe51ea1d640aa323e814e0ea7350",
+          "sha1": "a62a6afa04035082d6407091ee0942e32f9fbd43",
+          "md5": "1d0cd813d7c8acdeac3896deb7ee90d8"
         }
       ]
     }
