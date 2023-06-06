@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLHttpUtil",
+    "version": "0.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "io.github.aakira",
+          "module": "napier",
+          "version": {
+            "requires": "2.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-metadata-0.8.2.jar",
+          "url": "DLHttpUtil-0.8.2.jar",
+          "size": 725,
+          "sha512": "034b64610b53da2def53524d76dc86aa9236cf9a0007f5e40c04bca917daff8342ea22ab92ba3528563da1415797e6268aaef9d67852246fa62f053ec5128029",
+          "sha256": "4e127b1d381607d9f12513dde2d1a6a98dc5548f895479db44fc16f8e152242a",
+          "sha1": "abf6038d32554cbf66f57e3382297e1284f5b456",
+          "md5": "464bdd3bc2468fb48bbe869157f1b010"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-kotlin-0.8.2-sources.jar",
+          "url": "DLHttpUtil-0.8.2-sources.jar",
+          "size": 5141,
+          "sha512": "c9c8d12a059bf8818c3c2a7d724e8e176bde313969b3704c2b399643253fc09c1ac45908462f44238f93a05915d871a81ea3a0d38ef68316e8740bb4e8431326",
+          "sha256": "c84e6724bf1f82acb1db9e6c3d16820ea99395108f57725bad454008f29f0e05",
+          "sha1": "1bed847563eaf4867dcaa8f9f0981ced8aa3a583",
+          "md5": "0102198f433670e56a9df8f66431152b"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-jvm/0.8.2/DLHttpUtil-jvm-0.8.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-jvm",
+        "version": "0.8.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-jvm/0.8.2/DLHttpUtil-jvm-0.8.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-jvm",
+        "version": "0.8.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-jvm/0.8.2/DLHttpUtil-jvm-0.8.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-jvm",
+        "version": "0.8.2"
+      }
+    }
+  ]
+}
