@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLTianDiTuApi/0.5.1/DLTianDiTuApi-0.5.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLTianDiTuApi",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.5.1.jar",
+          "url": "DLTianDiTuApi-jvm-0.5.1.jar",
+          "size": 141015,
+          "sha512": "37daa70bf26932a11799b884a59ba8ac1a6e0224c12104f2d5bce9d2cb9e9cf5722b0341b17e0125ad6837a1c7cc4bdd9343bb5362c9caa140a439989c0a2034",
+          "sha256": "c06a0b64ab34c729b6a0e5ff14e352afdf09c574fe6e491d6dda11cb52594437",
+          "sha1": "a3137b98442fbe9da52c3e56560366884d7c70b2",
+          "md5": "8d65cac834404dd08ee64fa12d997763"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLHttpUtil",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.5.1.jar",
+          "url": "DLTianDiTuApi-jvm-0.5.1.jar",
+          "size": 141015,
+          "sha512": "37daa70bf26932a11799b884a59ba8ac1a6e0224c12104f2d5bce9d2cb9e9cf5722b0341b17e0125ad6837a1c7cc4bdd9343bb5362c9caa140a439989c0a2034",
+          "sha256": "c06a0b64ab34c729b6a0e5ff14e352afdf09c574fe6e491d6dda11cb52594437",
+          "sha1": "a3137b98442fbe9da52c3e56560366884d7c70b2",
+          "md5": "8d65cac834404dd08ee64fa12d997763"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.5.1-sources.jar",
+          "url": "DLTianDiTuApi-jvm-0.5.1-sources.jar",
+          "size": 4908,
+          "sha512": "b1661a72a79fbcafe14497aeb3f212e59218e2889c3cdc8be61f1aab10bcfc007c35a7d6779e6f9985b7191cfc2e2dd2909fdd7bf3ce93ba8ac78f5b79bdb89a",
+          "sha256": "31c276faa513b9f0eb4d5d93ed8b16f87f628678014b6c85e1fab9843d11f585",
+          "sha1": "77631559a4ba25e472e4f545bd9471e077da0ea2",
+          "md5": "cecd1657a63d9f94384304200a38806c"
+        }
+      ]
+    }
+  ]
+}
