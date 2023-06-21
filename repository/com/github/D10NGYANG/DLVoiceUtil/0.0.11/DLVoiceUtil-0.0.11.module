@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.0.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-0.0.11.aar",
+          "url": "DLVoiceUtil-0.0.11.aar",
+          "size": 28190,
+          "sha512": "73be700acd18d5a76a2dcfab32f6f29968934984d161d94072bdcf20fd5dfeb6eb78412055334b4228290c6a1b9126ec22632bc1f7a02258f969773ee188995c",
+          "sha256": "1600a77d1537df405893c2ec9f44de6bab86bd4cc53e9f2a006b18b4f272eaa3",
+          "sha1": "92249cfbe7fc25ff1231ed7520c21fa653d23eb7",
+          "md5": "6e0c0225446e522c9ee954b1a352e79c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.webrtc",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "1.0.32006"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-0.0.11.aar",
+          "url": "DLVoiceUtil-0.0.11.aar",
+          "size": 28190,
+          "sha512": "73be700acd18d5a76a2dcfab32f6f29968934984d161d94072bdcf20fd5dfeb6eb78412055334b4228290c6a1b9126ec22632bc1f7a02258f969773ee188995c",
+          "sha256": "1600a77d1537df405893c2ec9f44de6bab86bd4cc53e9f2a006b18b4f272eaa3",
+          "sha1": "92249cfbe7fc25ff1231ed7520c21fa653d23eb7",
+          "md5": "6e0c0225446e522c9ee954b1a352e79c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLVoiceUtil-0.0.11-sources.jar",
+          "url": "DLVoiceUtil-0.0.11-sources.jar",
+          "size": 4874,
+          "sha512": "4e484acab78d48732e85b8e8a9c98df5df3c88e19fa66dc85a1b89d9b8276c275dfc2e127c8bc7977a4f0c8ac7150dc4df9aba70b2f8d6387ccb1a9cfee95d6c",
+          "sha256": "5d09718506a5faa8748e0e7e714444285f404fe21a2d56b537f63461f83f9f55",
+          "sha1": "1e6f6c869795c448581df0958d75903050b41539",
+          "md5": "b9227a8c5806736caf53656b43c340f9"
+        }
+      ]
+    }
+  ]
+}
