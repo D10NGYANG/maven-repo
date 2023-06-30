@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLJetpackComposeUtil",
+    "version": "1.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.30.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-flowlayout",
+          "version": {
+            "requires": "0.30.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-1.3.5.aar",
+          "url": "DLJetpackComposeUtil-1.3.5.aar",
+          "size": 665786,
+          "sha512": "787d68408fe1974e104155be2ae4a73cc19898807bb76f49385fabd7ff5c2c0a92ee7bcd5fb0d2cbd5798ac2efaa43abfc06a852b79d8b17ac24b7a608c4f605",
+          "sha256": "22a6fc05bf662fbe1bfff98697661e9cdb4148e37bcc8c888e0ac30003ce1b83",
+          "sha1": "a92c6013fbc3572d2b441420be727110b781a60f",
+          "md5": "1ffa02316b0eb19b5222a1a839add080"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDateUtil-jvm",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.06.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-systemuicontroller",
+          "version": {
+            "requires": "0.30.1"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-flowlayout",
+          "version": {
+            "requires": "0.30.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-1.3.5.aar",
+          "url": "DLJetpackComposeUtil-1.3.5.aar",
+          "size": 665786,
+          "sha512": "787d68408fe1974e104155be2ae4a73cc19898807bb76f49385fabd7ff5c2c0a92ee7bcd5fb0d2cbd5798ac2efaa43abfc06a852b79d8b17ac24b7a608c4f605",
+          "sha256": "22a6fc05bf662fbe1bfff98697661e9cdb4148e37bcc8c888e0ac30003ce1b83",
+          "sha1": "a92c6013fbc3572d2b441420be727110b781a60f",
+          "md5": "1ffa02316b0eb19b5222a1a839add080"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-1.3.5-sources.jar",
+          "url": "DLJetpackComposeUtil-1.3.5-sources.jar",
+          "size": 36875,
+          "sha512": "ea4f664662fa7ede185035915c7b32ebd370a3b18d77b787d43a902660096b4fda43ad8f928b6d589569894d7e6ec4cc5f067d61752ae2180dbf1ba3ad476d90",
+          "sha256": "81ab4d6f885949b9685cbfb602c9aaf617bb48dde921f9841326f8039021e11d",
+          "sha1": "62aac391ee2b815ee8e895e05428e22e94cb0298",
+          "md5": "c9b47d482c2e4389a4c4b7cb0f0f4116"
+        }
+      ]
+    }
+  ]
+}
