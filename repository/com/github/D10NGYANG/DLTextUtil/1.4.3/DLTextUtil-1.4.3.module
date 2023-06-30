@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLTextUtil",
+    "version": "1.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.biezhi",
+          "module": "TinyPinyin",
+          "version": {
+            "requires": "2.0.3.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTextUtil-1.4.3.jar",
+          "url": "DLTextUtil-1.4.3.jar",
+          "size": 28114,
+          "sha512": "d93bc27ab854998b23d79d7245d2a062b9b3d8eaa8b897f38ea383eeeea61fce4ae633bfd07349ffa1bea2c53992323d27e965e6585b1d468c492a1c2f18a7f4",
+          "sha256": "e26a54f841c536f1a870b9130e2b5bd806897e736fd15fdda78ba3689fa2ed98",
+          "sha1": "092dc6879f2627b0eb264e7c7ea3f6eaefc948fc",
+          "md5": "9aae3ba6f1f761574682ab3569c824eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "io.github.biezhi",
+          "module": "TinyPinyin",
+          "version": {
+            "requires": "2.0.3.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTextUtil-1.4.3.jar",
+          "url": "DLTextUtil-1.4.3.jar",
+          "size": 28114,
+          "sha512": "d93bc27ab854998b23d79d7245d2a062b9b3d8eaa8b897f38ea383eeeea61fce4ae633bfd07349ffa1bea2c53992323d27e965e6585b1d468c492a1c2f18a7f4",
+          "sha256": "e26a54f841c536f1a870b9130e2b5bd806897e736fd15fdda78ba3689fa2ed98",
+          "sha1": "092dc6879f2627b0eb264e7c7ea3f6eaefc948fc",
+          "md5": "9aae3ba6f1f761574682ab3569c824eb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLTextUtil-1.4.3-sources.jar",
+          "url": "DLTextUtil-1.4.3-sources.jar",
+          "size": 11666,
+          "sha512": "ffcca433a215164952af81985cda30330ec9397b80423f4d944112cd633c487911f3b4da0d4f5addf92e716ead294d2c024d995752e5e2350a26bbc2c1a8410b",
+          "sha256": "2cf962ae1827eaf469214945a665e54875af02ee1b207e39f7f836a6ade15bf3",
+          "sha1": "43c5456e4e95600db7aa27502bfc23925733d3c9",
+          "md5": "74388f386519e517d4eb0843bcda280d"
+        }
+      ]
+    }
+  ]
+}
