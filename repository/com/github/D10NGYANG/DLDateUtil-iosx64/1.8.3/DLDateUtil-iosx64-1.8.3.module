@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.8.3/DLDateUtil-1.8.3.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil.klib",
+          "url": "DLDateUtil-iosx64-1.8.3.klib",
+          "size": 56619,
+          "sha512": "7e363499ba893d9bad1bfd6be2d3fdd85ad76089416aa0a794d056fdb2e4a24525e0600c4cc01ad7f1623fd636861e393e8898f74447ca27acee0a7245718d12",
+          "sha256": "91bbf46b4e400329524f45ca55ad487403573dfbdb543f1987fac9ca5c9d9d59",
+          "sha1": "a2796e2a4525bdf45e8ac56c1130ef508412a3cc",
+          "md5": "66b5de574c00188651e9fd256a5b298c"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-iosx64-1.8.3-sources.jar",
+          "url": "DLDateUtil-iosx64-1.8.3-sources.jar",
+          "size": 11373,
+          "sha512": "3d877f11d865230c7177c53fd3abc20ade99c65adb16915e8492a9db80ed0112281cd215767a4b74705a1890f0470c850e632f2099d01c145e5e5a4cf266e2ca",
+          "sha256": "83bfe469421c38653921fad26bac19bcae41128519d1275c84363db1f0d226e7",
+          "sha1": "f99af8fa06a0161b9dd4b793ea0b660618f8ceac",
+          "md5": "b00f0f014fe94b176c0aa2759eb83221"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iosx64-1.8.3-metadata.jar",
+          "url": "DLDateUtil-iosx64-1.8.3-metadata.jar",
+          "size": 261,
+          "sha512": "dfcac9e4d73a1b5ebb2118e4940ac387fde857be0472db01982d7d3270e308344b12fb1435c6823598fbd50619c83574fa2ad15635ff3cb40e2fe367f91a3c2c",
+          "sha256": "bf14ab66d5861bbcdbb729fddc52b969f920ab00917c4091f089994867c2484b",
+          "sha1": "740c9b74ab5dde6541f41707d3b3f0ec189cbe97",
+          "md5": "e431aa8800bff301e33707693d00c0fc"
+        }
+      ]
+    }
+  ]
+}
