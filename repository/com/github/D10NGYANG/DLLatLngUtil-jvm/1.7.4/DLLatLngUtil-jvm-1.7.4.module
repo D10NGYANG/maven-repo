@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLatLngUtil/1.7.4/DLLatLngUtil-1.7.4.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLatLngUtil",
+    "version": "1.7.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-jvm-1.7.4.jar",
+          "url": "DLLatLngUtil-jvm-1.7.4.jar",
+          "size": 32222,
+          "sha512": "ea4e3a34168fe2982c3ae4c76f0e1074f10d2496a8c660aace8844c81f2806caafbb7a8b489364c0d1170aff3b12e51b41f7ee58aae5e100d785364542ccd59a",
+          "sha256": "5197cacb963ada642e4b280f5df292c5209d0d29d7e1253bfc58c59b5ec69867",
+          "sha1": "8925b12dc4e6b43c36febcb9e33088559b2167ca",
+          "md5": "1c9683f77ba47689a0c50d14fd9ac48b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLatLngUtil-jvm-1.7.4.jar",
+          "url": "DLLatLngUtil-jvm-1.7.4.jar",
+          "size": 32222,
+          "sha512": "ea4e3a34168fe2982c3ae4c76f0e1074f10d2496a8c660aace8844c81f2806caafbb7a8b489364c0d1170aff3b12e51b41f7ee58aae5e100d785364542ccd59a",
+          "sha256": "5197cacb963ada642e4b280f5df292c5209d0d29d7e1253bfc58c59b5ec69867",
+          "sha1": "8925b12dc4e6b43c36febcb9e33088559b2167ca",
+          "md5": "1c9683f77ba47689a0c50d14fd9ac48b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLLatLngUtil-jvm-1.7.4-sources.jar",
+          "url": "DLLatLngUtil-jvm-1.7.4-sources.jar",
+          "size": 14827,
+          "sha512": "b26e7136df1894d888b2f12e2e74c34a37d297916f689f186db6e55052ac7f90b4f448850cb1ad2b2d6ccc4daa36f765d740fc773054e5ac2941d37d459653aa",
+          "sha256": "6b813e321fe518f00312024523fb5b21d3a3d6100cebc9314e2aa8fb9214e3ed",
+          "sha1": "b52b15eef847b1b4bcac396d514dd7ec5e2d0837",
+          "md5": "f3e617b94fd0c111d3f8fcf895087f4f"
+        }
+      ]
+    }
+  ]
+}
