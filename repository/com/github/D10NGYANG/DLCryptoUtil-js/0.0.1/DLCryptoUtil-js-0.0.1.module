@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCryptoUtil/0.0.1/DLCryptoUtil-0.0.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCryptoUtil",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-js-0.0.1.klib",
+          "url": "DLCryptoUtil-js-0.0.1.klib",
+          "size": 26194,
+          "sha512": "488b32c57bf35d94f03031aaf3dcef53ffc6ea880bc0b56a6184ebebbac4c6de1a9f0b405cf67bc0c7920b3e309c06ccb3bb32b75a7513c8d62c04927457fe16",
+          "sha256": "dedcb0d0d9ccc20f992fb383df92713c9d9208c96580030fc333b652c6b05037",
+          "sha1": "51494788a355829bf67e942c49aa1f6eddc76998",
+          "md5": "7b1108103fdd579318ca0eeb463699a6"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-js-0.0.1.klib",
+          "url": "DLCryptoUtil-js-0.0.1.klib",
+          "size": 26194,
+          "sha512": "488b32c57bf35d94f03031aaf3dcef53ffc6ea880bc0b56a6184ebebbac4c6de1a9f0b405cf67bc0c7920b3e309c06ccb3bb32b75a7513c8d62c04927457fe16",
+          "sha256": "dedcb0d0d9ccc20f992fb383df92713c9d9208c96580030fc333b652c6b05037",
+          "sha1": "51494788a355829bf67e942c49aa1f6eddc76998",
+          "md5": "7b1108103fdd579318ca0eeb463699a6"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLCryptoUtil-js-0.0.1-sources.jar",
+          "url": "DLCryptoUtil-js-0.0.1-sources.jar",
+          "size": 7409,
+          "sha512": "68091309742ef1617b3afd036b361d9b59f6fefad0f707a6dcf6455188aeb3148203404fe57d3e0d9b9513eb73f8fecc8a68a0fc2362a2c7dd303f735a91e4be",
+          "sha256": "e8a1acabe0d72127b9d1abca7e93e25d935ddca2531015d9b2e78a5a3b61af49",
+          "sha1": "7f9c8d7d53075281b242ab7e22e91f4545b94729",
+          "md5": "176c2d624b9a5ac750c8c21568410b6e"
+        }
+      ]
+    }
+  ]
+}
