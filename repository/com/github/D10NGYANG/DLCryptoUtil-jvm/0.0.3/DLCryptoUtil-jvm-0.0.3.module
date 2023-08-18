@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCryptoUtil/0.0.3/DLCryptoUtil-0.0.3.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCryptoUtil",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-jvm-0.0.3.jar",
+          "url": "DLCryptoUtil-jvm-0.0.3.jar",
+          "size": 20906,
+          "sha512": "134391818a76e9bd20db620b742812fbe23617df2ee9a1e09b65a4bded674e3c8cb37486f2fa66ba862317e2a9ddcf60ae6d36e28a44894d7d9e72541b9bc72b",
+          "sha256": "baf442c30582f147c5a8d75312efb8d6e135ad39a292b38f2cf50362705d1230",
+          "sha1": "b581795f46ff806de447b41d83a7820663a3adc4",
+          "md5": "6a72c691087a1878c09f84518687fa44"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-jvm-0.0.3.jar",
+          "url": "DLCryptoUtil-jvm-0.0.3.jar",
+          "size": 20906,
+          "sha512": "134391818a76e9bd20db620b742812fbe23617df2ee9a1e09b65a4bded674e3c8cb37486f2fa66ba862317e2a9ddcf60ae6d36e28a44894d7d9e72541b9bc72b",
+          "sha256": "baf442c30582f147c5a8d75312efb8d6e135ad39a292b38f2cf50362705d1230",
+          "sha1": "b581795f46ff806de447b41d83a7820663a3adc4",
+          "md5": "6a72c691087a1878c09f84518687fa44"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLCryptoUtil-jvm-0.0.3-sources.jar",
+          "url": "DLCryptoUtil-jvm-0.0.3-sources.jar",
+          "size": 7538,
+          "sha512": "6356744b3a2c037b2ae2a87d104ee19b31310f8338509d2bf059508d5c901f0076d6d3a4ef2158480e54fc5a134a56f3800d51d213a5f6892faf50646e20e407",
+          "sha256": "603e219b55ef7967779c93f4c6a0a8ded848ac4de95f77cd219e6e28c2b793de",
+          "sha1": "71a722683b63c1add1ba7ef5208104cd0f62665a",
+          "md5": "3e0a7c505a585300313f7b7b07e303e2"
+        }
+      ]
+    }
+  ]
+}
