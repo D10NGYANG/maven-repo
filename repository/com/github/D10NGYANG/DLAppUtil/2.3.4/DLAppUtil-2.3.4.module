@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLAppUtil",
+    "version": "2.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.3.4.aar",
+          "url": "DLAppUtil-2.3.4.aar",
+          "size": 168114,
+          "sha512": "cb7cc4c41f86be09b25f9ecc0bfcc714c03fd9026eb2148d714295f01486ac564d291b3d22bc53b4c67b83d8ebc5e6d19e5217200901d1b76b0fdc9d55b38ca4",
+          "sha256": "dca8049e9c705553ce0607859212ae2fd122399681cba57117d8382aaa54efbc",
+          "sha1": "5cf06711b77451299f4e2c66cae49432c45fdbe5",
+          "md5": "405ddf060e41af9a2e24a2234b949a5d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.3.4.aar",
+          "url": "DLAppUtil-2.3.4.aar",
+          "size": 168114,
+          "sha512": "cb7cc4c41f86be09b25f9ecc0bfcc714c03fd9026eb2148d714295f01486ac564d291b3d22bc53b4c67b83d8ebc5e6d19e5217200901d1b76b0fdc9d55b38ca4",
+          "sha256": "dca8049e9c705553ce0607859212ae2fd122399681cba57117d8382aaa54efbc",
+          "sha1": "5cf06711b77451299f4e2c66cae49432c45fdbe5",
+          "md5": "405ddf060e41af9a2e24a2234b949a5d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLAppUtil-2.3.4-sources.jar",
+          "url": "DLAppUtil-2.3.4-sources.jar",
+          "size": 32880,
+          "sha512": "6ba5fe61c36faf2988e29336f500c4e1a42208dc6504d1e3fe1ee9006893c03afed398de5ab9b4750f8962e3fb07662604075352389aa920cecbb78113df1d53",
+          "sha256": "696b07ff52c1728a39145289298a78aa7f520f1b540415d0fc1159ee1985fc7c",
+          "sha1": "5ec3b5385abd7b4d36b776fa3f6940f11e0a2295",
+          "md5": "9ded9abc69f17e4020f1189d134a4cb2"
+        }
+      ]
+    }
+  ]
+}
