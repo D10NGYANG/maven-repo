@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.8.5/DLDateUtil-1.8.5.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.8.5.klib",
+          "url": "DLDateUtil-js-1.8.5.klib",
+          "size": 58167,
+          "sha512": "b4e806e09b4031639a8e831318163c7489bd9fd387f746c7bdf29c756fec6a16556e78152db6da331384a5f7e50dc48c5de4f2fd41beb3614caf736349d0b78f",
+          "sha256": "2abb31e8490e3f5154440d7392c8cc96830b93dafede4a3a6ead84276d0218d0",
+          "sha1": "9faac89fb59e25d000a6a9feb6f94104381afc9e",
+          "md5": "b1ff275255eb436df5f93b959d50edbf"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.8.5.klib",
+          "url": "DLDateUtil-js-1.8.5.klib",
+          "size": 58167,
+          "sha512": "b4e806e09b4031639a8e831318163c7489bd9fd387f746c7bdf29c756fec6a16556e78152db6da331384a5f7e50dc48c5de4f2fd41beb3614caf736349d0b78f",
+          "sha256": "2abb31e8490e3f5154440d7392c8cc96830b93dafede4a3a6ead84276d0218d0",
+          "sha1": "9faac89fb59e25d000a6a9feb6f94104381afc9e",
+          "md5": "b1ff275255eb436df5f93b959d50edbf"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.8.5-sources.jar",
+          "url": "DLDateUtil-js-1.8.5-sources.jar",
+          "size": 12448,
+          "sha512": "8135eee55b7445d3eb97cd0b6351eb4603e44b174a6d3a02243af3f620a6f09966deeb5b62405ecccf7e139b3db6755023be7385a862fe70e1b0da4a48d9c8b2",
+          "sha256": "533a26c3b7c2de7544b036250c93007d7f5f6705e8087be63e7dd2161c214c6b",
+          "sha1": "854abd44fa63243aeae7379ba3befc99fd1dc5d0",
+          "md5": "d7493de1d8910a7b5264eedcdecace92"
+        }
+      ]
+    }
+  ]
+}
