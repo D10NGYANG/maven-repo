@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.0.2/DLCommonUtil-0.0.2.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-iosarm64-0.0.2.klib",
+          "size": 32772,
+          "sha512": "313d1cf0521a4e9f832f65420f6a8295af22cd4cd9df16569441fba2ce779832b5fb5b55855747111d1732d267489892ccfcabd409f45b0ecd7e1572790a0826",
+          "sha256": "56f77429a093ca77481bb9b025bb804a5e6eda2fc6b880411be01f8b7564b84f",
+          "sha1": "b0917bb1654cbea93f7ba4de2c0102f3fbfabbd1",
+          "md5": "1c81ccbff530e28563f0264bb1e1a9db"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iosarm64-0.0.2-sources.jar",
+          "url": "DLCommonUtil-iosarm64-0.0.2-sources.jar",
+          "size": 11130,
+          "sha512": "2261ea3e5a275a32c8ab85ee70dcfb219cf0d059b8de9883b9518cbe9ec0e4ba258c410373718cce5f4ec5afb8087501d24b3ed1a962a4d25c5521c36e299d43",
+          "sha256": "ca419c6d439e01cb078a695a1603ea21f05285a5def76011ec791016d13db194",
+          "sha1": "e1d1709e65b6b3ccdf6e5e490d12324cff8b7bf2",
+          "md5": "3336c1287864807ab913fe38c5f91d9a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iosarm64-0.0.2-metadata.jar",
+          "url": "DLCommonUtil-iosarm64-0.0.2-metadata.jar",
+          "size": 3585,
+          "sha512": "a92409585594bca6a0a729ffe42aaf454b5aa434fd97750b1f726f98438e79f15ca4ad915980823b5976681e16390877afabd6ed5b262e6c779c46abf0540151",
+          "sha256": "d9682554054f8744ffef43c532ad6974a62c9eb5ba80df2d19c61b3aac603c2b",
+          "sha1": "840b2cbeb29d6966843c2358a5fb184dfba60886",
+          "md5": "cf0900ca4fae94f114470bb41634d253"
+        }
+      ]
+    }
+  ]
+}
