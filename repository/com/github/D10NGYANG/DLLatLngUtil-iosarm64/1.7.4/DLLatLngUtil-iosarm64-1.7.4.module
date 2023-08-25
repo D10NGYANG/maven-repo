@@ -11,7 +11,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.2.1"
+      "version": "8.3"
     }
   },
   "variants": [
@@ -29,14 +29,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         }
       ],
@@ -44,11 +44,11 @@
         {
           "name": "DLLatLngUtil.klib",
           "url": "DLLatLngUtil-iosarm64-1.7.4.klib",
-          "size": 62007,
-          "sha512": "b9219f860de3173e392e98116d848ec19e44182ca54e926bdab2ffe4500ec55d7c208f367fc3f527356d7d39a5097ceb2400ac164e967c25d87847fc2dd512f0",
-          "sha256": "eef4e36181ff94d5e9776eef657a1f648b321a3f9fce5d2bfa0380da03ad9cac",
-          "sha1": "8561beb2f5ac6238dfd729087db3f1294758adf1",
-          "md5": "f68ec0611f603f81394994b639dfa9ea"
+          "size": 62009,
+          "sha512": "3f82f5b176f78c3d0ec52ea6637f479d0f66ecf11d3832024086cacf396dd51ab28b4a4d883dcca35dfd9c8bebdae65ea798c6feb18b1b57f8b508506bd4a96e",
+          "sha256": "8b100f354cc49668915374a746f9ade91b4165790e1875fb7d35f71df43fad6d",
+          "sha1": "d348ca35b0f25f2206bbd5b2e990da5dc81c52fa",
+          "md5": "643048bc2e07e319fc2fd725d08d1b3b"
         }
       ]
     },
@@ -88,14 +88,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         }
       ],
@@ -104,10 +104,10 @@
           "name": "DLLatLngUtil-iosarm64-1.7.4-metadata.jar",
           "url": "DLLatLngUtil-iosarm64-1.7.4-metadata.jar",
           "size": 261,
-          "sha512": "5aff810b745b8612417c4f7c5c4464f40685c270eaf7d9ba89c37fc11a45b4d8454e43d0a8e4baf82bea6631a91a336a84661dd2d240eb2a558e3d1a0b44bbcd",
-          "sha256": "c5a414f207a6a6ce16b138f6467e45407b3297e2b6fc56149f745fc39e0147c6",
-          "sha1": "63cf6fdf4defb4826f3080d75163d0898879d0fc",
-          "md5": "306fa59b73962d054a75aa3304becb5f"
+          "sha512": "eeb3cddec728a4a658f445d9eea641ff7b3f186951e36c3869887469378608b98bcf881b00576eaa67072bef7e38e978f742a9d730f0d41bd5288f7cf3ab7d36",
+          "sha256": "21dd1f92b644a9d8873fd17ad83da14138156851d6b5013f7db0444f9509f3fd",
+          "sha1": "b67a8bc113f59b7de53778da7dd000550dd37d40",
+          "md5": "11ece40491c3a670f12a2653b0d7a3e2"
         }
       ]
     }

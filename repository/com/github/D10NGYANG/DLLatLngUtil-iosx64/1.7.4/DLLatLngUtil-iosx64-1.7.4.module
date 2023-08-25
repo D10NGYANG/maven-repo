@@ -11,7 +11,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.2.1"
+      "version": "8.3"
     }
   },
   "variants": [
@@ -29,14 +29,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         }
       ],
@@ -44,11 +44,11 @@
         {
           "name": "DLLatLngUtil.klib",
           "url": "DLLatLngUtil-iosx64-1.7.4.klib",
-          "size": 61991,
-          "sha512": "c7c510c8afd46029052cff11c2a39bc25381d34cf16359464f33ad2286cb119e079f88fdf1088639a1b5c15ddb30324946825748c2ac1d54cde9d4cc7b565dc5",
-          "sha256": "87254c341db3bd9036459fda16886b064136f135c75054ca2ec1e65ef5e072fc",
-          "sha1": "ccb81bf0b7f77599a50279388e0ba02eac27acf2",
-          "md5": "74cc20e4fe04320c43dd6ed01a40768a"
+          "size": 61992,
+          "sha512": "248bc2a76c6c1f44b63cccbf09ea059b36a34a739ff34e74cc5765c4870eba97a1c847423c67d42bc2510638e40cfd020147ca8ce57e36f38d8f6c17be501e90",
+          "sha256": "8c81b4803b0cb9147e4feed0c8b11fdcf9fbafc1bdf4958a9215140388998034",
+          "sha1": "2894fea36da124523aa1204c63a74b323c587384",
+          "md5": "9e952e1a3aa5215dfaca131ef12b6a1c"
         }
       ]
     },
@@ -88,14 +88,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.9.10"
           }
         }
       ],
@@ -104,10 +104,10 @@
           "name": "DLLatLngUtil-iosx64-1.7.4-metadata.jar",
           "url": "DLLatLngUtil-iosx64-1.7.4-metadata.jar",
           "size": 261,
-          "sha512": "79c25347421c93f4e0e8abe130dd42cb778ff1b13df3dfc252fcdef68699c0bef5d3629198bf3c5bc022c9545411b6aee5c6ab30ba3a6c554a170cd53aefbcda",
-          "sha256": "594c7db383550e315013d6219532654bf5be334f5c25616f458ebbbb4ed2ae44",
-          "sha1": "fa32147e2686ff6ba3ace9988ba497e2a1cfb698",
-          "md5": "5133e819cfa9793ca12e0aa50a946829"
+          "sha512": "eeb3cddec728a4a658f445d9eea641ff7b3f186951e36c3869887469378608b98bcf881b00576eaa67072bef7e38e978f742a9d730f0d41bd5288f7cf3ab7d36",
+          "sha256": "21dd1f92b644a9d8873fd17ad83da14138156851d6b5013f7db0444f9509f3fd",
+          "sha1": "b67a8bc113f59b7de53778da7dd000550dd37d40",
+          "md5": "11ece40491c3a670f12a2653b0d7a3e2"
         }
       ]
     }
