@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLDatastoreUtil-Annotation",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Annotation-0.0.1.jar",
+          "url": "DLDatastoreUtil-Annotation-0.0.1.jar",
+          "size": 2224,
+          "sha512": "4b32bca0b773f7c982392e375f83590f6813dec95a5c8281c09a513e242d25a914f9c1ecb15b68bb3b83d5cb7808264b7427778594c710d66766da91f384fccc",
+          "sha256": "c201c70ae440a5534530c4b13ba2ac41d11a879aa36c6f9d6e97b676e95b0159",
+          "sha1": "13ed0afa18e0e367a7aade95454dcc0f5c6380bf",
+          "md5": "566f72580ebf33ebc6d84f74ca838f7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Annotation-0.0.1.jar",
+          "url": "DLDatastoreUtil-Annotation-0.0.1.jar",
+          "size": 2224,
+          "sha512": "4b32bca0b773f7c982392e375f83590f6813dec95a5c8281c09a513e242d25a914f9c1ecb15b68bb3b83d5cb7808264b7427778594c710d66766da91f384fccc",
+          "sha256": "c201c70ae440a5534530c4b13ba2ac41d11a879aa36c6f9d6e97b676e95b0159",
+          "sha1": "13ed0afa18e0e367a7aade95454dcc0f5c6380bf",
+          "md5": "566f72580ebf33ebc6d84f74ca838f7d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Annotation-0.0.1-sources.jar",
+          "url": "DLDatastoreUtil-Annotation-0.0.1-sources.jar",
+          "size": 1537,
+          "sha512": "f4ad8d4dd412f3d4d2b96442afdd6bd1ac67691a38e654472059ffa45250bcc578567c4d9fb87b0d010b8a4f621dc161e6bdef880165ea9186f6716c2951af84",
+          "sha256": "ffc8013f30ac3706ccd3c3e6b8dc2038418cc822f38d111c5a4360dc681ec275",
+          "sha1": "3570f33ed7a72a4d954dbe7d9a52e6f18b4119f1",
+          "md5": "f9245596ec2d3243827f1bf8e0c17e43"
+        }
+      ]
+    }
+  ]
+}
