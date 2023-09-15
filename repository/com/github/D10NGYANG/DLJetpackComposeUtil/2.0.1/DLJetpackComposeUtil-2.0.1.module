@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLJetpackComposeUtil",
+    "version": "2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.0-alpha12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-2.0.1.aar",
+          "url": "DLJetpackComposeUtil-2.0.1.aar",
+          "size": 893723,
+          "sha512": "abe6ccf5928d029fb1b9d6d5cbd563c8033bbe36e2bc32252e247504672f838590c1643043a2337a43b95b5e8e6307bbd50c35397517d289e451ae3310898d38",
+          "sha256": "86565c37ae441271ccd62a052416b509bebf1deb175a2c0b5d482e99a9022191",
+          "sha1": "d0b144ce2a2f1ab0fc25a03ea2b58c48e39d1cb2",
+          "md5": "cd49985f771f42846c5e5c1e2061a869"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.github.raamcosta.compose-destinations",
+          "module": "animations-core",
+          "version": {
+            "requires": "1.9.53"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDateUtil",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.0-alpha12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-2.0.1.aar",
+          "url": "DLJetpackComposeUtil-2.0.1.aar",
+          "size": 893723,
+          "sha512": "abe6ccf5928d029fb1b9d6d5cbd563c8033bbe36e2bc32252e247504672f838590c1643043a2337a43b95b5e8e6307bbd50c35397517d289e451ae3310898d38",
+          "sha256": "86565c37ae441271ccd62a052416b509bebf1deb175a2c0b5d482e99a9022191",
+          "sha1": "d0b144ce2a2f1ab0fc25a03ea2b58c48e39d1cb2",
+          "md5": "cd49985f771f42846c5e5c1e2061a869"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-2.0.1-sources.jar",
+          "url": "DLJetpackComposeUtil-2.0.1-sources.jar",
+          "size": 61795,
+          "sha512": "13e8c6c38184ce47c3e5cb32d3bed774600d50cde9e0f1ea35418bce1d922204e25e531c9a487f11291d0ef35a4544d8d34033347938e60f4d080695fbcf201f",
+          "sha256": "775868cc5dfec26d6df8ededda3d15e58266e92c9dd32f73f4b4081218c772ef",
+          "sha1": "275aaf391abda889897523907dae8c0aa81738e9",
+          "md5": "a0221c0cd2cec7c582fbc5eda4474d0b"
+        }
+      ]
+    }
+  ]
+}
