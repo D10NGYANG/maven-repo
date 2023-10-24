@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.1.0",
+  "buildSystem": "Gradle",
+  "buildSystemVersion": "8.4",
+  "buildPlugin": "org.jetbrains.kotlin.gradle.plugin.KotlinMultiplatformPluginWrapper",
+  "buildPluginVersion": "1.9.10",
+  "projectSettings": {
+    "isHmppEnabled": true,
+    "isCompatibilityMetadataVariantEnabled": false,
+    "isKPMEnabled": false
+  },
+  "projectTargets": [
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "ios_arm64",
+          "konanVersion": "1.9.10",
+          "konanAbiVersion": "1.8.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTargetWithSimulatorTests",
+      "platformType": "native",
+      "extras": {
+        "native": {
+          "konanTarget": "ios_x64",
+          "konanVersion": "1.9.10",
+          "konanAbiVersion": "1.8.0"
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.targets.js.ir.KotlinJsIrTarget",
+      "platformType": "js",
+      "extras": {
+        "js": {
+          "isBrowserConfigured": false,
+          "isNodejsConfigured": true
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget",
+      "platformType": "jvm",
+      "extras": {
+        "jvm": {
+          "jvmTarget": "1.8",
+          "withJavaEnabled": true
+        }
+      }
+    },
+    {
+      "target": "org.jetbrains.kotlin.gradle.plugin.mpp.KotlinMetadataTarget",
+      "platformType": "common"
+    }
+  ]
+}

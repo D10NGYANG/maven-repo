@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.0.3/DLCommonUtil-0.0.3.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-iosx64-0.0.3.klib",
+          "size": 91612,
+          "sha512": "3b2a8c11ffa3bb42db513cf403a03caa43706ad018a61ee65d790f863e51a3cb4442f188dc9406da1d9663d1d2a87c5b51acc65002aeeeee68315c3a0e18793d",
+          "sha256": "a0a6ce523a0ef2391184501659ea59442af4ca38baaf238c98058f0bf466d849",
+          "sha1": "7d4ddeaba11ac943035c5ac631225b132445d0ec",
+          "md5": "70ba4abd91d345f5a1c7aea1c902c59a"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iosx64-0.0.3-sources.jar",
+          "url": "DLCommonUtil-iosx64-0.0.3-sources.jar",
+          "size": 26804,
+          "sha512": "7797e98ebb05e0ff4dc72b7f7fc1b1ce3914211ba170b551b6f0dd2a5ac9f0350cb3017a9b200053ace1a92e4322720bfe2ed6c69871128c7bbcb7c83e816a78",
+          "sha256": "13f21dc625b3d13d73dc056ac001a387e428933e876add6084d6bbdd910755f2",
+          "sha1": "bcd641fa3df51b0e131161aa2c5d10d9b2648998",
+          "md5": "7514a59f7f0e568c1bb7e3633adaec41"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iosx64-0.0.3-metadata.jar",
+          "url": "DLCommonUtil-iosx64-0.0.3-metadata.jar",
+          "size": 4070,
+          "sha512": "6c30d13bd18ad072e19dd09eac10a66211cb58edea1ffc9da70742763a51b28efcc28f3bcf10cea520f3b51db55ab64582a8ba7a4e2a99f7cb1ffefe96b2adda",
+          "sha256": "6f8e07fb333ce8eedd09d74647b2387c00758a6b01118728d391a9e2483ecb56",
+          "sha1": "e99309dba49e885ec307fbb8ab459c5bbe8aca18",
+          "md5": "a414c9b3bc5e0fd2f68a93d023ede1b3"
+        }
+      ]
+    }
+  ]
+}
