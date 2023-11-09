@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLDatastoreUtil",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDatastoreUtil-Annotation",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-0.0.2.aar",
+          "url": "DLDatastoreUtil-0.0.2.aar",
+          "size": 8313,
+          "sha512": "ce4ab96388cc4c76032a88301862ce0ccd8f7b4df30a555b6565dbe0302a1b08f02d8a721e4031c2af84b1c4b9efeafab524f0eb995de2586ec12f9db733219a",
+          "sha256": "46b0ec7e5d291922fee733ddd14c59947da73c369da869d2356255e0dcce224f",
+          "sha1": "2d011873838f7b8a2d0021c1641b639daec594e9",
+          "md5": "a50ece98ed35896f6d51288bdf85d03c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDatastoreUtil-Annotation",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-0.0.2.aar",
+          "url": "DLDatastoreUtil-0.0.2.aar",
+          "size": 8313,
+          "sha512": "ce4ab96388cc4c76032a88301862ce0ccd8f7b4df30a555b6565dbe0302a1b08f02d8a721e4031c2af84b1c4b9efeafab524f0eb995de2586ec12f9db733219a",
+          "sha256": "46b0ec7e5d291922fee733ddd14c59947da73c369da869d2356255e0dcce224f",
+          "sha1": "2d011873838f7b8a2d0021c1641b639daec594e9",
+          "md5": "a50ece98ed35896f6d51288bdf85d03c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLDatastoreUtil-0.0.2-sources.jar",
+          "url": "DLDatastoreUtil-0.0.2-sources.jar",
+          "size": 1741,
+          "sha512": "3d1e2148359c90eb2e78bc2f49451549853969ad9ee7bc25dc0150d64791980767baf0f02908f1750130d9104446e7e176bb74d84d455d6e2a9d9684b7c3fa17",
+          "sha256": "c54bcb14e3c71b4b7f2392fb997c001a333079180453e97a61679c5950cc9788",
+          "sha1": "9e99e53abfacc7f48bb0f77688238a7d1d9018c9",
+          "md5": "da61936bdf1d8263894355d272040755"
+        }
+      ]
+    }
+  ]
+}

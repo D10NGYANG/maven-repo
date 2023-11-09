@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLDatastoreUtil-Processor",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Processor-0.0.2.jar",
+          "url": "DLDatastoreUtil-Processor-0.0.2.jar",
+          "size": 17435,
+          "sha512": "03c268e8625d72190cfbf73625c8162a5cd1de611fa5c5cb3efd9e35b767cf3b71bf389f5d7b90e7175ec9a6a3477a6142ecefca24eff2a0c8e38e0d386e4d27",
+          "sha256": "8547605c90839f03c2a6f8b7b8105f75396842d130e5c868ff1ed60199455b81",
+          "sha1": "9498d5069107e2f24581ded8a8800f3b7f13ce73",
+          "md5": "da73430c3e2936f2e72009be19b18476"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDatastoreUtil-Annotation",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.9.20-1.0.14"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Processor-0.0.2.jar",
+          "url": "DLDatastoreUtil-Processor-0.0.2.jar",
+          "size": 17435,
+          "sha512": "03c268e8625d72190cfbf73625c8162a5cd1de611fa5c5cb3efd9e35b767cf3b71bf389f5d7b90e7175ec9a6a3477a6142ecefca24eff2a0c8e38e0d386e4d27",
+          "sha256": "8547605c90839f03c2a6f8b7b8105f75396842d130e5c868ff1ed60199455b81",
+          "sha1": "9498d5069107e2f24581ded8a8800f3b7f13ce73",
+          "md5": "da73430c3e2936f2e72009be19b18476"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Processor-0.0.2-sources.jar",
+          "url": "DLDatastoreUtil-Processor-0.0.2-sources.jar",
+          "size": 4816,
+          "sha512": "95ad7610275c68d9d93a577fa9ec5d4c179568fba215b81414909b618fb8632543fdf80e9835a81fc816629125633334fe9bc272f23a8f6b8ceefd1082dbf7e1",
+          "sha256": "f534408d5c24372d355157c8c53451f15f95492ee29035b6addc2ad337a7a7e2",
+          "sha1": "3053b7a63c7c939486f17c75e0ef40fbebf28d46",
+          "md5": "f7ec4351a9467455e984996d6d237906"
+        }
+      ]
+    }
+  ]
+}
