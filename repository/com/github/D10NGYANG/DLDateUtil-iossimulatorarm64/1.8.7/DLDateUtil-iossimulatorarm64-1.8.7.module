@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.8.7/DLDateUtil-1.8.7.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil.klib",
+          "url": "DLDateUtil-iossimulatorarm64-1.8.7.klib",
+          "size": 60862,
+          "sha512": "2f9e2448719a979f319e6f8696b71afe5bedf3e20f1268b3345d2649524c91fcc28be471c82321967b442b41757c762d44c18f2aedd9c4abcfdd5b5ac480da31",
+          "sha256": "4039b7e764bb0d985aa26934d3c2b8519aa717a60a0f4f6e091a94e3dfdc0dde",
+          "sha1": "8562814f133b2fec91ec320a7b6a3620c7f2fc73",
+          "md5": "429b70560502b20e388ae82970a45d0a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-iossimulatorarm64-1.8.7-sources.jar",
+          "url": "DLDateUtil-iossimulatorarm64-1.8.7-sources.jar",
+          "size": 11910,
+          "sha512": "108bb3c148c15c16b4e240f2b11b8e20b6d7c94d6680034575999a56e166543c25e36f492bda7573695677f253071aae06e64b1ac6632f64e85fd8eaae28f0bf",
+          "sha256": "5ebddfab1c84e1378c93f70a6b8be3d13a70603499e1be8db161532792516fa9",
+          "sha1": "0b214b743f647748b262ec9ec3f56214c225ee52",
+          "md5": "06ed913039b6a285aa1a38df9d1371ee"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iossimulatorarm64-1.8.7-metadata.jar",
+          "url": "DLDateUtil-iossimulatorarm64-1.8.7-metadata.jar",
+          "size": 261,
+          "sha512": "2df6c864426eac8d0f13ed8892d05f3ca7aa7d997648ededc3a1f2fed38a02f195406e8446504e3d19acc12b2bf5925402d2114d99e7cbd56d8ba9ccb828c9ca",
+          "sha256": "2fe9357c35f33658057703ec54b0a0aea3d9785f7a41996d74f9230e3dfa1032",
+          "sha1": "019c2b37ad6087c50d480bc6fe3a6d4c5840f76a",
+          "md5": "adb7d54923598b3e4a3b0ba265607b78"
+        }
+      ]
+    }
+  ]
+}
