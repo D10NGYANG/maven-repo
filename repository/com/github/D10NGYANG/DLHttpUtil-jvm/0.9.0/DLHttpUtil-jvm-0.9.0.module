@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLHttpUtil/0.9.0/DLHttpUtil-0.9.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLHttpUtil",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.github.aakira",
+          "module": "napier",
+          "version": {
+            "requires": "2.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-jvm-0.9.0.jar",
+          "url": "DLHttpUtil-jvm-0.9.0.jar",
+          "size": 34118,
+          "sha512": "1e1b8d93c283627b6ec97dfc1f8e467940710afda1953a4c174238230488bca0e34f1108506b3acd5dda75df43b160240cedc2c1dff9d2010757bfd41942b6cf",
+          "sha256": "bfa16fd012076f2c33a0d6bff15b450361ba9c645afdbeee9d22598ba086d8b6",
+          "sha1": "55c804c5d65e58ea8c75bb5a76537c2449476449",
+          "md5": "a17cfbd56a32b4c2be7889196da76d6b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.6"
+          }
+        },
+        {
+          "group": "io.github.aakira",
+          "module": "napier",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-jvm-0.9.0.jar",
+          "url": "DLHttpUtil-jvm-0.9.0.jar",
+          "size": 34118,
+          "sha512": "1e1b8d93c283627b6ec97dfc1f8e467940710afda1953a4c174238230488bca0e34f1108506b3acd5dda75df43b160240cedc2c1dff9d2010757bfd41942b6cf",
+          "sha256": "bfa16fd012076f2c33a0d6bff15b450361ba9c645afdbeee9d22598ba086d8b6",
+          "sha1": "55c804c5d65e58ea8c75bb5a76537c2449476449",
+          "md5": "a17cfbd56a32b4c2be7889196da76d6b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-jvm-0.9.0-sources.jar",
+          "url": "DLHttpUtil-jvm-0.9.0-sources.jar",
+          "size": 5091,
+          "sha512": "cd25d5319a98e7979e23786369e6048964f4b963daa95e305f2c6cef34ee6c62fee6d99ab6523273fd7a8e8fd0066ccb594ee9efbc8f48248e6e5d8116424014",
+          "sha256": "5fa0e981d13b5f892aec3eb479be14b35774d633568d778209331eba69360b70",
+          "sha1": "40b1a01056e3192b890b1d5781b735c228110251",
+          "md5": "89dd8b299ce600cd449f06359e8f2e27"
+        }
+      ]
+    }
+  ]
+}
