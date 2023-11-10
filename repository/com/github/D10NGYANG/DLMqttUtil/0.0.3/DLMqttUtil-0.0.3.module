@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLMqttUtil",
+    "version": "0.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.android.service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMqttUtil-0.0.3.aar",
+          "url": "DLMqttUtil-0.0.3.aar",
+          "size": 37114,
+          "sha512": "75364e7b7c5ee90325e3209395168c292269d793d30c15f2790961a26578dd0bb596adc38ff6eba9c38c1c5fe302fbb3c5d57512a628f80824dfb392dd33ad7a",
+          "sha256": "6b0379cb5a2cea592c615e8615d3e2ab75be41dbb487dda352a37280979a62e3",
+          "sha1": "6852aeee8505bf0b53ef812978e77e406a8650a8",
+          "md5": "4b6a73804eb3e98359c4cb92de94ff37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.android.service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMqttUtil-0.0.3.aar",
+          "url": "DLMqttUtil-0.0.3.aar",
+          "size": 37114,
+          "sha512": "75364e7b7c5ee90325e3209395168c292269d793d30c15f2790961a26578dd0bb596adc38ff6eba9c38c1c5fe302fbb3c5d57512a628f80824dfb392dd33ad7a",
+          "sha256": "6b0379cb5a2cea592c615e8615d3e2ab75be41dbb487dda352a37280979a62e3",
+          "sha1": "6852aeee8505bf0b53ef812978e77e406a8650a8",
+          "md5": "4b6a73804eb3e98359c4cb92de94ff37"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLMqttUtil-0.0.3-sources.jar",
+          "url": "DLMqttUtil-0.0.3-sources.jar",
+          "size": 6859,
+          "sha512": "e0ad5fb471c0915a73d523e5146b48b314f718b4a461dfb617c2c9287fd70d943f581772a0b843e8aa6af4806ce061341f6de9aa4335dba2baf73f5153d41a8c",
+          "sha256": "6471502b3e219790786fe65f69dcaafbf2a87b767227add228732cae04bf93f8",
+          "sha1": "8a976534127baf8ab9139df35cbf1f80ca808ae2",
+          "md5": "25a31d020a3411b74d6df2c3dcf5e06b"
+        }
+      ]
+    }
+  ]
+}
