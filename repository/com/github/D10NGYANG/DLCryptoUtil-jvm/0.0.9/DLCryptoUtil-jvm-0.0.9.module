@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCryptoUtil/0.0.9/DLCryptoUtil-0.0.9.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCryptoUtil",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-jvm-0.0.9.jar",
+          "url": "DLCryptoUtil-jvm-0.0.9.jar",
+          "size": 22947,
+          "sha512": "15c4be26480d9458b155710f95f948ddf0d0c53e70e1f87531fcec469f5fd697e7ff96a6c450420636a6b56511850967a741874646320926a96e259b55a0dc0c",
+          "sha256": "a65966437327e18f3f1b64b422987ade6a323d250994fcbfe3c9f104105664fb",
+          "sha1": "97c3ddf1290ef44a16b56ce8532f5b3968ed1975",
+          "md5": "37a3cc1e6cc40c835091ba3a4d952adf"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-jvm-0.0.9.jar",
+          "url": "DLCryptoUtil-jvm-0.0.9.jar",
+          "size": 22947,
+          "sha512": "15c4be26480d9458b155710f95f948ddf0d0c53e70e1f87531fcec469f5fd697e7ff96a6c450420636a6b56511850967a741874646320926a96e259b55a0dc0c",
+          "sha256": "a65966437327e18f3f1b64b422987ade6a323d250994fcbfe3c9f104105664fb",
+          "sha1": "97c3ddf1290ef44a16b56ce8532f5b3968ed1975",
+          "md5": "37a3cc1e6cc40c835091ba3a4d952adf"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLCryptoUtil-jvm-0.0.9-sources.jar",
+          "url": "DLCryptoUtil-jvm-0.0.9-sources.jar",
+          "size": 8254,
+          "sha512": "8c4e8388800c761bf7c01095c4a8628f46282140b4ea0465a622bba77a5187f2da8963c562463fd5a81cf471e45668ac90c0de25eded49ae14e518ab960d002f",
+          "sha256": "4cd692a47d5ad9d488241851dbd39e598d0f93c181f0614dcd43e5ffe7f11645",
+          "sha1": "43ccd9f6ac34d03bf510dcbb120a91b6cb9429a9",
+          "md5": "bfc02cd057a1c46b26b219196e7c37ec"
+        }
+      ]
+    }
+  ]
+}

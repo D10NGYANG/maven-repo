@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLCryptoUtil",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-metadata-0.0.9.jar",
+          "url": "DLCryptoUtil-0.0.9.jar",
+          "size": 4425,
+          "sha512": "512760974513a3b5c6aa5bc9b7e1c0b1d35bab8dfec00411eb805340ae1fc02e9f80ddab0fe934a5bd2a938be9ec3a92cc1684798a2a0c22be9d25c20a3e1f3c",
+          "sha256": "ca6142b79ac51d422ce682e770650fee77c93f05dbc698b134416556ca21e764",
+          "sha1": "e6db96876247250d339f62b77f510e248903c655",
+          "md5": "6ce80f6330c46121e8032148c7be5892"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLCryptoUtil-kotlin-0.0.9-sources.jar",
+          "url": "DLCryptoUtil-0.0.9-sources.jar",
+          "size": 3812,
+          "sha512": "e2e91c1392674d054aac0e982b6891085ea8143abe20fac61c90e33f38c7de091056645fd2158a62eccc8182694b9686137428b4480f0f1cd243e9663bd244ca",
+          "sha256": "51b37f99584b016cd1e64a0d8f951aa3bd985bce71c085827e41757eb4b28538",
+          "sha1": "7e4d9f3e1f7caf9d1f02d7a0c711b6fc692060fe",
+          "md5": "b5c83de8efbe337e120186f29715dfc6"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCryptoUtil-js/0.0.9/DLCryptoUtil-js-0.0.9.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCryptoUtil-js",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCryptoUtil-js/0.0.9/DLCryptoUtil-js-0.0.9.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCryptoUtil-js",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCryptoUtil-js/0.0.9/DLCryptoUtil-js-0.0.9.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCryptoUtil-js",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCryptoUtil-jvm/0.0.9/DLCryptoUtil-jvm-0.0.9.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCryptoUtil-jvm",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCryptoUtil-jvm/0.0.9/DLCryptoUtil-jvm-0.0.9.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCryptoUtil-jvm",
+        "version": "0.0.9"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCryptoUtil-jvm/0.0.9/DLCryptoUtil-jvm-0.0.9.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCryptoUtil-jvm",
+        "version": "0.0.9"
+      }
+    }
+  ]
+}
