@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.0.8/DLCommonUtil-0.0.8.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-js-0.0.8.klib",
+          "url": "DLCommonUtil-js-0.0.8.klib",
+          "size": 108049,
+          "sha512": "25d2706083c6d7ab94443cd28bf308923ff20acdd849a452a8bac53bafb1fab29802d16d56c89f2c75a24cf4511e5455f3c39958c5b079dd9054a18ded20afcf",
+          "sha256": "5d2899f581aa5a205de7e5dd392979bbc6fa26248e6dc57cba9199e5ae417c1d",
+          "sha1": "d65512178bca3457d0eb18560b76916ad4e982cd",
+          "md5": "6742960d8491f90b780034dad01d6f51"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-js-0.0.8.klib",
+          "url": "DLCommonUtil-js-0.0.8.klib",
+          "size": 108049,
+          "sha512": "25d2706083c6d7ab94443cd28bf308923ff20acdd849a452a8bac53bafb1fab29802d16d56c89f2c75a24cf4511e5455f3c39958c5b079dd9054a18ded20afcf",
+          "sha256": "5d2899f581aa5a205de7e5dd392979bbc6fa26248e6dc57cba9199e5ae417c1d",
+          "sha1": "d65512178bca3457d0eb18560b76916ad4e982cd",
+          "md5": "6742960d8491f90b780034dad01d6f51"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-js-0.0.8-sources.jar",
+          "url": "DLCommonUtil-js-0.0.8-sources.jar",
+          "size": 28847,
+          "sha512": "000a45d3b7bca191fe4fae2501007c9feab5065dbdb189c1792b1f561d3fa5a4930dd56fc63d9312f816e9445c320c29da8b1b500650c124ebd3973c24c38c46",
+          "sha256": "d5cf1450adbaeb1a37086b7c7c4ec49db9fb08d6fb952c80de1479a0a65b52a0",
+          "sha1": "400ed131d09617d8ffdcc46080dfe79f75a98c33",
+          "md5": "d147d60fa23d32d5cfa02c21cc04447a"
+        }
+      ]
+    }
+  ]
+}
