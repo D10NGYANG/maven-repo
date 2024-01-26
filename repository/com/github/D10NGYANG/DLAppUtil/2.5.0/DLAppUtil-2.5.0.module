@@ -3,7 +3,7 @@
   "component": {
     "group": "com.github.D10NGYANG",
     "module": "DLAppUtil",
-    "version": "2.4.14",
+    "version": "2.5.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "DLAppUtil-2.4.14.aar",
-          "url": "DLAppUtil-2.4.14.aar",
+          "name": "DLAppUtil-2.5.0.aar",
+          "url": "DLAppUtil-2.5.0.aar",
           "size": 192118,
           "sha512": "a1265654460357d0795d5c3615c7538718454761b3c766b44d0e30b351653a030b3b6d208d6a9e1069381a639739a46a560596136cbe62cafae9aa6cde67f0d7",
           "sha256": "20e9b1a0b15388e602f0ed98e8d3e9a9b3912e479899216567db5881a1a63f89",
@@ -111,8 +111,8 @@
       ],
       "files": [
         {
-          "name": "DLAppUtil-2.4.14.aar",
-          "url": "DLAppUtil-2.4.14.aar",
+          "name": "DLAppUtil-2.5.0.aar",
+          "url": "DLAppUtil-2.5.0.aar",
           "size": 192118,
           "sha512": "a1265654460357d0795d5c3615c7538718454761b3c766b44d0e30b351653a030b3b6d208d6a9e1069381a639739a46a560596136cbe62cafae9aa6cde67f0d7",
           "sha256": "20e9b1a0b15388e602f0ed98e8d3e9a9b3912e479899216567db5881a1a63f89",
@@ -131,8 +131,8 @@
       },
       "files": [
         {
-          "name": "DLAppUtil-2.4.14-sources.jar",
-          "url": "DLAppUtil-2.4.14-sources.jar",
+          "name": "DLAppUtil-2.5.0-sources.jar",
+          "url": "DLAppUtil-2.5.0-sources.jar",
           "size": 38223,
           "sha512": "1c279e7dffa39b7eb293b5a6b6ca779556a62d8828d0aa2400c79b7cb2f50a4b946b86d958e05280b42ff2b6dd532bf1f603fca1b4e4739b05df0eedd543e74e",
           "sha256": "1a3d2999f4d59b68b17554bb8f1c62408cde4c44bd6a23b2172b0424f76a3050",
