@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLQRCodeUtil",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLQRCodeUtil-0.1.0.aar",
+          "url": "DLQRCodeUtil-0.1.0.aar",
+          "size": 118906,
+          "sha512": "11ae25516f2c071d46187cac9bc75e27ab7ce4aa882b8f63a1cfdb22ad8001eed7795d85133f489e1ce63a68dfc1d59f954a95c558d8f95661a2aa24c4d93db4",
+          "sha256": "f07c6113476cadb018006967a7250606d416a0e66e5cd24d1ffdc2bca9060ce1",
+          "sha1": "c9c8918178e19817e98aff098692ace6e42f2810",
+          "md5": "20236fd0c8298090cd2a89002d846da2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLJetpackComposeUtil",
+          "version": {
+            "requires": "2.0.15"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLAppUtil",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLQRCodeUtil-0.1.0.aar",
+          "url": "DLQRCodeUtil-0.1.0.aar",
+          "size": 118906,
+          "sha512": "11ae25516f2c071d46187cac9bc75e27ab7ce4aa882b8f63a1cfdb22ad8001eed7795d85133f489e1ce63a68dfc1d59f954a95c558d8f95661a2aa24c4d93db4",
+          "sha256": "f07c6113476cadb018006967a7250606d416a0e66e5cd24d1ffdc2bca9060ce1",
+          "sha1": "c9c8918178e19817e98aff098692ace6e42f2810",
+          "md5": "20236fd0c8298090cd2a89002d846da2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLQRCodeUtil-0.1.0-sources.jar",
+          "url": "DLQRCodeUtil-0.1.0-sources.jar",
+          "size": 5388,
+          "sha512": "482de17b5b261f71fe0ac40b4b6bc4e856fc82ebfa379efca5d20a1ddd1119fd9455f766d37f2677b118903b722132a997249af7cf058fac3764a29e9e6e1222",
+          "sha256": "e2003172b66a4104b849798def69152617e08d5ff560f84d5f70ae0f77fed25f",
+          "sha1": "df84cef988a96ee025d139e598104b334482830f",
+          "md5": "6875fbd146691a9acafd94df0e2b9adf"
+        }
+      ]
+    }
+  ]
+}
