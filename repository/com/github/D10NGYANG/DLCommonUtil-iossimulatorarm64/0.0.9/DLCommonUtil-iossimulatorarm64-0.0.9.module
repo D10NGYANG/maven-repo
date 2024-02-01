@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.0.9/DLCommonUtil-0.0.9.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.0.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-iossimulatorarm64-0.0.9.klib",
+          "size": 99735,
+          "sha512": "b14164092a452c45c0eb0e33e55d8b32d138d389d5ec110522cf44a08be840d666c3df38942bf2555715729aa829ed8b16a5a4db060bb79ac955c1b8c2d94e1c",
+          "sha256": "768a3f1e919f6e1627e14181c3275b2446e8fd931cc8072ed331841ac6e80541",
+          "sha1": "0ae820d945d2aa941d76552945c6997de9214596",
+          "md5": "13ef7607cb4172d2c20d43c932ba854d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iossimulatorarm64-0.0.9-sources.jar",
+          "url": "DLCommonUtil-iossimulatorarm64-0.0.9-sources.jar",
+          "size": 27683,
+          "sha512": "80a3ef2326e238ea69d8bd820b33b7c23f8a3956e8ceecf49cdf2d8e7d67a797596e27f9da4a1e943a1952b433b38ce1af03a95772c8fc37bccc2f59a1c21cb5",
+          "sha256": "b3715bbf658a9e6c77c68d1c4138f2ca10fc4e467da7245800be34b6d11faec7",
+          "sha1": "e85b94041104ab512c7d9f4efeab0c80f2dc6d0f",
+          "md5": "4bea80402502fa218930fb8eac2d2ac8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iossimulatorarm64-0.0.9-metadata.jar",
+          "url": "DLCommonUtil-iossimulatorarm64-0.0.9-metadata.jar",
+          "size": 4086,
+          "sha512": "13e9c999a782fdc1b8704beb0ce3ae0647517205b2c03d3780d790aa0bf6b2f230346f1a0a09dc8523582f6dbfdaee9ed74b7cb52cde11f0d236934fa8248cee",
+          "sha256": "082dd2bb56215c4c411304ebb4643f2eb0df252bfc2840612649340f7947dcc6",
+          "sha1": "577083fec3ee4e62ad842ec8c1deb99834737847",
+          "md5": "cfdd334acc1a9404ef12a31b9b1bc571"
+        }
+      ]
+    }
+  ]
+}
