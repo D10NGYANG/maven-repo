@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLGpsUtil",
+    "version": "2.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLGpsUtil-2.3.6.aar",
+          "url": "DLGpsUtil-2.3.6.aar",
+          "size": 20958,
+          "sha512": "81f84cd532036fa5f28efcbc0109e94aa15dee5c30a88c027f02a20b28a1cb1f397d77d2afac6fd78f467528db8e8cb1d2b4be24897e967ff7826cd103f1ab1d",
+          "sha256": "5a0ed78a43a1fa304dcb89b4d8a6b020f14fc95677b7acb2b8e25f64a8582331",
+          "sha1": "95148c594fe654a59c98d0abe63f0e3d1008391b",
+          "md5": "c6f68b8eb7cb8ee38eebc48d307f9ff8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLatLngUtil-jvm",
+          "version": {
+            "requires": "1.7.5"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "location",
+          "version": {
+            "requires": "latest.integration"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLGpsUtil-2.3.6.aar",
+          "url": "DLGpsUtil-2.3.6.aar",
+          "size": 20958,
+          "sha512": "81f84cd532036fa5f28efcbc0109e94aa15dee5c30a88c027f02a20b28a1cb1f397d77d2afac6fd78f467528db8e8cb1d2b4be24897e967ff7826cd103f1ab1d",
+          "sha256": "5a0ed78a43a1fa304dcb89b4d8a6b020f14fc95677b7acb2b8e25f64a8582331",
+          "sha1": "95148c594fe654a59c98d0abe63f0e3d1008391b",
+          "md5": "c6f68b8eb7cb8ee38eebc48d307f9ff8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLGpsUtil-2.3.6-sources.jar",
+          "url": "DLGpsUtil-2.3.6-sources.jar",
+          "size": 7585,
+          "sha512": "3d7aeeb8d1110f1398d7fac1d8acd37c0979e6e8e1cda1fbf16f9374867d9d5361b823a3423c571c562734f2521d53bb52ead389c2dfa62774227c776cd9685a",
+          "sha256": "029495ffc8a219c6830009ce3b5567dae6918d67b58f711186b37b2e908fdd2c",
+          "sha1": "b91308ee5f45978835a20e062ef4ab55bc0d3ca5",
+          "md5": "1a237c2418dc8e6afebae2eea223f79a"
+        }
+      ]
+    }
+  ]
+}
