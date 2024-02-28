@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLTianDiTuApi/0.5.9/DLTianDiTuApi-0.5.9.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLTianDiTuApi",
+    "version": "0.5.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.5.9.jar",
+          "url": "DLTianDiTuApi-jvm-0.5.9.jar",
+          "size": 173662,
+          "sha512": "3d12608d0aa9332ef82f25f75b6b09ba2406c32233b42b6f30a45c8dcabb9059835de35fc5808ae0fb7e044d3eec568c7bcb20086b2cf4c18a70ea61d46fa899",
+          "sha256": "fdbe09be2ed2129562ff0c6d5a202b5f6fde90d145c3bccea24167c9ecec5822",
+          "sha1": "da470f1fe29d663b9942944362eb456207f60dca",
+          "md5": "0f4122a033081232339609b031f67554"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLHttpUtil",
+          "version": {
+            "requires": "0.9.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.5.9.jar",
+          "url": "DLTianDiTuApi-jvm-0.5.9.jar",
+          "size": 173662,
+          "sha512": "3d12608d0aa9332ef82f25f75b6b09ba2406c32233b42b6f30a45c8dcabb9059835de35fc5808ae0fb7e044d3eec568c7bcb20086b2cf4c18a70ea61d46fa899",
+          "sha256": "fdbe09be2ed2129562ff0c6d5a202b5f6fde90d145c3bccea24167c9ecec5822",
+          "sha1": "da470f1fe29d663b9942944362eb456207f60dca",
+          "md5": "0f4122a033081232339609b031f67554"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLTianDiTuApi-jvm-0.5.9-sources.jar",
+          "url": "DLTianDiTuApi-jvm-0.5.9-sources.jar",
+          "size": 6775,
+          "sha512": "c5546037f2a1edd38534eccc8c51693299415e2377580f9a7a531832d4b3cee4630e867df00f69b43e723ec05112841daa7f2c78b1ee875f2ea2cb8e281c0fc1",
+          "sha256": "1ad2b56a673cea9ef6fda9ae350ec9eadf6cdbfad90100501cf8acfbfe27f7c9",
+          "sha1": "c915df418ad968ef9dfc93c1246c6ac9cac03dd6",
+          "md5": "023636917eeb2bd6ea1866fb559cbc93"
+        }
+      ]
+    }
+  ]
+}
