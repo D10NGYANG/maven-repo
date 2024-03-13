@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLAppUtil",
+    "version": "2.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.5.2.aar",
+          "url": "DLAppUtil-2.5.2.aar",
+          "size": 193257,
+          "sha512": "f88dbcfa4dd3b7f5471561a0d2d94d2cf6ac5eb9a06292bdaa39ee07f8cc837b1ce31311f2816beee451cd54d9ee657d69b0be74ac20b85b26bd7e1055feefd1",
+          "sha256": "2a82a34c0c62732285f2e3aeddf895b9a8532b3ae6a3d58741feb9dd34b429f7",
+          "sha1": "0698a624eecba6b7e6c3b99a0de9b4049d9b869e",
+          "md5": "837220ad1895a067c555f41691cd3c2f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.5.2.aar",
+          "url": "DLAppUtil-2.5.2.aar",
+          "size": 193257,
+          "sha512": "f88dbcfa4dd3b7f5471561a0d2d94d2cf6ac5eb9a06292bdaa39ee07f8cc837b1ce31311f2816beee451cd54d9ee657d69b0be74ac20b85b26bd7e1055feefd1",
+          "sha256": "2a82a34c0c62732285f2e3aeddf895b9a8532b3ae6a3d58741feb9dd34b429f7",
+          "sha1": "0698a624eecba6b7e6c3b99a0de9b4049d9b869e",
+          "md5": "837220ad1895a067c555f41691cd3c2f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLAppUtil-2.5.2-sources.jar",
+          "url": "DLAppUtil-2.5.2-sources.jar",
+          "size": 38548,
+          "sha512": "3c1294153a2b736df91659467d87c9e30e7f49b4a83a0949c40243e4d476147bb5f3bb1880804f7199a5cb941bdf1f2a4ddec94475da97288a5952909835fc58",
+          "sha256": "897d4accdaf490bad92874d03de26ecc73978cabf9a470967f3ec5112e76c238",
+          "sha1": "c1aaaed8912884f691fa8787461ab3b21282711c",
+          "md5": "b830c0f9016e689f5b8462a53a7009c3"
+        }
+      ]
+    }
+  ]
+}
