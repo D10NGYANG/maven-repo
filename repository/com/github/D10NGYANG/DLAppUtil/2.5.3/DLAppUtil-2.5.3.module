@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLAppUtil",
+    "version": "2.5.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.5.3.aar",
+          "url": "DLAppUtil-2.5.3.aar",
+          "size": 198794,
+          "sha512": "4228bb72019c43422f49ee9d3c171c185bea2ced329abaf68241587451fd8a261259b7b38fb7e9e7abafff1957d84d2c70a331cfe2cf9449a003491796f8cdac",
+          "sha256": "774a35727eee4d4e292815d95e4d39ad48ac3cbc002f7bd8560959a66031aafd",
+          "sha1": "e803bc805ed6b875ac0e2b73c8aa47014329d783",
+          "md5": "769aabd03d21bccd80195b6a8c2bb9ce"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLAppUtil-2.5.3.aar",
+          "url": "DLAppUtil-2.5.3.aar",
+          "size": 198794,
+          "sha512": "4228bb72019c43422f49ee9d3c171c185bea2ced329abaf68241587451fd8a261259b7b38fb7e9e7abafff1957d84d2c70a331cfe2cf9449a003491796f8cdac",
+          "sha256": "774a35727eee4d4e292815d95e4d39ad48ac3cbc002f7bd8560959a66031aafd",
+          "sha1": "e803bc805ed6b875ac0e2b73c8aa47014329d783",
+          "md5": "769aabd03d21bccd80195b6a8c2bb9ce"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLAppUtil-2.5.3-sources.jar",
+          "url": "DLAppUtil-2.5.3-sources.jar",
+          "size": 39637,
+          "sha512": "cb1163f58c5abff0c58764c75f59f9902ecc096178c07d303598330d940fc4033a95e7da13b8abe6416bd02e6f9f682b2871bea5a2fb3bf50d6b901c734e00a9",
+          "sha256": "45b22d1e766afa574a433d7093420cd4c77a5970f83916c26a1e1dbe548f741b",
+          "sha1": "978eb950d01364df24a4e3de2bbfaa4cb65a6472",
+          "md5": "b0352e8797fa29e6cb3d369012e2c14e"
+        }
+      ]
+    }
+  ]
+}
