@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.1.0/DLCommonUtil-0.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.38"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-iosarm64-0.1.0.klib",
+          "size": 99650,
+          "sha512": "2fe3991c77319c20aa2b22568e0f704a07f0781a4482b0ad4f3adc8a2bdcd676b12e5caa71274f7cd5c1ff00aa07e5b6a771f957bf9e91898af32a143db93f30",
+          "sha256": "f2eb867614d5849f4a0dced0ec464dc83bce356d7f2db7d3f8cdabf50b508ed9",
+          "sha1": "9e9b81485de7968e0ed5c4f468df1c933b106624",
+          "md5": "41768b69162b2ecfdb90b1b719a9c7a3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iosarm64-0.1.0-sources.jar",
+          "url": "DLCommonUtil-iosarm64-0.1.0-sources.jar",
+          "size": 27683,
+          "sha512": "80a3ef2326e238ea69d8bd820b33b7c23f8a3956e8ceecf49cdf2d8e7d67a797596e27f9da4a1e943a1952b433b38ce1af03a95772c8fc37bccc2f59a1c21cb5",
+          "sha256": "b3715bbf658a9e6c77c68d1c4138f2ca10fc4e467da7245800be34b6d11faec7",
+          "sha1": "e85b94041104ab512c7d9f4efeab0c80f2dc6d0f",
+          "md5": "4bea80402502fa218930fb8eac2d2ac8"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.ditchoom",
+          "module": "buffer",
+          "version": {
+            "requires": "1.3.38"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iosarm64-0.1.0-metadata.jar",
+          "url": "DLCommonUtil-iosarm64-0.1.0-metadata.jar",
+          "size": 4086,
+          "sha512": "44de23c18a4b3233c6bfb5d65b970b6a1ae70a6692a4b320c8031cb235da48302ac4c78cb2c5dce927f815c900e924f362fb6b851cb2b7e300f268141f3c2baa",
+          "sha256": "e6ab556e5a392dd9e205e144f54ca6499b0e7d2287066d60170096b9ebd6f19e",
+          "sha1": "bf5b45f0e8cb8e5fe2381188b0c027b497348989",
+          "md5": "cad8364688d8fb21f84f3f2246f48ac0"
+        }
+      ]
+    }
+  ]
+}
