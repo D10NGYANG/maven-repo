@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.1.2/DLCommonUtil-0.1.2.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.biezhi",
+          "module": "TinyPinyin",
+          "version": {
+            "requires": "2.0.3.RELEASE"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-release.aar",
+          "url": "DLCommonUtil-android-0.1.2.aar",
+          "size": 64450,
+          "sha512": "bf297180840e9ca274dc9359f7c63f87ce9a9fb1d3da206da1a7e755ac65194f53afe4938fc0a7019a0b2b5e5a41969a376ca82f174e55c371e18d006ee06e01",
+          "sha256": "772a2e31141132a891f799758cf50f08c2e7650d4f5360f5a12d7fb4409c047a",
+          "sha1": "c4eef8f35a51aec979f39e3faeb7ec96663fcd1b",
+          "md5": "525fc1c8eb2628b2bb25b4ed2d1ec72a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.biezhi",
+          "module": "TinyPinyin",
+          "version": {
+            "requires": "2.0.3.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-release.aar",
+          "url": "DLCommonUtil-android-0.1.2.aar",
+          "size": 64450,
+          "sha512": "bf297180840e9ca274dc9359f7c63f87ce9a9fb1d3da206da1a7e755ac65194f53afe4938fc0a7019a0b2b5e5a41969a376ca82f174e55c371e18d006ee06e01",
+          "sha256": "772a2e31141132a891f799758cf50f08c2e7650d4f5360f5a12d7fb4409c047a",
+          "sha1": "c4eef8f35a51aec979f39e3faeb7ec96663fcd1b",
+          "md5": "525fc1c8eb2628b2bb25b4ed2d1ec72a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-android-0.1.2-sources.jar",
+          "url": "DLCommonUtil-android-0.1.2-sources.jar",
+          "size": 31449,
+          "sha512": "aef8efe52bba8fdeb439d124a7ca2dd491e8837b1d5df0f3f92e886c9068d55d12fddd57153637c3a846153cea00aeac5c35a3d6aa8261f096c72a4ec33d0e4d",
+          "sha256": "321f6642af9627881d120f72cb390fbec61946a4685bbd3b8434a26fdd923979",
+          "sha1": "3ecc73196b183b097b43d78146a250bd429370f7",
+          "md5": "82af2b58b2ac4510a5bc8ad8b293b729"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.1.2/DLCommonUtil-0.1.2.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-iosarm64-0.1.2.klib",
+          "size": 109045,
+          "sha512": "071b6c246f61b547b07434205d9e0954777cca248b7ac5d42a0a3c9969f41aaba221798a984b633e1732d5274d5d41db954d3d1a59bf397a67dd5793bc73e19f",
+          "sha256": "b46f03d3f39311943672b8b9515b1995cbbc2b5dd086f39241effc2b7a1c7cb9",
+          "sha1": "f29937be08f27a90216172f60f5a8c759235fc82",
+          "md5": "05355024dec0161d8f71d9be44a4098d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iosarm64-0.1.2-sources.jar",
+          "url": "DLCommonUtil-iosarm64-0.1.2-sources.jar",
+          "size": 30027,
+          "sha512": "2861ba760f982a45f67b5861b16c29b9e6e3996e08894afef6eaf27e3964d676b9042e3ecaef0a113e0a738f02e423372edd1620e90c7da7dfae85bd929fb79e",
+          "sha256": "e4e78d9d7596637d3f3ffab6d2e67d10d287f1231a9d67f8027caae56462cc5b",
+          "sha1": "04a62353f04dd5e216ba96d2262123e35b50d61d",
+          "md5": "b5c02d711e900998757891ca8a6f44ee"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iosarm64-0.1.2-metadata.jar",
+          "url": "DLCommonUtil-iosarm64-0.1.2-metadata.jar",
+          "size": 261,
+          "sha512": "14fbcb114425dce9eaefa814e1aa8616f11948867c4d60a75bc1b8e1c97e8f19c042cac127ea8954e05d50ae4563e7f201d92ed4d1e656194aac12adceb2ecb9",
+          "sha256": "e2e42e3689de4da3735356247ab409717c0e6771a79bd918baa467d073160ec6",
+          "sha1": "a09af204eb90a552b079d07400de8bc53f4640ab",
+          "md5": "2e2e4e0453c7acb3664fd312f9c527fb"
+        }
+      ]
+    }
+  ]
+}
