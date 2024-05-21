@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLJetpackComposeUtil",
+    "version": "2.0.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.05.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.0-alpha13"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-2.0.24.aar",
+          "url": "DLJetpackComposeUtil-2.0.24.aar",
+          "size": 1120349,
+          "sha512": "818ebe581df5c3e12a8847863d2d05ae70d296cf116890305b9afef836594bd689898a9694532d7b32dbd8e25b79ec88743d1359f6a1d51353ed966e439c385a",
+          "sha256": "fca5b1acc7678ecf37a303cb6079ee0767f957ac5914f2d269f98c9420522112",
+          "sha1": "7f1e6e8e9150de602843a2ac9fac1a25237e24ab",
+          "md5": "f044d3ddfaafdc00e8b3e3a2f06f99e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "io.github.raamcosta.compose-destinations",
+          "module": "animations-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLDateUtil",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.05.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-compose",
+          "version": {
+            "requires": "1.1.0-alpha13"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-2.0.24.aar",
+          "url": "DLJetpackComposeUtil-2.0.24.aar",
+          "size": 1120349,
+          "sha512": "818ebe581df5c3e12a8847863d2d05ae70d296cf116890305b9afef836594bd689898a9694532d7b32dbd8e25b79ec88743d1359f6a1d51353ed966e439c385a",
+          "sha256": "fca5b1acc7678ecf37a303cb6079ee0767f957ac5914f2d269f98c9420522112",
+          "sha1": "7f1e6e8e9150de602843a2ac9fac1a25237e24ab",
+          "md5": "f044d3ddfaafdc00e8b3e3a2f06f99e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-2.0.24-sources.jar",
+          "url": "DLJetpackComposeUtil-2.0.24-sources.jar",
+          "size": 77347,
+          "sha512": "390cb6ef4d9634111396b65f165841b6557af37f4c8ea81b3b3ff76debf4ffe1fd6592addb9ba164578920675f2cad7da9ec3573b3d9d640710762ab4681682b",
+          "sha256": "58d664e612423427a50fdbfd1838faaa7c0f3ada90497b3fe57c1e087812f132",
+          "sha1": "2459a60c2a37d6f7ac06ce4f23292ed73cbcbb61",
+          "md5": "1b78c96f8324e5f007ea9ac722fd4a5a"
+        }
+      ]
+    }
+  ]
+}
