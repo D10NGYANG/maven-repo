@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLMqttUtil",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.android.service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMqttUtil-0.0.8.aar",
+          "url": "DLMqttUtil-0.0.8.aar",
+          "size": 37646,
+          "sha512": "ba1494992f4fad7117bba5e4334722923b2f79bbedf003c3b902ed886977acc726466c0f14e640d4dbb3fe972a57938a00fe644990ed5205d954c9e60cc0df8b",
+          "sha256": "0e5fa08819099802dee339378069246b97cc4ba91e38583813636ae254e90e38",
+          "sha1": "a1cd1f4acfa96481f59beede315e2f7964487412",
+          "md5": "74998a92308a4bfe597aa7c4a91bc6eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.android.service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLMqttUtil-0.0.8.aar",
+          "url": "DLMqttUtil-0.0.8.aar",
+          "size": 37646,
+          "sha512": "ba1494992f4fad7117bba5e4334722923b2f79bbedf003c3b902ed886977acc726466c0f14e640d4dbb3fe972a57938a00fe644990ed5205d954c9e60cc0df8b",
+          "sha256": "0e5fa08819099802dee339378069246b97cc4ba91e38583813636ae254e90e38",
+          "sha1": "a1cd1f4acfa96481f59beede315e2f7964487412",
+          "md5": "74998a92308a4bfe597aa7c4a91bc6eb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "DLMqttUtil-0.0.8-sources.jar",
+          "url": "DLMqttUtil-0.0.8-sources.jar",
+          "size": 6731,
+          "sha512": "cf01460284451d506bb3e5c45311538a0dc99727d67ccf9446b6fd5500a7ad3e7166df969a7fd456214067123c49fca83e4f24172c68841d20031c5fb4a9d84b",
+          "sha256": "ce778008187e562bcd1037beb70e566c1b55298a5e51192f2abbb4d5bdc38ad8",
+          "sha1": "bccf8cb5b435d50433552dccedca8301e52e9a37",
+          "md5": "9bc9e930b5d86c2141ecc7000615efae"
+        }
+      ]
+    }
+  ]
+}
