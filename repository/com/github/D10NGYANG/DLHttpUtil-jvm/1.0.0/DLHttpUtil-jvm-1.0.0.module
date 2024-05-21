@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLHttpUtil/1.0.0/DLHttpUtil-1.0.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLHttpUtil",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-jvm-1.0.0.jar",
+          "url": "DLHttpUtil-jvm-1.0.0.jar",
+          "size": 15548,
+          "sha512": "806c692d0a980695fb7b5e0eb21c221e3e2854b054d0df9d2b4161e5b1958f042846cd3b8fc3bf31d1e5190c5800d238984f34c445529467cec90228abd72e3c",
+          "sha256": "ff17c4f073a5f461da7a88f5c05949853dc07f450000900767179f482eb4f60b",
+          "sha1": "d212780fa88b29099525d74f96ba5cc513934cb8",
+          "md5": "9465188b95cd55ed4dead56bdbdd4539"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-jvm-1.0.0.jar",
+          "url": "DLHttpUtil-jvm-1.0.0.jar",
+          "size": 15548,
+          "sha512": "806c692d0a980695fb7b5e0eb21c221e3e2854b054d0df9d2b4161e5b1958f042846cd3b8fc3bf31d1e5190c5800d238984f34c445529467cec90228abd72e3c",
+          "sha256": "ff17c4f073a5f461da7a88f5c05949853dc07f450000900767179f482eb4f60b",
+          "sha1": "d212780fa88b29099525d74f96ba5cc513934cb8",
+          "md5": "9465188b95cd55ed4dead56bdbdd4539"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-jvm-1.0.0-sources.jar",
+          "url": "DLHttpUtil-jvm-1.0.0-sources.jar",
+          "size": 2949,
+          "sha512": "b6cc56d666208b876fe59752ea8f3a4679713357df2dfe0cb9150ae09ef9fe19781494695b89af1d358a8044c72573a9941d3d60c61a495a44b66e2ecb0c6ca9",
+          "sha256": "6ebac00b9c85f8068f835008690a8df988d4215ed536cbae301f9c3635d68325",
+          "sha1": "796ac8460c74194d5542876dfad4b3436282859b",
+          "md5": "23f940f7e15ba2ea8553a34d7b2c7ab5"
+        }
+      ]
+    }
+  ]
+}
