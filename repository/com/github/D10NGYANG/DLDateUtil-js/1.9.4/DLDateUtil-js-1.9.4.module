@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/1.9.4/DLDateUtil-1.9.4.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "1.9.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.9.4.klib",
+          "url": "DLDateUtil-js-1.9.4.klib",
+          "size": 60232,
+          "sha512": "4f57caccb2c5ad3838a71fc444373623500707c31d90cf7194615460188a0bcd3d494a09035bb2e11b638f191d6293093786efa3cca54d1db3fb38d28391012e",
+          "sha256": "29c5c9ccb0d97ae2b981f6278469dd37e7fcfd520fe58a5f915a501f92aed813",
+          "sha1": "e8c5fad7c6fb29ade3812985715ee4e5270b4e10",
+          "md5": "77f99e061151252d40109c716242b935"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.9.4.klib",
+          "url": "DLDateUtil-js-1.9.4.klib",
+          "size": 60232,
+          "sha512": "4f57caccb2c5ad3838a71fc444373623500707c31d90cf7194615460188a0bcd3d494a09035bb2e11b638f191d6293093786efa3cca54d1db3fb38d28391012e",
+          "sha256": "29c5c9ccb0d97ae2b981f6278469dd37e7fcfd520fe58a5f915a501f92aed813",
+          "sha1": "e8c5fad7c6fb29ade3812985715ee4e5270b4e10",
+          "md5": "77f99e061151252d40109c716242b935"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-js-1.9.4-sources.jar",
+          "url": "DLDateUtil-js-1.9.4-sources.jar",
+          "size": 12353,
+          "sha512": "95997c9b993a63dff9ac1b98306df0cd3c12192e3e1045e32c9381d2e6c9c1476eda5c013aad9bd134f2034071f4333fa10f92dcdbf36f9d926375f2c3441578",
+          "sha256": "437c160b88e736da6b2de1ff3b3ac41079aebaec3f5eede7b1d7d04019529cde",
+          "sha1": "237869e66e955aa43a4825c9583f0a61b6f26ecf",
+          "md5": "7e706baab3484ed24e831afa41be1378"
+        }
+      ]
+    }
+  ]
+}
