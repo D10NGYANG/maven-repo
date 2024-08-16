@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.0.0-beta07/ImageCompress-1.0.0-beta07.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.0-beta07",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-release.aar",
+          "url": "ImageCompress-android-1.0.0-beta07.aar",
+          "size": 3892135,
+          "sha512": "18a6e80bb146bdbe3c0937c523fdc2b42b2a810f016d5509537eceecf347670841d78e6c9f931f425afe5a522b0cf72975a9e073354a5f626279f62f17849f1c",
+          "sha256": "31619dbde30f00ab7d5d8a6e1402bd9f787bf6040a867827f9d803b48a4e70d8",
+          "sha1": "72c359c79d9f320ca810c6bad7f8557fd7b11d9f",
+          "md5": "294bcfa0d5e23deaf7b4f9bd02180fc2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.1.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-release.aar",
+          "url": "ImageCompress-android-1.0.0-beta07.aar",
+          "size": 3892135,
+          "sha512": "18a6e80bb146bdbe3c0937c523fdc2b42b2a810f016d5509537eceecf347670841d78e6c9f931f425afe5a522b0cf72975a9e073354a5f626279f62f17849f1c",
+          "sha256": "31619dbde30f00ab7d5d8a6e1402bd9f787bf6040a867827f9d803b48a4e70d8",
+          "sha1": "72c359c79d9f320ca810c6bad7f8557fd7b11d9f",
+          "md5": "294bcfa0d5e23deaf7b4f9bd02180fc2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-android-1.0.0-beta07-sources.jar",
+          "url": "ImageCompress-android-1.0.0-beta07-sources.jar",
+          "size": 10545,
+          "sha512": "3faa63a392a14e94f9737773ede6ccdafe1117eb030167df8d358822aa5084e5c399cdbc7da1fe389013696a08514212b1cb316823d9505f88bd4bd4b05fc924",
+          "sha256": "8fae8137751369faa7eb9e9b8b75566e87916a3f068c14a9a05d5d2039c1f8eb",
+          "sha1": "a3ef52d14521af4ba56caaf1a6407ca3ef108530",
+          "md5": "992106671810fab23f95a8834d69186a"
+        }
+      ]
+    }
+  ]
+}

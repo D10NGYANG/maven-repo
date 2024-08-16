@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.0.0-beta01/ImageCompress-1.0.0-beta01.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-jvm-1.0.0-beta01.jar",
+          "url": "ImageCompress-jvm-1.0.0-beta01.jar",
+          "size": 749181,
+          "sha512": "156bebebc8a57a7d300558743a736b96585598120b8c3168b06dc9ffe4ca71dfd03d21117108e7025d56a4733c43b139237198a45a52ff9e69098e70649b9398",
+          "sha256": "7d379d3ac59229272c4028b4af01acc416db039014227bb63662fa8904b69d98",
+          "sha1": "da1390d0ce022d704a93e07798269c9c9d109942",
+          "md5": "1d38d78bdf70de6b0cc77ba24a60db74"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-jvm-1.0.0-beta01.jar",
+          "url": "ImageCompress-jvm-1.0.0-beta01.jar",
+          "size": 749181,
+          "sha512": "156bebebc8a57a7d300558743a736b96585598120b8c3168b06dc9ffe4ca71dfd03d21117108e7025d56a4733c43b139237198a45a52ff9e69098e70649b9398",
+          "sha256": "7d379d3ac59229272c4028b4af01acc416db039014227bb63662fa8904b69d98",
+          "sha1": "da1390d0ce022d704a93e07798269c9c9d109942",
+          "md5": "1d38d78bdf70de6b0cc77ba24a60db74"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-jvm-1.0.0-beta01-sources.jar",
+          "url": "ImageCompress-jvm-1.0.0-beta01-sources.jar",
+          "size": 3844,
+          "sha512": "3e949aadb2c721aa3984bfc1ec8b0cd0cc29d37a3269727c2822032651e697f85218a59a6a0a41025b834214df8d2edf2ff43040dcf4de535282f16ebfbc4619",
+          "sha256": "6abb6b4c3d2099ececf06d1bad2fd3c711b63ab8760e68439c309de71f53dcf5",
+          "sha1": "34e2c14ee8472bb8228326b13e07e53fdbb0a754",
+          "md5": "ae7f9a039ede02dff5e52dc6f822d0ed"
+        }
+      ]
+    }
+  ]
+}

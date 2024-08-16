@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.0.0-beta04/ImageCompress-1.0.0-beta04.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress.klib",
+          "url": "ImageCompress-iossimulatorarm64-1.0.0-beta04.klib",
+          "size": 15962,
+          "sha512": "8bec32522ade67c9679edd623548ef6be7ded5460a1c6e1ffb6219e1cced746a1ba97787ff5af2815e677d038089974006ddff52a6ce487d732509b6dea2dc9a",
+          "sha256": "5af6ce51750733159a760607d357e88e2757c6e0bccb1e52e31fcb693c6e5c19",
+          "sha1": "9b18300482368ff690935cefc5d63f1b86f41327",
+          "md5": "1dd4a4a39e459bafef09c6bef48218a7"
+        },
+        {
+          "name": "ImageCompress-cinterop-ImageCompress.klib",
+          "url": "ImageCompress-iossimulatorarm64-1.0.0-beta04-cinterop-ImageCompress.klib",
+          "size": 269510,
+          "sha512": "a4871149b2c1e1759ea4109544860abb743864cdd9124f7155f0b9571540906bccf501efa6085f1a3c5d9c5f040947d3e15f87429ac0961705dab1270df4f917",
+          "sha256": "6f00d4332bd44cb13efe25a21a3152e362b89328b12308d1b2addb191e8358d2",
+          "sha1": "d1fe1932462c30aedceb97f31c35792374a8c910",
+          "md5": "c6656a131714fe3f522325698f4ecba1"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-iossimulatorarm64-1.0.0-beta04-sources.jar",
+          "url": "ImageCompress-iossimulatorarm64-1.0.0-beta04-sources.jar",
+          "size": 5885,
+          "sha512": "62e59f8ea156a46645672bbe08ec82b7d445402a850b42a3c7fb449ad25fb2017883a04f1e960443947dfb1d2c2a43d6f9b47050563dc140a9afb0f2da67f4b5",
+          "sha256": "19c2b94ae7264fd0513f6e272357475418ae1eaae98e8f4a724df58a7ca0e8a5",
+          "sha1": "28a8e2fac4a5acedfb282440605807f77e2a06c7",
+          "md5": "3b8315396720e831db4096e9e0f3f61b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-iossimulatorarm64-1.0.0-beta04-metadata.jar",
+          "url": "ImageCompress-iossimulatorarm64-1.0.0-beta04-metadata.jar",
+          "size": 14712,
+          "sha512": "137c5cc8085051e77326c7977683022126ec5e28fc5f82467291b98001f0a02d66270d6704d5517376dd3a5d1caa0a9924d193231d4e50371523ca5a62c1ffc5",
+          "sha256": "39d9b32b8e2f56104df6a4785ee8b48a5cb30e7b29841eed7639466f7bd6eabb",
+          "sha1": "186ef120d400a098b6c180f548246ecac71c3e95",
+          "md5": "a4a8ac0f739a199a61a4513a955d7033"
+        }
+      ]
+    }
+  ]
+}

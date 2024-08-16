@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.0.0-beta04/ImageCompress-1.0.0-beta04.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.0-beta04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-release.aar",
+          "url": "ImageCompress-android-1.0.0-beta04.aar",
+          "size": 3884098,
+          "sha512": "5ab133e846b4905732aa846b3acfb019a0febea2a56a45ac598db0a1c3c108347baba3479a5f5a4ff88c48983c8042abbd8bd55c8a53ea61db854f3e9b596a5c",
+          "sha256": "9072a15d04078ca16eb38bbf0a7a49e6ed79e93453ef2e13338d9303941a21e2",
+          "sha1": "be9ce744670625e6d96fe883e725ba2c0f81f511",
+          "md5": "d19bcf1c7fbe74c5c5ce564990e80cfa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-release.aar",
+          "url": "ImageCompress-android-1.0.0-beta04.aar",
+          "size": 3884098,
+          "sha512": "5ab133e846b4905732aa846b3acfb019a0febea2a56a45ac598db0a1c3c108347baba3479a5f5a4ff88c48983c8042abbd8bd55c8a53ea61db854f3e9b596a5c",
+          "sha256": "9072a15d04078ca16eb38bbf0a7a49e6ed79e93453ef2e13338d9303941a21e2",
+          "sha1": "be9ce744670625e6d96fe883e725ba2c0f81f511",
+          "md5": "d19bcf1c7fbe74c5c5ce564990e80cfa"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-android-1.0.0-beta04-sources.jar",
+          "url": "ImageCompress-android-1.0.0-beta04-sources.jar",
+          "size": 6509,
+          "sha512": "86bdfc09976bfdb970aaab1002ce08126894caa0e92017a90f3a794f6933cfd503694c26e0a486068c40243329e412ed2b43cb33bb729cbe8fa653469bf8ec2a",
+          "sha256": "60339e6bc2c654342894a6813f12db1309eb2d3529ff32e1941c579fd97eec00",
+          "sha1": "b27b653c5777abb1f2cfdb4f8c7d41f619a5c24d",
+          "md5": "c81bddc313d74ad92292197366871dc6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.2.0/DLCommonUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.biezhi",
+          "module": "TinyPinyin",
+          "version": {
+            "requires": "2.0.3.RELEASE"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-jvm-0.2.0.jar",
+          "url": "DLCommonUtil-jvm-0.2.0.jar",
+          "size": 63626,
+          "sha512": "be150a2717818d82edc8cdb971841be5a2c8043e578c2168651e910841c55726702792c388f5f7cf4d906c92fd8e425550fe74f7f2c501e2fe96b8b5a91999eb",
+          "sha256": "877d6363c36c24785b4e4425fbdf4a515699cf7474c94407e026eddb8d53d24d",
+          "sha1": "a12ee30974e8c7cb2da173fa4c2a506fc9bdf31f",
+          "md5": "ff96c53083696a5515f714d35e1c2058"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.biezhi",
+          "module": "TinyPinyin",
+          "version": {
+            "requires": "2.0.3.RELEASE"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-jvm-0.2.0.jar",
+          "url": "DLCommonUtil-jvm-0.2.0.jar",
+          "size": 63626,
+          "sha512": "be150a2717818d82edc8cdb971841be5a2c8043e578c2168651e910841c55726702792c388f5f7cf4d906c92fd8e425550fe74f7f2c501e2fe96b8b5a91999eb",
+          "sha256": "877d6363c36c24785b4e4425fbdf4a515699cf7474c94407e026eddb8d53d24d",
+          "sha1": "a12ee30974e8c7cb2da173fa4c2a506fc9bdf31f",
+          "md5": "ff96c53083696a5515f714d35e1c2058"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-jvm-0.2.0-sources.jar",
+          "url": "DLCommonUtil-jvm-0.2.0-sources.jar",
+          "size": 30375,
+          "sha512": "3308e930f26475eb8fd658fc5b406920a5e32efde6c85cd71f2d60ea94837573f388737b882a2afdd8ac1f2812eef69e0e6cbf6bbd809a4cc82bc155ab468d4b",
+          "sha256": "a7409a0f2836268a384de5b99721ad3b57bad4cd35ed34375b8815596cabd573",
+          "sha1": "9f44c93c745e0710fffc68e012743a101083acfe",
+          "md5": "2027bae6d7a389fbb41c4b4fd656bd7b"
+        }
+      ]
+    }
+  ]
+}

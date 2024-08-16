@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.0.0-beta03/ImageCompress-1.0.0-beta03.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.0-beta03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress.klib",
+          "url": "ImageCompress-iosarm64-1.0.0-beta03.klib",
+          "size": 14136,
+          "sha512": "aff353a0af363ca32c1bba3de0e0eca807ef4392f2e7a960dce67b2b0514174d7d2de33c4d4ae94e477bae36ea1df8d80af4d3a936d77464ffa706ee8e2142e4",
+          "sha256": "5569da20a0bd28b94266eeb0b21767715f9ca775d965ce68a466d9437adfad6c",
+          "sha1": "1e747c68936d6cd9b5a020971e233e7e2909f87d",
+          "md5": "413390a5400ee86a78c56ddd202e1287"
+        },
+        {
+          "name": "ImageCompress-cinterop-ImageCompress.klib",
+          "url": "ImageCompress-iosarm64-1.0.0-beta03-cinterop-ImageCompress.klib",
+          "size": 267434,
+          "sha512": "45e0313e50896b1d6cc65b67251159ace9b80249dbe27eb67d46d58a4cd228469d5f1bb4a3dce82f25250016cd51f24d74121ccc560f88f0067386344e046c89",
+          "sha256": "fda78a1fb1f256fec0b8669605406c0a0fa7c1b9bcd9eaf55b32d8c144299d31",
+          "sha1": "7c2d9a57ef891ec4dc993b76eba96e65623610b0",
+          "md5": "2d23ddcc1d7b81bcab3d70f2bcddde7a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-iosarm64-1.0.0-beta03-sources.jar",
+          "url": "ImageCompress-iosarm64-1.0.0-beta03-sources.jar",
+          "size": 4386,
+          "sha512": "fa6998455bd267eeb47e721f5e7c07b570791bf3903963bbab737e060d4b87f998afbc6ea6d979e7eec44dd3ba911d2490d634413bbd968aa2a4f73a1016f700",
+          "sha256": "4af5b4c0163b1f564d2d799fb4d6e068177eff50041965a81147b08a4e45a4a1",
+          "sha1": "cdc1a9614d82c7b8cb64f9b9e0aa811db57f1937",
+          "md5": "2e7cd82bb123c761ec72b2d51d92cc5f"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-iosarm64-1.0.0-beta03-metadata.jar",
+          "url": "ImageCompress-iosarm64-1.0.0-beta03-metadata.jar",
+          "size": 14712,
+          "sha512": "0108e1f035de9c31448038228368a23a793a0e36a585abc572a5bce9a00fa644c7d933d0693a3e08e0382bcd20687bc4726db6a264f7e51488846505f2183e7f",
+          "sha256": "d5c2c0774fe4dd1b7b443adf185f5a4184f74de7b07c0233670343232d508d2c",
+          "sha1": "a156f0bdee8aa120e249b68e0fc07fb7f33c451a",
+          "md5": "baa8586d3d1bee51a6074a67044dfb8f"
+        }
+      ]
+    }
+  ]
+}

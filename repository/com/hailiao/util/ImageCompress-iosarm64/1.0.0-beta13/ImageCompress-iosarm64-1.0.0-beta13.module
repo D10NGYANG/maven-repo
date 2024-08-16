@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.0.0-beta13/ImageCompress-1.0.0-beta13.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.0-beta13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress.klib",
+          "url": "ImageCompress-iosarm64-1.0.0-beta13.klib",
+          "size": 37790,
+          "sha512": "f741e00f9716183b3decee4a0e3b3e1717d1029125d26d32c170d32df9a06739549fafccad08e105dfd6b050614edc99c7e22ad122a62f0b775906c1d503f9f0",
+          "sha256": "4103eef8b7d8e2f993bc01500f047b311296596ba53af25a57ed8ca7430233a0",
+          "sha1": "2f9d2b6cfb38c74ff34bd43282d3dcc1d353e1ad",
+          "md5": "667dab61672b85c162087268f5f8ed1f"
+        },
+        {
+          "name": "ImageCompress-cinterop-ImageCompress.klib",
+          "url": "ImageCompress-iosarm64-1.0.0-beta13-cinterop-ImageCompress.klib",
+          "size": 267434,
+          "sha512": "45e0313e50896b1d6cc65b67251159ace9b80249dbe27eb67d46d58a4cd228469d5f1bb4a3dce82f25250016cd51f24d74121ccc560f88f0067386344e046c89",
+          "sha256": "fda78a1fb1f256fec0b8669605406c0a0fa7c1b9bcd9eaf55b32d8c144299d31",
+          "sha1": "7c2d9a57ef891ec4dc993b76eba96e65623610b0",
+          "md5": "2d23ddcc1d7b81bcab3d70f2bcddde7a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-iosarm64-1.0.0-beta13-sources.jar",
+          "url": "ImageCompress-iosarm64-1.0.0-beta13-sources.jar",
+          "size": 11321,
+          "sha512": "dc4f60edb826680511f8e668030cbc3e2fc1b7618737285471d79e7c75fa7e5bf94f428c828f2b1a11c3c2f4ab9e71b5c7db9317857e5822dc47cbcfd9ec4fa6",
+          "sha256": "d961429f20c4fc6b2ed184b9c00b473ed88701b1502a94fbfa9f15e3a3142ec7",
+          "sha1": "69753783c4afd7ef55378e201139ff981fcc0231",
+          "md5": "4935e9844bba8768faaffc04d0d16b62"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-iosarm64-1.0.0-beta13-metadata.jar",
+          "url": "ImageCompress-iosarm64-1.0.0-beta13-metadata.jar",
+          "size": 261,
+          "sha512": "4e01bce39bd2d7bb9c5d6a221c4195ddf888ff975465f5b7676846d8bf9f73292e95fd1b9b9fc74b86488530ec8e71eccff959c1abb069cef754d3da31102ff3",
+          "sha256": "0f556815370d1eaa330db7527ae815b803b382966f5cc9ded905663517b3fd90",
+          "sha1": "ed47fd55555dd01ca70118dd0935e099387d0d3e",
+          "md5": "69c22a16ce2549291cadc871b6430e28"
+        }
+      ]
+    }
+  ]
+}
