@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.3.0/DLCommonUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-iossimulatorarm64-0.3.0.klib",
+          "size": 284231,
+          "sha512": "3729331a0f696c0c1e1b7b967aa604da75165fce941bf887e0a5f96bf383078123567d564853faa0c27b9ec1884dee17e0bd6de1fd42038b73c0fb511a554de3",
+          "sha256": "457f2b20a14bdbc798757d2390e835be6f3bffc94844ff17758a62c917035fd6",
+          "sha1": "7184981e56fb133989e6fe4ac070f9fc0e9546b2",
+          "md5": "483d5aebc6b8f5b90876293f0cbab542"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iossimulatorarm64-0.3.0-sources.jar",
+          "url": "DLCommonUtil-iossimulatorarm64-0.3.0-sources.jar",
+          "size": 189792,
+          "sha512": "8776f30ba81556f77c856f3f55c3db8655825a7e59484fb391bb4d4525a32bfc2ebd8f809cd3c15bf5a19b1cdbd59e17f077cadddfd04e522de2ed1bcd9ce6cd",
+          "sha256": "d55be279b0214526ba5cc4911cc50d29a61cb1694704c845b4d179f24ce96c8c",
+          "sha1": "71f8691f2b8ee48c9b0be4e2c59c08164478596f",
+          "md5": "446b60d4d97d78a3ebf2f5b07629b5bb"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iossimulatorarm64-0.3.0-metadata.jar",
+          "url": "DLCommonUtil-iossimulatorarm64-0.3.0-metadata.jar",
+          "size": 5786,
+          "sha512": "0520033415e8245f0546ba82f67417f1d67d38c20fb86c453a26300db86c64ea7ee19b485cef740b2e488506bed740838052d9b5a7fbede6ab6e7d1fbf471f5e",
+          "sha256": "b21eb87a61260f05fdcd96883698313fa7a781ac2e7c59909912e1aab93c7a18",
+          "sha1": "6b878484f41efd876bbaa1314e9d7087cfc1ce36",
+          "md5": "344229fbb0966e94fd164488281a4346"
+        }
+      ]
+    }
+  ]
+}
