@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.4.0/DLCommonUtil-0.4.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-macosarm64-0.4.0.klib",
+          "size": 296097,
+          "sha512": "c83f401d99326030faa97434cdda8dc141464fa0e54182e51b3b5095cb71e05f1f192560101c3f1af4db4a21e07edca3722b913c2609163f6c1f9589a3565f5d",
+          "sha256": "071730767cb9face686215281e335d0407cf21598b32a1d8bfa862ec893564ab",
+          "sha1": "77c11b8f448c04675cbf728d13c55da4f3fbff61",
+          "md5": "bc1b8563492a9f6d84c218479d757c89"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-macosarm64-0.4.0-sources.jar",
+          "url": "DLCommonUtil-macosarm64-0.4.0-sources.jar",
+          "size": 190701,
+          "sha512": "2ce6f0b5170ab4bfbfb0b9074d7ffa03f506ec2ddbec80066ad37eae059b682474c31131085438df3f9c82ba32e441295e4fa0536c0d3415f0277d2a718a4a27",
+          "sha256": "e278bb36a52436a3059c69fa330c969cfb87b74d8fa1017dd8ee5d6ba3a638a4",
+          "sha1": "1d22705a0a1232196b226a0d54f672b916ed1cd1",
+          "md5": "14c00d23ab9f18a57840d54c42b6477c"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-macosarm64-0.4.0-metadata.jar",
+          "url": "DLCommonUtil-macosarm64-0.4.0-metadata.jar",
+          "size": 5786,
+          "sha512": "6d6806982ba7484e9b1e10bcbb7202fe2547cfaf07ee82fe8891cda954a2247609bee45e349d3d1b11d18f586c18bd959565931c50af40bb617b4e5f356a258a",
+          "sha256": "b0a3d736b3ff5127df65848c4174fd5a1d3fd7eb8b8f88079a4c64796cc82c14",
+          "sha1": "91999acef54f829e4611baa658cabd18c2a0a5df",
+          "md5": "dd2ee626cd948021829fbbc414cc9665"
+        }
+      ]
+    }
+  ]
+}
