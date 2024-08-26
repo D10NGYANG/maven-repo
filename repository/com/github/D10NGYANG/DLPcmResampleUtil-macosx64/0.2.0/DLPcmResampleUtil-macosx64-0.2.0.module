@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.0/DLPcmResampleUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil.klib",
+          "url": "DLPcmResampleUtil-macosx64-0.2.0.klib",
+          "size": 222832,
+          "sha512": "8ca9b5592be63b5d88dfd4ea64a1713419572d544180f3dd06f4eb41e91c2e1fa2e844cd65d4ff7f4063fec4460793459f985247f032eb60179a89d0ff9bd2f4",
+          "sha256": "d72af61657c874e146f1250f4ddfacb799219588dac1d768836cdab134b6dbde",
+          "sha1": "faec2f8376190989290f5ba7a07537a952f6f2ff",
+          "md5": "5f33fb27cb0aaa3bff2e72c9357bf31d"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosx64-0.2.0-sources.jar",
+          "url": "DLPcmResampleUtil-macosx64-0.2.0-sources.jar",
+          "size": 29498,
+          "sha512": "4f096ce098d2c99292b316414eb3dd74a967d7436f9ab3cc27668c15b81514c25b71a0967616101694f7b024753e6a426b61d9af5e6c6dbf6d905f427c173b6b",
+          "sha256": "1fc4ed72daa9d1a5d7dc8b8182b3aaeeceff08defb1317c0daf5735f82058ec4",
+          "sha1": "93bc0627a4523f6fa6bab1c6acd5561a5cf5bc7a",
+          "md5": "f573a7abe1cfa719011b671905188cef"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosx64-0.2.0-metadata.jar",
+          "url": "DLPcmResampleUtil-macosx64-0.2.0-metadata.jar",
+          "size": 261,
+          "sha512": "248183d288eeabf42a44ac331b43dc7c170937ba9e4d052c775842681a7f5b1de6d586621311e3b7671993a304486fcf785bc19e9d77ebad62f25b52711998fe",
+          "sha256": "37529ad569887e2a5436c2d4db6939a4e2375944d3c96ed87664cea26dda4746",
+          "sha1": "5cddae4ca6657e5915c45f09b06c3d29f986d5ad",
+          "md5": "3df278925015758b6da3d52f363e99b9"
+        }
+      ]
+    }
+  ]
+}

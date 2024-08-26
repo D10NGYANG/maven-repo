@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.0/DLPcmResampleUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil.klib",
+          "url": "DLPcmResampleUtil-iossimulatorarm64-0.2.0.klib",
+          "size": 222916,
+          "sha512": "e9a83ec7132cfab455decb7d191a46737c7097069f910edaf355432be7becb167cdea41a82b2ebc20325a0bc097ab51c6b345daa6301bceaf6c500d78b28d55a",
+          "sha256": "62c00a9f9f59ba6615d95a51d8ee1f8ecb4b76a2170820f252fb6a41ee119063",
+          "sha1": "1e05058e9f31e7bacb2909c5354198b6ec43ea79",
+          "md5": "b0034539c8874edfd63eb13801b79bf0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-iossimulatorarm64-0.2.0-sources.jar",
+          "url": "DLPcmResampleUtil-iossimulatorarm64-0.2.0-sources.jar",
+          "size": 29498,
+          "sha512": "4f096ce098d2c99292b316414eb3dd74a967d7436f9ab3cc27668c15b81514c25b71a0967616101694f7b024753e6a426b61d9af5e6c6dbf6d905f427c173b6b",
+          "sha256": "1fc4ed72daa9d1a5d7dc8b8182b3aaeeceff08defb1317c0daf5735f82058ec4",
+          "sha1": "93bc0627a4523f6fa6bab1c6acd5561a5cf5bc7a",
+          "md5": "f573a7abe1cfa719011b671905188cef"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-iossimulatorarm64-0.2.0-metadata.jar",
+          "url": "DLPcmResampleUtil-iossimulatorarm64-0.2.0-metadata.jar",
+          "size": 261,
+          "sha512": "003ec035ef07dbcf9209baad8f53cf0abc6f772169c360787171ee06b4746aa3e79c69bc573a965713a8e653a5fe7f1f27fa58c8fa3fa21fa772d16811942a55",
+          "sha256": "1ee34efaf9bc02a2fd94a5314d4b085f2fa2a7a89ea94c6b350f3e1d1e631426",
+          "sha1": "9a2a39370e0361ba8d4cea81d6b6f474ceb750fe",
+          "md5": "80563613682e6dc2179df6ed34bf7327"
+        }
+      ]
+    }
+  ]
+}
