@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.4.0/DLCommonUtil-0.4.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-release.aar",
+          "url": "DLCommonUtil-android-0.4.0.aar",
+          "size": 184413,
+          "sha512": "70f6cd37986009d45fcd5b9fec0926bd5b8723c308b17362923dbd72a82456683a29e0a384f5a448d9949706dfbe867dbd6fae9bd930900b7525ea0092a3b488",
+          "sha256": "03fdce53407f1897df87b0d072ed965c92d1b5eaed3c3563cac28d4bd7c5ac5b",
+          "sha1": "1d536ed8e7d198cefac9f7a4665f2f6fb88d2c94",
+          "md5": "d039fbfb17bd0f3b31a3d15cb94ed413"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-release.aar",
+          "url": "DLCommonUtil-android-0.4.0.aar",
+          "size": 184413,
+          "sha512": "70f6cd37986009d45fcd5b9fec0926bd5b8723c308b17362923dbd72a82456683a29e0a384f5a448d9949706dfbe867dbd6fae9bd930900b7525ea0092a3b488",
+          "sha256": "03fdce53407f1897df87b0d072ed965c92d1b5eaed3c3563cac28d4bd7c5ac5b",
+          "sha1": "1d536ed8e7d198cefac9f7a4665f2f6fb88d2c94",
+          "md5": "d039fbfb17bd0f3b31a3d15cb94ed413"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-android-0.4.0-sources.jar",
+          "url": "DLCommonUtil-android-0.4.0-sources.jar",
+          "size": 190583,
+          "sha512": "b21321fbc7ec753d82d77072a6a69515463f6b040f35e88ffdcf1343ed20723c81dc95dac74f053913f74259f1b092d6cf2b8a6e8c0c8e8707a4595f72e643bc",
+          "sha256": "a21313907f0405ef3b3e52d10b55810a752d5c870a1330da33183bd4f3c8c471",
+          "sha1": "76cfc1df9c5c4cee5b3a93451a46a558f3a1ba58",
+          "md5": "eaeb235435d68ccb49ca4b8914d4a2cd"
+        }
+      ]
+    }
+  ]
+}
