@@ -1,0 +1,337 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-metadata-1.0.2.jar",
+          "url": "ImageCompress-1.0.2.jar",
+          "size": 5496,
+          "sha512": "6cba5919a374952be372dc3162de3ebfa78b283a1035c73733ad33d9b0d4f0cde5a8a75a74c4bc9ba207c3e281d78496950ae2f168d28430d289086ee169c7f8",
+          "sha256": "66051a3ab97efe5e2756219d38d0ea0a8e6bf2668097dce028504a4c4ea350d0",
+          "sha1": "353cc3f289dd5308bf0d1b5785c0f823d8c2ded5",
+          "md5": "87bbb4e4c08bb0a210ae25a26212b77e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-kotlin-1.0.2-sources.jar",
+          "url": "ImageCompress-1.0.2-sources.jar",
+          "size": 10005,
+          "sha512": "ef838f3197b20f5f0da5d69dfc42fc70e38a52a2c98f26d0d257ddd52c9bdbb7c462c376315e58efd22a544a91ee7198f6f8948273ded0e964c7921b99cf6765",
+          "sha256": "4f753d1f9d189b5571aca18473f0865603986de61455351e6f4382492d87d265",
+          "sha1": "630917afd2454e29ca707636f9e6dacb4d24c47f",
+          "md5": "2313ba8461def98f573b06570e2522f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-android/1.0.2/ImageCompress-android-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-android",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-android/1.0.2/ImageCompress-android-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-android",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-android/1.0.2/ImageCompress-android-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-android",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-iosarm64/1.0.2/ImageCompress-iosarm64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-iosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-iosarm64/1.0.2/ImageCompress-iosarm64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-iosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-iosarm64/1.0.2/ImageCompress-iosarm64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-iosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-jvm/1.0.2/ImageCompress-jvm-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-jvm",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-jvm/1.0.2/ImageCompress-jvm-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-jvm",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-jvm/1.0.2/ImageCompress-jvm-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-jvm",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-macosarm64/1.0.2/ImageCompress-macosarm64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-macosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-macosarm64/1.0.2/ImageCompress-macosarm64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-macosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-macosarm64/1.0.2/ImageCompress-macosarm64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-macosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-macosx64/1.0.2/ImageCompress-macosx64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-macosx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-macosx64/1.0.2/ImageCompress-macosx64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-macosx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../ImageCompress-macosx64/1.0.2/ImageCompress-macosx64-1.0.2.module",
+        "group": "com.hailiao.util",
+        "module": "ImageCompress-macosx64",
+        "version": "1.0.2"
+      }
+    }
+  ]
+}
