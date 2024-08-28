@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.4.1/DLCommonUtil-0.4.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil.klib",
+          "url": "DLCommonUtil-linuxarm64-0.4.1.klib",
+          "size": 291235,
+          "sha512": "ca5158b0303bd1e24d31bed04169202e032e0d35b4f3e6552a879435faa278803e3d137d9c09c6ffb733408e93d71ceb7a3e5676ebd93ff903862ba5cf8ecf1d",
+          "sha256": "42e15cc8c21cb60b50731a400450508c245d0c061a61a9be48d536fd81e1671c",
+          "sha1": "9c629271e7de0c2669cdc1c18c941b3610afca5b",
+          "md5": "c703960e099ef5f4301f2efe4cd4ea30"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-linuxarm64-0.4.1-sources.jar",
+          "url": "DLCommonUtil-linuxarm64-0.4.1-sources.jar",
+          "size": 189460,
+          "sha512": "5d6f2edfc5e0ed1bc33000686bad47d84c0d6256da54996bfc7397dc6bb003de0ca9726a6e8082e72b2d43d9b774b0893cef78147abc66bdda3c83e0e55c1689",
+          "sha256": "6f8815f409f42e7a3491c4d65fedcd3b040905daaa666c7de1b07cca9ec75c59",
+          "sha1": "b972f8aa01c5d4e6dfcd54a6786f86e9834e8d5d",
+          "md5": "bd7425928931f0cea0b20a19f0cb54f5"
+        }
+      ]
+    }
+  ]
+}
