@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.1.1/ImageCompress-1.1.1.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress.klib",
+          "url": "ImageCompress-macosarm64-1.1.1.klib",
+          "size": 27064,
+          "sha512": "44b7733f4151bc094d5c46dc707567536f2d7d02f14389a039c10da1d234c78cf6df3420b8bc748e1326579e0b3aabf4f4d773882b29b17676abc6d97e7662cc",
+          "sha256": "d816c52f5bd215fa12e644556ea4141a240cd1f572d53d19fc8fa5614197edd2",
+          "sha1": "afaa1a00260da4ce8e291ac0d3aba702a7c8ff72",
+          "md5": "7c629e2b621d5e25d5086714c39aead0"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-macosarm64-1.1.1-sources.jar",
+          "url": "ImageCompress-macosarm64-1.1.1-sources.jar",
+          "size": 10129,
+          "sha512": "974d1428ae56119dafb874c27e24465002b4c14dc671e3de8be8a3023fc2856f6feacb1c072867690d020dca5704afacbb442de8931bc79bfde1bf0528c72282",
+          "sha256": "a264057d189982d6e4cf43092ec45319af8d3b2a6d3c37c1f97d65b2d14b05c0",
+          "sha1": "3fb4c619bbc0b9c533070e32991c981e32686e12",
+          "md5": "5632b61d6358979c98d46d7af835f9f0"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress-macosarm64-1.1.1-metadata.jar",
+          "url": "ImageCompress-macosarm64-1.1.1-metadata.jar",
+          "size": 4345,
+          "sha512": "17bb967d0875d1b517ab8595302466da00f3fcc136255e5b04a084370bee1fa65af4cb18a99cfbb0fad5c70fa7759c4f59ea248d9022514e032ff655c532b051",
+          "sha256": "c50bdc34ab46b0c9b6941dd6a90d2837299adebda397dd6f3d5f96fd69311816",
+          "sha1": "d64a8043735849bc85386adb8c5103752df9eb21",
+          "md5": "d0284643e4a3e71f530258ddaa479964"
+        }
+      ]
+    }
+  ]
+}

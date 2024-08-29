@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ImageCompress/1.1.2/ImageCompress-1.1.2.module",
+    "group": "com.hailiao.util",
+    "module": "ImageCompress",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ImageCompress.klib",
+          "url": "ImageCompress-linuxarm64-1.1.2.klib",
+          "size": 27063,
+          "sha512": "2848933140448cb7eb84f4676feec50bcbb4ae8b35ebe18af2d69e8d9e319099a40f90f303123d4e03cb29f8c9be096584954813f6f9b2380fa6e735e620c923",
+          "sha256": "83ffabe0c997c9e6f9f44ddc1f0fa3219dda8df13a1444c698d8e22d1d6956f5",
+          "sha1": "4d47f9c65516fe9cca12f852c8ac80d5b86bcb00",
+          "md5": "dce58f0dbeb5daa90788bb255efddd84"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "ImageCompress-linuxarm64-1.1.2-sources.jar",
+          "url": "ImageCompress-linuxarm64-1.1.2-sources.jar",
+          "size": 10129,
+          "sha512": "9807d26e13c70c4162945bcfe8f49d3c50197b864e440190d71a3fbf7c91866014800f76f95096f11f3a7c06e852938be3254a8f42ac47f1c8bc407ac6aa84f5",
+          "sha256": "8b90c971defa66dcd4514a363a151dcc4d46e54f79b578273c31548e9f712d4d",
+          "sha1": "acdda457bdd66b9b853ccc6a4187fbc0e5dee044",
+          "md5": "831461479bbc5cc79a98af6bf2ab3f18"
+        }
+      ]
+    }
+  ]
+}
