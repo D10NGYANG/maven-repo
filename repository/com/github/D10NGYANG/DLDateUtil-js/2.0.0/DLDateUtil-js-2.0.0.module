@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.0.0/DLDateUtil-2.0.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-2.0.0.klib",
+          "url": "DLDateUtil-js-2.0.0.klib",
+          "size": 60035,
+          "sha512": "3d5b0f4b6e47f1277e9b9a9d11b2bc33100bbf9316c5f83ea0f3a8613f78bc3e418a89ed915a25dcc473bb9081754e1fa5ea0d55d9bbcc39a65a81141a721d90",
+          "sha256": "2693c90b2555736c933d44c7ccf9879714af7295318e1a34773c5541c42070f9",
+          "sha1": "5e7b50a1f7d37702507052cdfbc4bc5c6d56ee53",
+          "md5": "966471713b1937220ec24a6f4fe7fa68"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-js-2.0.0.klib",
+          "url": "DLDateUtil-js-2.0.0.klib",
+          "size": 60035,
+          "sha512": "3d5b0f4b6e47f1277e9b9a9d11b2bc33100bbf9316c5f83ea0f3a8613f78bc3e418a89ed915a25dcc473bb9081754e1fa5ea0d55d9bbcc39a65a81141a721d90",
+          "sha256": "2693c90b2555736c933d44c7ccf9879714af7295318e1a34773c5541c42070f9",
+          "sha1": "5e7b50a1f7d37702507052cdfbc4bc5c6d56ee53",
+          "md5": "966471713b1937220ec24a6f4fe7fa68"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-js-2.0.0-sources.jar",
+          "url": "DLDateUtil-js-2.0.0-sources.jar",
+          "size": 12353,
+          "sha512": "95997c9b993a63dff9ac1b98306df0cd3c12192e3e1045e32c9381d2e6c9c1476eda5c013aad9bd134f2034071f4333fa10f92dcdbf36f9d926375f2c3441578",
+          "sha256": "437c160b88e736da6b2de1ff3b3ac41079aebaec3f5eede7b1d7d04019529cde",
+          "sha1": "237869e66e955aa43a4825c9583f0a61b6f26ecf",
+          "md5": "7e706baab3484ed24e831afa41be1378"
+        }
+      ]
+    }
+  ]
+}
