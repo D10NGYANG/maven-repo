@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.2/DLPcmResampleUtil-0.2.2.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-jvm-0.2.2.jar",
+          "url": "DLPcmResampleUtil-jvm-0.2.2.jar",
+          "size": 66646,
+          "sha512": "02a4b10aa5e20fdf77d3c0745d316939e47c2e2e08f4e431d1d3e38921483cadbcbbd49d89a60aef26aee25f4f0ad0a124f4d3349fe03683d345343f4fcbc642",
+          "sha256": "f9ba34a0d4f194f526e282534339b6969c502e34660d8ca64b395194152ae9c5",
+          "sha1": "258e2bf0a6214e0e67a826a58240692c670addb1",
+          "md5": "2c1ddca3b09748d5e57861efb8fc6883"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-jvm-0.2.2.jar",
+          "url": "DLPcmResampleUtil-jvm-0.2.2.jar",
+          "size": 66646,
+          "sha512": "02a4b10aa5e20fdf77d3c0745d316939e47c2e2e08f4e431d1d3e38921483cadbcbbd49d89a60aef26aee25f4f0ad0a124f4d3349fe03683d345343f4fcbc642",
+          "sha256": "f9ba34a0d4f194f526e282534339b6969c502e34660d8ca64b395194152ae9c5",
+          "sha1": "258e2bf0a6214e0e67a826a58240692c670addb1",
+          "md5": "2c1ddca3b09748d5e57861efb8fc6883"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-jvm-0.2.2-sources.jar",
+          "url": "DLPcmResampleUtil-jvm-0.2.2-sources.jar",
+          "size": 30677,
+          "sha512": "6d7bfdeef5a861c75396105bffbc5bef2de1ac39693b3f6d9793fdea4763526f6f49884433110782dd1d644ba4457a2a7055964791d097e6b6cb70576a952e4a",
+          "sha256": "64771282573c8f4124b962b05542071536be66214f6324f8a79ff318e6434103",
+          "sha1": "f58e310daf16da2bd35a0a477768852278ebc621",
+          "md5": "5f641fbe4f0db8fd869bb192653575de"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.2/DLPcmResampleUtil-0.2.2.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-js-0.2.2.klib",
+          "url": "DLPcmResampleUtil-js-0.2.2.klib",
+          "size": 221453,
+          "sha512": "c448d759062b0ae9dcdd7d351667a2cf1cd37b9a7dae148a8ae940f746a4f4a72498234688563f18d7424c34e9570be962e59ef70e5af1c648c8d5472bb51e00",
+          "sha256": "f1506b8e961af6b2b26cd2f491c8b6a392dd1b536182353b5deb521319dd721e",
+          "sha1": "9a89d03af91b33dd23d4d7e082ebc4e682356f1f",
+          "md5": "48d7a2ac78413158ff394955be52a5ab"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-js-0.2.2.klib",
+          "url": "DLPcmResampleUtil-js-0.2.2.klib",
+          "size": 221453,
+          "sha512": "c448d759062b0ae9dcdd7d351667a2cf1cd37b9a7dae148a8ae940f746a4f4a72498234688563f18d7424c34e9570be962e59ef70e5af1c648c8d5472bb51e00",
+          "sha256": "f1506b8e961af6b2b26cd2f491c8b6a392dd1b536182353b5deb521319dd721e",
+          "sha1": "9a89d03af91b33dd23d4d7e082ebc4e682356f1f",
+          "md5": "48d7a2ac78413158ff394955be52a5ab"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-js-0.2.2-sources.jar",
+          "url": "DLPcmResampleUtil-js-0.2.2-sources.jar",
+          "size": 29498,
+          "sha512": "4f096ce098d2c99292b316414eb3dd74a967d7436f9ab3cc27668c15b81514c25b71a0967616101694f7b024753e6a426b61d9af5e6c6dbf6d905f427c173b6b",
+          "sha256": "1fc4ed72daa9d1a5d7dc8b8182b3aaeeceff08defb1317c0daf5735f82058ec4",
+          "sha1": "93bc0627a4523f6fa6bab1c6acd5561a5cf5bc7a",
+          "md5": "f573a7abe1cfa719011b671905188cef"
+        }
+      ]
+    }
+  ]
+}

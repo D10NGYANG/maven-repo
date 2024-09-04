@@ -1,0 +1,509 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-metadata-0.2.2.jar",
+          "url": "DLPcmResampleUtil-0.2.2.jar",
+          "size": 10128,
+          "sha512": "68b23ab4c4f538851157835e2b4173a05e5220702f996ff2a1beb92617f25b7fee28df7bd31d09323b189ce4d03b15bc20792679dc51f8bc5656e924e933958c",
+          "sha256": "c234d208b9cd15d272039c0013cd5ed64dbdce2a7aff85beea805e22618c0f4a",
+          "sha1": "3abce91d7c49e08906338dc9664f577ae7486b6b",
+          "md5": "17f1cd952f3ab4efb0d9d22b5ca1ce0b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-kotlin-0.2.2-sources.jar",
+          "url": "DLPcmResampleUtil-0.2.2-sources.jar",
+          "size": 29498,
+          "sha512": "4f096ce098d2c99292b316414eb3dd74a967d7436f9ab3cc27668c15b81514c25b71a0967616101694f7b024753e6a426b61d9af5e6c6dbf6d905f427c173b6b",
+          "sha256": "1fc4ed72daa9d1a5d7dc8b8182b3aaeeceff08defb1317c0daf5735f82058ec4",
+          "sha1": "93bc0627a4523f6fa6bab1c6acd5561a5cf5bc7a",
+          "md5": "f573a7abe1cfa719011b671905188cef"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-android/0.2.2/DLPcmResampleUtil-android-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-android",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-android/0.2.2/DLPcmResampleUtil-android-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-android",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-android/0.2.2/DLPcmResampleUtil-android-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-android",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-iosarm64/0.2.2/DLPcmResampleUtil-iosarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-iosarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-iosarm64/0.2.2/DLPcmResampleUtil-iosarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-iosarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-iosarm64/0.2.2/DLPcmResampleUtil-iosarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-iosarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-iossimulatorarm64/0.2.2/DLPcmResampleUtil-iossimulatorarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-iossimulatorarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-iossimulatorarm64/0.2.2/DLPcmResampleUtil-iossimulatorarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-iossimulatorarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-iossimulatorarm64/0.2.2/DLPcmResampleUtil-iossimulatorarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-iossimulatorarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-js/0.2.2/DLPcmResampleUtil-js-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-js",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-js/0.2.2/DLPcmResampleUtil-js-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-js",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-js/0.2.2/DLPcmResampleUtil-js-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-js",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-jvm/0.2.2/DLPcmResampleUtil-jvm-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-jvm",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-jvm/0.2.2/DLPcmResampleUtil-jvm-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-jvm",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-jvm/0.2.2/DLPcmResampleUtil-jvm-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-jvm",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-linuxarm64/0.2.2/DLPcmResampleUtil-linuxarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-linuxarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-linuxarm64/0.2.2/DLPcmResampleUtil-linuxarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-linuxarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-linuxx64/0.2.2/DLPcmResampleUtil-linuxx64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-linuxx64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-linuxx64/0.2.2/DLPcmResampleUtil-linuxx64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-linuxx64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-macosarm64/0.2.2/DLPcmResampleUtil-macosarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-macosarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-macosarm64/0.2.2/DLPcmResampleUtil-macosarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-macosarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-macosarm64/0.2.2/DLPcmResampleUtil-macosarm64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-macosarm64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-macosx64/0.2.2/DLPcmResampleUtil-macosx64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-macosx64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-macosx64/0.2.2/DLPcmResampleUtil-macosx64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-macosx64",
+        "version": "0.2.2"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLPcmResampleUtil-macosx64/0.2.2/DLPcmResampleUtil-macosx64-0.2.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLPcmResampleUtil-macosx64",
+        "version": "0.2.2"
+      }
+    }
+  ]
+}
