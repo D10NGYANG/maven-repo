@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.5.1/DLCommonUtil-0.5.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-js-0.5.1.klib",
+          "url": "DLCommonUtil-js-0.5.1.klib",
+          "size": 298190,
+          "sha512": "c422b9c07255fd1c83598792db0239ea93cdd301f544e96ddb62de83c82fa53b09093de3bf17b7a0773aac2e7a023c41e16a84d973ed96f220d29c4198d10a42",
+          "sha256": "126d16b0abca46915478773cd7f212264c9427cea5e694d6f4fd0266a310e56b",
+          "sha1": "e44f166da895b3a806317ff4e5efab8b170ccee2",
+          "md5": "ce189f180a7e4bdc3df5eb89b2b5e2b0"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-js-0.5.1.klib",
+          "url": "DLCommonUtil-js-0.5.1.klib",
+          "size": 298190,
+          "sha512": "c422b9c07255fd1c83598792db0239ea93cdd301f544e96ddb62de83c82fa53b09093de3bf17b7a0773aac2e7a023c41e16a84d973ed96f220d29c4198d10a42",
+          "sha256": "126d16b0abca46915478773cd7f212264c9427cea5e694d6f4fd0266a310e56b",
+          "sha1": "e44f166da895b3a806317ff4e5efab8b170ccee2",
+          "md5": "ce189f180a7e4bdc3df5eb89b2b5e2b0"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-js-0.5.1-sources.jar",
+          "url": "DLCommonUtil-js-0.5.1-sources.jar",
+          "size": 194622,
+          "sha512": "11074ad9742c35b7372ccfac085a984864cf430cee486f64cee010e28b9e358344dfb86d788842eaaaa5a3cc2f6de13beee135ffb8869ddfefadc2d84053b0dd",
+          "sha256": "c76acf6667b34c1fe0a55a882a983235276a8406d9b01ce03eab6110c41aaf40",
+          "sha1": "c63dcd5d40a4501216f6078fa67fa815f2dc3fed",
+          "md5": "fdfe437f6a48989267558179b077bd35"
+        }
+      ]
+    }
+  ]
+}
