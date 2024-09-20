@@ -1,0 +1,458 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLHttpUtil",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.12"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-metadata-1.1.0.jar",
+          "url": "DLHttpUtil-1.1.0.jar",
+          "size": 3889,
+          "sha512": "157dcc59a779258774f5f835f5ea97692d18ef7f0e86cb5e098b943c6021f0f2678680d3a1a06b67aef1da49926e10a359533ee79c0828ac213b232c078563a6",
+          "sha256": "56fe366a167ebe06c9501337304ab3f0b9afb9505a061827794d02543f2cb0bb",
+          "sha1": "1a48132c81cb7b62bff19de617949ac941543811",
+          "md5": "fa731024bfaef26fb76085ddf3646167"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-kotlin-1.1.0-sources.jar",
+          "url": "DLHttpUtil-1.1.0-sources.jar",
+          "size": 2913,
+          "sha512": "37be5199735fdcfcea2c7a63f5a4bb484bf40bb019ef8aa88d4021585b79bfacea1e22f2ff9d8209b7a1815831a67d4e2c7c521e6ab44fec866c1388a5def84a",
+          "sha256": "e5a750526882cf9f6e02b8eab86ba1cb21d24b0677ae2af0bfc525935459af7a",
+          "sha1": "ebc7642e7dc1c4d10a1d3b16fa514d78d68a8f31",
+          "md5": "2ce7c4f734a184b63b90aa8d988649d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-android/1.1.0/DLHttpUtil-android-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-android",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-android/1.1.0/DLHttpUtil-android-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-android",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-android/1.1.0/DLHttpUtil-android-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-android",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-iosarm64/1.1.0/DLHttpUtil-iosarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-iosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-iosarm64/1.1.0/DLHttpUtil-iosarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-iosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-iosarm64/1.1.0/DLHttpUtil-iosarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-iosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-iossimulatorarm64/1.1.0/DLHttpUtil-iossimulatorarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-iossimulatorarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-iossimulatorarm64/1.1.0/DLHttpUtil-iossimulatorarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-iossimulatorarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-iossimulatorarm64/1.1.0/DLHttpUtil-iossimulatorarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-iossimulatorarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-jvm/1.1.0/DLHttpUtil-jvm-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-jvm",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-jvm/1.1.0/DLHttpUtil-jvm-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-jvm",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-jvm/1.1.0/DLHttpUtil-jvm-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-jvm",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-linuxarm64/1.1.0/DLHttpUtil-linuxarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-linuxarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-linuxarm64/1.1.0/DLHttpUtil-linuxarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-linuxarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-linuxx64/1.1.0/DLHttpUtil-linuxx64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-linuxx64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-linuxx64/1.1.0/DLHttpUtil-linuxx64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-linuxx64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-macosarm64/1.1.0/DLHttpUtil-macosarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-macosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-macosarm64/1.1.0/DLHttpUtil-macosarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-macosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-macosarm64/1.1.0/DLHttpUtil-macosarm64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-macosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-macosx64/1.1.0/DLHttpUtil-macosx64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-macosx64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-macosx64/1.1.0/DLHttpUtil-macosx64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-macosx64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLHttpUtil-macosx64/1.1.0/DLHttpUtil-macosx64-1.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLHttpUtil-macosx64",
+        "version": "1.1.0"
+      }
+    }
+  ]
+}

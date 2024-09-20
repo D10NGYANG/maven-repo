@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLVoiceUtil/0.2.0/DLVoiceUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library.klib",
+          "url": "DLVoiceUtil-iosarm64-0.2.0.klib",
+          "size": 38373,
+          "sha512": "470bc0f643b4cb358fa7cf1a7f39132bd2709e343597c29937d81c5b28fe3bfc846c22dcee08d59a55dfaceb90aa9c027292f5b3fecd4a7287b7eede6e443e29",
+          "sha256": "3309e931f3af6827eaabb06505a504e3885293873753ad01a5e93261e1ddf6db",
+          "sha1": "6622f593931e9dd08a957ce4d444bb342fa9ab4a",
+          "md5": "d48753506299ff341099aec6d5361399"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "library-iosarm64-0.2.0-sources.jar",
+          "url": "DLVoiceUtil-iosarm64-0.2.0-sources.jar",
+          "size": 7667,
+          "sha512": "487a0d5a9e44c1b70bd3e5172472105522d5d2337609ee259f11d82d19e08daa18ae8ae9601bdacc4ea998f0151ec54fc1874748c5365336d6599b4d820282fc",
+          "sha256": "28463d482a52ce8e5d14cdbc2e12e9ecd3b98db00dfc0bd79e882825ea539a20",
+          "sha1": "039f0d248077e8ef4cbf571fc654acd3f619a411",
+          "md5": "4f661828d8e200832d793b0f5db6a118"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-iosarm64-0.2.0-metadata.jar",
+          "url": "DLVoiceUtil-iosarm64-0.2.0-metadata.jar",
+          "size": 261,
+          "sha512": "208ec03a291f9c33072b60960032a064a1d68f870959ecfb2ebfa539c8d055af706eb62225fa2b216813ec52cc396893cf9989c420a9f445ea70cbe0441c9b51",
+          "sha256": "a9b87370044c6f721c3447d40173eaa3f3c63722cf834d5b6f1f895bf94789c0",
+          "sha1": "5a1500147795507e11c73d7feaa708d7372e13f0",
+          "md5": "0b1342a34c1e5d95f037e55921976451"
+        }
+      ]
+    }
+  ]
+}

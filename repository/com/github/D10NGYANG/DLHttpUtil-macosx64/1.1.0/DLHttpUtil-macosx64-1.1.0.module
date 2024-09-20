@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLHttpUtil/1.1.0/DLHttpUtil-1.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLHttpUtil",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.12"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil.klib",
+          "url": "DLHttpUtil-macosx64-1.1.0.klib",
+          "size": 13011,
+          "sha512": "57dce79665bfd8e5c0d9aaf27bd733f5d2045037c28c26b89abe2035a7afe679279a23b1eb8450d5f2e8a437e030cc25ff7a5d2acea88fbcbcbf2aba68f9574c",
+          "sha256": "593ed6eb4a59a420ae2f857b480ef3a9b0feb809b184b283dd77b71ad72d783c",
+          "sha1": "292a7243662aa276198c6d008fc1c22bf8ff160b",
+          "md5": "0e1640e87667e21b7a5c6248d075e002"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-macosx64-1.1.0-sources.jar",
+          "url": "DLHttpUtil-macosx64-1.1.0-sources.jar",
+          "size": 2913,
+          "sha512": "37be5199735fdcfcea2c7a63f5a4bb484bf40bb019ef8aa88d4021585b79bfacea1e22f2ff9d8209b7a1815831a67d4e2c7c521e6ab44fec866c1388a5def84a",
+          "sha256": "e5a750526882cf9f6e02b8eab86ba1cb21d24b0677ae2af0bfc525935459af7a",
+          "sha1": "ebc7642e7dc1c4d10a1d3b16fa514d78d68a8f31",
+          "md5": "2ce7c4f734a184b63b90aa8d988649d3"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.12"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-macosx64-1.1.0-metadata.jar",
+          "url": "DLHttpUtil-macosx64-1.1.0-metadata.jar",
+          "size": 261,
+          "sha512": "c9857cfcd5243c67a9c319b7363c0d8a86d99a8ac3f9210a2d2b240b93379af733ced933063d6dbe382237275baaeeab4d591a536f8b4d07a31f15406d7576c8",
+          "sha256": "db6a8ba1b5e08bb74b8f328d45ff7c7e914171700fc881be657825f73d84d203",
+          "sha1": "dee259fa7b3d1da0a0cd8988f24a8cff098ac43a",
+          "md5": "a173d242cfcff4210c96e811d40791fb"
+        }
+      ]
+    }
+  ]
+}

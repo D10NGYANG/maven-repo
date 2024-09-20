@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLHttpUtil/1.1.0/DLHttpUtil-1.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLHttpUtil",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.12"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil.klib",
+          "url": "DLHttpUtil-iosarm64-1.1.0.klib",
+          "size": 13009,
+          "sha512": "43aa8a6dc7cc7b848ae504f91e815c01adb3b89b9d7470c0f6bbc9feea8a22efdaecd2701471419b242fd5a03939e78f8af6de2971f927d464389181c6a1a743",
+          "sha256": "fab785c09b184d793dc2f0f766ce2f08861d4b07bbfd7e1354d88de3d3467d80",
+          "sha1": "bfaafba9bdb67f5144ab1518f075c9e32f64de6b",
+          "md5": "e58e5344a306634ec76a24ae842c2d88"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLHttpUtil-iosarm64-1.1.0-sources.jar",
+          "url": "DLHttpUtil-iosarm64-1.1.0-sources.jar",
+          "size": 2913,
+          "sha512": "37be5199735fdcfcea2c7a63f5a4bb484bf40bb019ef8aa88d4021585b79bfacea1e22f2ff9d8209b7a1815831a67d4e2c7c521e6ab44fec866c1388a5def84a",
+          "sha256": "e5a750526882cf9f6e02b8eab86ba1cb21d24b0677ae2af0bfc525935459af7a",
+          "sha1": "ebc7642e7dc1c4d10a1d3b16fa514d78d68a8f31",
+          "md5": "2ce7c4f734a184b63b90aa8d988649d3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.12"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLHttpUtil-iosarm64-1.1.0-metadata.jar",
+          "url": "DLHttpUtil-iosarm64-1.1.0-metadata.jar",
+          "size": 261,
+          "sha512": "d3d50127ee6fd079c9f0c0336571bdf534f2093bf8ab90f3aa1f64938682d6d0e8bbcdb7a96b4c4e1a5f8003c419f63045ca3b65794bb4b52b71544a6cd6020d",
+          "sha256": "04466eca4645e9cd7389740186c8352da366758c593fb92cdd562e1f0f4652ca",
+          "sha1": "486626f7d1be36e0e15959d5c013798b2fb68299",
+          "md5": "30dcb3a51af6e7acfcefb03b080c0ed7"
+        }
+      ]
+    }
+  ]
+}
