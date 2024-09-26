@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLVoiceUtil/0.2.6/DLVoiceUtil-0.2.6.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.2.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-release.aar",
+          "url": "DLVoiceUtil-android-0.2.6.aar",
+          "size": 67958,
+          "sha512": "212133d0cf78db367289c26cf0bf597551392412ec7553e3ee58ca37e6c9b0cb37e0bd7008a5b6050472c3076832b121af38cd0c8818df9d47b296c583e5cba0",
+          "sha256": "cb45e61b1ae026e3631cc0894c9cb36759c36bc70ce878f1287d82b4fbc23660",
+          "sha1": "dc1ec256c5b5d95f184a10b9a571218617fc14cc",
+          "md5": "dc43c23b2a34b6ac04d5f0cc5e90ef1e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0-RC.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-release.aar",
+          "url": "DLVoiceUtil-android-0.2.6.aar",
+          "size": 67958,
+          "sha512": "212133d0cf78db367289c26cf0bf597551392412ec7553e3ee58ca37e6c9b0cb37e0bd7008a5b6050472c3076832b121af38cd0c8818df9d47b296c583e5cba0",
+          "sha256": "cb45e61b1ae026e3631cc0894c9cb36759c36bc70ce878f1287d82b4fbc23660",
+          "sha1": "dc1ec256c5b5d95f184a10b9a571218617fc14cc",
+          "md5": "dc43c23b2a34b6ac04d5f0cc5e90ef1e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLVoiceUtil-android-0.2.6-sources.jar",
+          "url": "DLVoiceUtil-android-0.2.6-sources.jar",
+          "size": 10761,
+          "sha512": "c3ad9788d008d801869888bbacb7c03b79c9a66c10e72a3689c17284afd0cbffbd1efeda75e5b41be40510044cd12187fda9f17147eca4940b0d9baa49d419c0",
+          "sha256": "313154f5b1ae46fd480796ab9bb380d0cb869f45a92804dfd8712a85c09670af",
+          "sha1": "8a9fa1024af8724414a5a9e3b5e53912279f4556",
+          "md5": "08c9afc8dd0c7ee579c65ccf6bd9a5cf"
+        }
+      ]
+    }
+  ]
+}
