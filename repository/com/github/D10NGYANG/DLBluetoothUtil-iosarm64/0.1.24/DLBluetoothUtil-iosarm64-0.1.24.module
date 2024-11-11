@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLBluetoothUtil/0.1.24/DLBluetoothUtil-0.1.24.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLBluetoothUtil",
+    "version": "0.1.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil.klib",
+          "url": "DLBluetoothUtil-iosarm64-0.1.24.klib",
+          "size": 61417,
+          "sha512": "76b2905e9b5087b6007419286a57c1ff702f424ecead8080d453d27c1471f775c55b5bb79882fd7dbf66994f3dc153cc6777de8d0abc9ad0a040b3bd22c353fb",
+          "sha256": "67e48ad37dfaac7d2cdc4736b34519f68a7405cda4c138346847ab6a448a33d1",
+          "sha1": "3d79e4437663bc602dc80aab6b4a7a5dc29aac02",
+          "md5": "fc9dab804f182dc52dd8e9a9c41a342a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLBluetoothUtil-iosarm64-0.1.24-sources.jar",
+          "url": "DLBluetoothUtil-iosarm64-0.1.24-sources.jar",
+          "size": 10037,
+          "sha512": "8f86f8d223947b27b9ea849a74019d9d655ebf109aa44bc126000ee743241b0287586438b6708a847bfd79228c5949cc7041c89105c4fb2c9d64ac53ae7160d5",
+          "sha256": "a2cdc8f6f30dde3865d58e9f9eab92bfa56fcee1d8c1e42898b92445cdb47806",
+          "sha1": "54a0fa467904889e55df63c0b781517650a41093",
+          "md5": "2955ed6b0d34ab7b81e263af114e4e8e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-iosarm64-0.1.24-metadata.jar",
+          "url": "DLBluetoothUtil-iosarm64-0.1.24-metadata.jar",
+          "size": 261,
+          "sha512": "de38e39f27214634b6a507e39cb25e0b0429d5023d3de4eaad09016976d5177eddb382cde684edbb5a2de15e3d697b78f613d2b064131c072d4ab47d479b8b62",
+          "sha256": "e1de72cf986f9154b7ca9b51517bc7760a00af15273659882d130ebca4070ee0",
+          "sha1": "ea6830f405b1f8c1a069891f486fa423609441e5",
+          "md5": "8be40da05feee2e3fb0210e70202caaf"
+        }
+      ]
+    }
+  ]
+}
