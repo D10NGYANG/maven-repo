@@ -3,8 +3,8 @@
   <groupId>com.github.D10NGYANG</groupId>
   <artifactId>DLJetpackComposeUtil-iosarm64</artifactId>
   <versioning>
-    <latest>3.0.0-RC05</latest>
-    <release>3.0.0-RC05</release>
+    <latest>3.0.0-RC06</latest>
+    <release>3.0.0-RC06</release>
     <versions>
       <version>3.0.0-alpha01</version>
       <version>3.0.0-alpha02</version>
@@ -13,7 +13,8 @@
       <version>3.0.0-RC03</version>
       <version>3.0.0-RC04</version>
       <version>3.0.0-RC05</version>
+      <version>3.0.0-RC06</version>
     </versions>
-    <lastUpdated>20241224070738</lastUpdated>
+    <lastUpdated>20241225035340</lastUpdated>
   </versioning>
 </metadata>
