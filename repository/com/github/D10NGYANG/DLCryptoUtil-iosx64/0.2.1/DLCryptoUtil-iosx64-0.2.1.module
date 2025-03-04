@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCryptoUtil/0.2.1/DLCryptoUtil-0.2.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCryptoUtil",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-iosX64Main-0.2.1.klib",
+          "url": "DLCryptoUtil-iosx64-0.2.1.klib",
+          "size": 34046,
+          "sha512": "a4e4cfa377cd394a82f5c0b50b859b06f6223da02bc5d773802aa7e24cd650cd5bfe34fc9746b46043edfc8e35f2337ea9fc2fe2b5f18c6477f3c41ae88f38e6",
+          "sha256": "6cae6042f04f935e2b77cfe7e6644693680fa1a7308b7765801d60c9e2869ae7",
+          "sha1": "e9aacbc6ef762d125c421a2647f1bbf36ea04231",
+          "md5": "12dc71ac8bfac7378642e1546120a0bf"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCryptoUtil-iosx64-0.2.1-sources.jar",
+          "url": "DLCryptoUtil-iosx64-0.2.1-sources.jar",
+          "size": 9717,
+          "sha512": "3b14416f031bcc8b89f7a7c0f468a5f6cd55393df7331802982c76a913d9e068f155c3008b91ae2c219478ff35e2e5f2cee29019517a98db7ef2cfd6cd5a94f1",
+          "sha256": "fd078ae469c0c68b624c16e7d2d8404135fee8d859c1e6282c65adb87a66a13b",
+          "sha1": "cc50653ddae7d5797886f9639faea503a351449c",
+          "md5": "054b35aa8cf4c2564c8b37d4ca65f0d4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-iosx64-0.2.1-metadata.jar",
+          "url": "DLCryptoUtil-iosx64-0.2.1-metadata.jar",
+          "size": 3795,
+          "sha512": "48a6242e761675cdbe41b5d9b87c2777061a7d9b18311bceec0265932f596b2144dfa805b323c317c0225ee90932732c7a7dab6ed4097a721f7fc99dbe96e0c8",
+          "sha256": "8cbf6069ab5bd4cbb11b110767a579673770ed72ab658f1986d50eee74c94fae",
+          "sha1": "d3449479c8181a1bb22442f3fb49ff18702c9a51",
+          "md5": "bbb7c7ea4fd7fb0926102419208651ff"
+        }
+      ]
+    }
+  ]
+}
