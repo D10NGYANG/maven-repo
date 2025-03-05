@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLTianDiTuApi/1.1.0/DLTianDiTuApi-1.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLTianDiTuApi",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-iosX64Main-1.1.0.klib",
+          "url": "DLTianDiTuApi-iosx64-1.1.0.klib",
+          "size": 112465,
+          "sha512": "a46afb3f4c7acf4b1aee31cf9671b007ecad4be7897f3ffc2fb547e635036d5d0b14c4a075c427ddc3ef45aa98348b18b475eb53c720b8e2b10dc595bd3e69f9",
+          "sha256": "5e648fcf0259d69c9cd6e086dc69bb3136af1d6b687150db7130773672d023d4",
+          "sha1": "74833c2b2d5635d2b6e2a1e304410992fafa5ea7",
+          "md5": "4fa8b84506608880a571fdfcc7df0db7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLTianDiTuApi-iosx64-1.1.0-sources.jar",
+          "url": "DLTianDiTuApi-iosx64-1.1.0-sources.jar",
+          "size": 6741,
+          "sha512": "e995fd07814e5a74a95204d799c654f7da718945c0da9e007b32c722f6f66af2530e821b6ae755d000b3f768b7ed5f5ba48599211dc0e8bed8834ec08ff7e6b0",
+          "sha256": "0414baa275caeb80f95cda9aeef4ed8055384c749dae672dafeea476dc9d8b9c",
+          "sha1": "0828114131dafc5114da91d86d312e29b9883d3e",
+          "md5": "13050d4174ed636150e82130e94bd601"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-iosx64-1.1.0-metadata.jar",
+          "url": "DLTianDiTuApi-iosx64-1.1.0-metadata.jar",
+          "size": 261,
+          "sha512": "9e051186dae306b27ef8688ef3000707fa4065cfba2d0e93dddb55c8f1965ec9226c70f7e061fbe3dd72ac20b1267db1e6c477e2b99aa0f7e002417f7fd398bc",
+          "sha256": "f28e9904663a9345d164811217c66f686a2dd15953b68ce27e1052d92f3b02b6",
+          "sha1": "21eae8d9ef52868c84f3303c86ef294ee7fd2119",
+          "md5": "dffb1560890db881595e13778aa597d3"
+        }
+      ]
+    }
+  ]
+}
