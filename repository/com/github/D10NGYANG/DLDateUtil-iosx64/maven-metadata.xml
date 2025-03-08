@@ -3,8 +3,8 @@
   <groupId>com.github.D10NGYANG</groupId>
   <artifactId>DLDateUtil-iosx64</artifactId>
   <versioning>
-    <latest>1.8.6</latest>
-    <release>1.8.6</release>
+    <latest>2.1.0</latest>
+    <release>2.1.0</release>
     <versions>
       <version>1.6</version>
       <version>1.7</version>
@@ -16,7 +16,8 @@
       <version>1.8.4</version>
       <version>1.8.5</version>
       <version>1.8.6</version>
+      <version>2.1.0</version>
     </versions>
-    <lastUpdated>20231106065211</lastUpdated>
+    <lastUpdated>20250308064538</lastUpdated>
   </versioning>
 </metadata>
