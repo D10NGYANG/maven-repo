@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.1.1/DLDateUtil-2.1.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iosSimulatorArm64Main-2.1.1.klib",
+          "url": "DLDateUtil-iossimulatorarm64-2.1.1.klib",
+          "size": 77469,
+          "sha512": "23248185ac4309f6b28545819561661b48e897a83741e800ef0b2792f3d5d6384dc0941e67ce233dd60a00f647338095fd0a8c2679068300c718dbdf43a02e46",
+          "sha256": "7acd7f3fae5d4f7d775dcebaeca3c2b132efea7a8431d8f5b7bc9b0526e4c3ce",
+          "sha1": "9677a42619d4f228b962895e85f1282d81d0b5d3",
+          "md5": "1af9b0d5040880f602c56cf01dcd5c7d"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-iossimulatorarm64-2.1.1-sources.jar",
+          "url": "DLDateUtil-iossimulatorarm64-2.1.1-sources.jar",
+          "size": 17258,
+          "sha512": "e7110c4db22a2fca426dafe65ffde30426f1fe32969d480b3560d82384441b2b576321ca3767ce9f5f0732a9c88920c8dff9281eaaa6e38de151c12da43407c2",
+          "sha256": "4ef01c563471fdffed520731c972180b18d41f44e1ff9470330b423229711e1b",
+          "sha1": "bba88fe001b315a87f7a3aaee527c1a6dea2ad95",
+          "md5": "7b1c0822b6333991fde1119b7b514c74"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iossimulatorarm64-2.1.1-metadata.jar",
+          "url": "DLDateUtil-iossimulatorarm64-2.1.1-metadata.jar",
+          "size": 261,
+          "sha512": "fa77eed46ff84411c9bac2f3bf57e54b37a7691b0b7f6d3917cf9b06877f2fc2d284726f892f582b3ad09c47ed6142ecc6c69ac133465f318064d311ff669166",
+          "sha256": "859d8bebf931e91f174faacc0dca10c92ec2ccefbb41c8c5e071fd7fe582a0b7",
+          "sha1": "5868adb3bda759eb3716c09ff5e4dc6dc1314f26",
+          "md5": "a7d37d77381a9161e1f09adc0a48d18a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.1.1/DLDateUtil-2.1.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-linuxArm64Main-2.1.1.klib",
+          "url": "DLDateUtil-linuxarm64-2.1.1.klib",
+          "size": 77400,
+          "sha512": "a0a862103576b16cbfc8aa4f7eac56f981068a64e1abcc3673f58f06951c741a9735ad33be7658227059f9734bbeb394422905236c1df41234bde925d2dfcd9b",
+          "sha256": "ff5103c079c1903c7ab271cb97b3462cf383795fe0272fafa6ed665c9bdbe65b",
+          "sha1": "bedfd860e822ddf0b4db9335ffc818887cca4fa6",
+          "md5": "2cfb8692f0d31b28ad94b37937bcd841"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-linuxarm64-2.1.1-sources.jar",
+          "url": "DLDateUtil-linuxarm64-2.1.1-sources.jar",
+          "size": 17258,
+          "sha512": "e7110c4db22a2fca426dafe65ffde30426f1fe32969d480b3560d82384441b2b576321ca3767ce9f5f0732a9c88920c8dff9281eaaa6e38de151c12da43407c2",
+          "sha256": "4ef01c563471fdffed520731c972180b18d41f44e1ff9470330b423229711e1b",
+          "sha1": "bba88fe001b315a87f7a3aaee527c1a6dea2ad95",
+          "md5": "7b1c0822b6333991fde1119b7b514c74"
+        }
+      ]
+    }
+  ]
+}
