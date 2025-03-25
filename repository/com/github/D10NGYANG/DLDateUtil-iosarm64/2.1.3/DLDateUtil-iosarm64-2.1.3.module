@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.1.3/DLDateUtil-2.1.3.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iosArm64Main-2.1.3.klib",
+          "url": "DLDateUtil-iosarm64-2.1.3.klib",
+          "size": 78194,
+          "sha512": "bb2746563a43fb95d4b869fe6a01b23980f6bf3fea8d088bb9bedd7abde2cdd300dfe10c70fdf01dfded32b6fd7c01e84bf9a18734b261e3f587cd1af75d62dc",
+          "sha256": "3bd1e2532fbcc24b671a7325b68a91ff3e06da2e31f576f515de1619cfa598c8",
+          "sha1": "49fd805657a073c496e996ec11d5785a534132cc",
+          "md5": "6f0676a2fc9f09a2feeef85f2b9a6352"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-iosarm64-2.1.3-sources.jar",
+          "url": "DLDateUtil-iosarm64-2.1.3-sources.jar",
+          "size": 17463,
+          "sha512": "bb3a3993bfaa48011c2d827153ee6aae326cf05d78463575db2b23bb4a1a7ebc39398d491c3419e5ab885bc296b5143445d65e6b401b06f887bfb7bb07946d4a",
+          "sha256": "352121accf74b1ebeb34dc8f64c47432bd58599aec2da3583910e2d2d610ef88",
+          "sha1": "afe3c7b840c6185cf4647bc72c46a6a6974bcf89",
+          "md5": "b005d5f34aec98f5aac50d1c0877c39c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-iosarm64-2.1.3-metadata.jar",
+          "url": "DLDateUtil-iosarm64-2.1.3-metadata.jar",
+          "size": 261,
+          "sha512": "12c7bbfc5086b911e4426b9d3548e20f605b10aaf78b8c5ec199ed8787e8f2cb1661ef38733b42fe6016101d3a0f9da407adcc79e23ebaeff6a074795f7b963f",
+          "sha256": "9eb27f53b020eedf32500b10e8a71002d0bba59e414eaec9d51b9f78f1c0f89d",
+          "sha1": "a5d463e91c59725d2e262eae91327b370f7168b8",
+          "md5": "a1c95e8140ef71999173b22bc3d2b0d9"
+        }
+      ]
+    }
+  ]
+}
