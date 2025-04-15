@@ -135,10 +135,10 @@
           "name": "DLDatastoreUtil-iosx64-0.1.0-metadata.jar",
           "url": "DLDatastoreUtil-iosx64-0.1.0-metadata.jar",
           "size": 2577,
-          "sha512": "e867bed0c21b7b36e2d82133da396c2145ba59b43a751953caf9228a18458318eed8ef28809268430e7b31a1740c5d023b9a9e9dde5b6d9e6158babe173ee0ee",
-          "sha256": "168c08ac8677b4d58faf90f2db87cc5778a9cfafa7a1056edfc02e27a1a2548d",
-          "sha1": "21219c1f10913d5871453271b52da425c2034b68",
-          "md5": "cc1b120d401fe9a49e382a123f02138a"
+          "sha512": "a7e56501f970fd43e14be12b5161a98fbf8df06669f85069ed5eca5717c60ff8f00c239744d11b87dfd7d9d39905b8d11dd08143f4fa40d8b971496b84752dcd",
+          "sha256": "04138dcaadb22e185337f2b9c1a7950ecd5ada40a07544e668ab1664bae1f43a",
+          "sha1": "1f199e793fd3b07db78bf005fb154c12d5fe567d",
+          "md5": "5022a25727c6867db77477ca160b0e9c"
         }
       ]
     }

@@ -135,10 +135,10 @@
           "name": "DLDatastoreUtil-iosarm64-0.1.0-metadata.jar",
           "url": "DLDatastoreUtil-iosarm64-0.1.0-metadata.jar",
           "size": 2577,
-          "sha512": "6e041ec760b81d5f760a5649e1fe79a9f5e7fb66b01c5c060cd969d947baa09d21ed2c2d236fe9f82d72cf979783f17cb183225db16c25cb827ed75829ac93bb",
-          "sha256": "84c7f47da96dfff2c16d2d2363e0db4a6946a27a350af22367b1b15f0593110f",
-          "sha1": "5d2dd25eb252862cc364c4b9fb7c125729c54be3",
-          "md5": "9e5a563bc963314ebeec312f3d50aa45"
+          "sha512": "a7e56501f970fd43e14be12b5161a98fbf8df06669f85069ed5eca5717c60ff8f00c239744d11b87dfd7d9d39905b8d11dd08143f4fa40d8b971496b84752dcd",
+          "sha256": "04138dcaadb22e185337f2b9c1a7950ecd5ada40a07544e668ab1664bae1f43a",
+          "sha1": "1f199e793fd3b07db78bf005fb154c12d5fe567d",
+          "md5": "5022a25727c6867db77477ca160b0e9c"
         }
       ]
     }
