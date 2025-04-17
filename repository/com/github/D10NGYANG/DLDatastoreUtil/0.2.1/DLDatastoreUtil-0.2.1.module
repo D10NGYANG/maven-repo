@@ -1,0 +1,294 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLDatastoreUtil",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-metadata-0.2.1.jar",
+          "url": "DLDatastoreUtil-0.2.1.jar",
+          "size": 3919,
+          "sha512": "cb7f9491dd469ad0546d60e1ab4281fe1214b73796a7a47a43014063186955c1a6009306066bf47acd31484c18f2ace2682b1d61d7198b6127096cc5903488ad",
+          "sha256": "1b89dd664d13126d4a30ff55a9d7f9a91fbb62ded66ab78dfc471a4cf766ab46",
+          "sha1": "6f57288df39af580fc7e31c16de860fbe25f3c0d",
+          "md5": "5bf1b0d9ca5e22376d05ff64ce0c385d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLDatastoreUtil-kotlin-0.2.1-sources.jar",
+          "url": "DLDatastoreUtil-0.2.1-sources.jar",
+          "size": 3667,
+          "sha512": "70bb881054bfcf872a9a2c9226fc354e40a15dc751e9b0a2fcdeb3efc57b8cb8ca898c93f31a8db2ae61559aa6be0d5a458e5c5d5461f18ded5eb43690146dc2",
+          "sha256": "55b53a2043de2b7907dfe00e948e0959c1d97bfd15647c03292d756ef7ca20ec",
+          "sha1": "9c0fc70b11ee327b2ba630c1f9b629265cab6031",
+          "md5": "0f6b5a33e9c503e050b6dbcca2060b1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-android/0.2.1/DLDatastoreUtil-android-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-android/0.2.1/DLDatastoreUtil-android-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-android/0.2.1/DLDatastoreUtil-android-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-android",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iosarm64/0.2.1/DLDatastoreUtil-iosarm64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iosarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iosarm64/0.2.1/DLDatastoreUtil-iosarm64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iosarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iosarm64/0.2.1/DLDatastoreUtil-iosarm64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iosarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iossimulatorarm64/0.2.1/DLDatastoreUtil-iossimulatorarm64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iossimulatorarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iossimulatorarm64/0.2.1/DLDatastoreUtil-iossimulatorarm64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iossimulatorarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iossimulatorarm64/0.2.1/DLDatastoreUtil-iossimulatorarm64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iossimulatorarm64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iosx64/0.2.1/DLDatastoreUtil-iosx64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iosx64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iosx64/0.2.1/DLDatastoreUtil-iosx64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iosx64",
+        "version": "0.2.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLDatastoreUtil-iosx64/0.2.1/DLDatastoreUtil-iosx64-0.2.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLDatastoreUtil-iosx64",
+        "version": "0.2.1"
+      }
+    }
+  ]
+}
