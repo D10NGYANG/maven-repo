@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.3.0-alpha01/DLDateUtil-2.3.0-alpha01.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-jvm-2.3.0-alpha01.jar",
+          "url": "DLDateUtil-jvm-2.3.0-alpha01.jar",
+          "size": 48156,
+          "sha512": "0ad2eb15528ff87de3b25f8630a1d96e775624146a2233e376afef1c76d94f5c26cda2d979b317c3381d2d2742463dd3b3e913b442c204b5949706df14c299a6",
+          "sha256": "8f505da62964e190a0d00289797f18d7e8aefaf9345c9a17049e5ef44faea17c",
+          "sha1": "a02ef2254fbecb27f0a353454afce5ccc001956b",
+          "md5": "8de62279eb845ac55c626d4fdb3d4384"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-jvm-2.3.0-alpha01.jar",
+          "url": "DLDateUtil-jvm-2.3.0-alpha01.jar",
+          "size": 48156,
+          "sha512": "0ad2eb15528ff87de3b25f8630a1d96e775624146a2233e376afef1c76d94f5c26cda2d979b317c3381d2d2742463dd3b3e913b442c204b5949706df14c299a6",
+          "sha256": "8f505da62964e190a0d00289797f18d7e8aefaf9345c9a17049e5ef44faea17c",
+          "sha1": "a02ef2254fbecb27f0a353454afce5ccc001956b",
+          "md5": "8de62279eb845ac55c626d4fdb3d4384"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-jvm-2.3.0-alpha01-sources.jar",
+          "url": "DLDateUtil-jvm-2.3.0-alpha01-sources.jar",
+          "size": 20711,
+          "sha512": "1a7e2c8a7d2d19933ecf19c7c3b0f11c25e7608b4dedd5b086e4f5d789dd4aa4d9f9dd62c04193cda628ad50f2c9054fa2f3ce25a32231edb209722cc1f45861",
+          "sha256": "3226355c59e086e941ccde3df5dc183c94fee93de7e471d1f0dc38165205d03e",
+          "sha1": "6b6911ce395d0504143be31a704f369eb86dd172",
+          "md5": "3373755ef4b3167533a70abb517304c3"
+        }
+      ]
+    }
+  ]
+}

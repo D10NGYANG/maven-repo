@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.3.0-alpha01/DLDateUtil-2.3.0-alpha01.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.3.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-linuxX64Main-2.3.0-alpha01.klib",
+          "url": "DLDateUtil-linuxx64-2.3.0-alpha01.klib",
+          "size": 92666,
+          "sha512": "7b029d63179ac5f75e267c7aad55588458576c85af055dbbd282ac4cb7dd367501da69c27e8364aeb5a596be090ae6eb223a0219a4abe9b68eb5746a3bd8e2a3",
+          "sha256": "80da1fd907a958c1c0d44e050ffdc7eeea2ad2ff9e6669f389f7d0c92edd4c43",
+          "sha1": "6995a6271741615eb46a82709d389cbc1fcb895d",
+          "md5": "a9dfff55bb525aecf48b7d720ceb921f"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-linuxx64-2.3.0-alpha01-sources.jar",
+          "url": "DLDateUtil-linuxx64-2.3.0-alpha01-sources.jar",
+          "size": 20711,
+          "sha512": "1a7e2c8a7d2d19933ecf19c7c3b0f11c25e7608b4dedd5b086e4f5d789dd4aa4d9f9dd62c04193cda628ad50f2c9054fa2f3ce25a32231edb209722cc1f45861",
+          "sha256": "3226355c59e086e941ccde3df5dc183c94fee93de7e471d1f0dc38165205d03e",
+          "sha1": "6b6911ce395d0504143be31a704f369eb86dd172",
+          "md5": "3373755ef4b3167533a70abb517304c3"
+        }
+      ]
+    }
+  ]
+}
