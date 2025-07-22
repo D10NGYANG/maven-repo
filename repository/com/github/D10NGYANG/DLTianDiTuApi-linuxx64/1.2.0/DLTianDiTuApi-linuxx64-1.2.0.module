@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLTianDiTuApi/1.2.0/DLTianDiTuApi-1.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLTianDiTuApi",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLTianDiTuApi-linuxX64Main-1.2.0.klib",
+          "url": "DLTianDiTuApi-linuxx64-1.2.0.klib",
+          "size": 112383,
+          "sha512": "5f0ff02a4f0575ad129d535ec0c4c8168f42e1262cde3312012a64337cdf5737d51b7ed0298c93669c85b7e28036948672e3a608bd559c949feea8c5740f1a97",
+          "sha256": "2d4ecaa48b63221c5151624791bf5390b9a63995d45049ac65d433f0e50da4e8",
+          "sha1": "6515710404c5b01c41d5c18a90b2be993f9a86aa",
+          "md5": "b3dd53d9f30b2ca16c2a792404ba0ae6"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLTianDiTuApi-linuxx64-1.2.0-sources.jar",
+          "url": "DLTianDiTuApi-linuxx64-1.2.0-sources.jar",
+          "size": 6741,
+          "sha512": "e995fd07814e5a74a95204d799c654f7da718945c0da9e007b32c722f6f66af2530e821b6ae755d000b3f768b7ed5f5ba48599211dc0e8bed8834ec08ff7e6b0",
+          "sha256": "0414baa275caeb80f95cda9aeef4ed8055384c749dae672dafeea476dc9d8b9c",
+          "sha1": "0828114131dafc5114da91d86d312e29b9883d3e",
+          "md5": "13050d4174ed636150e82130e94bd601"
+        }
+      ]
+    }
+  ]
+}
