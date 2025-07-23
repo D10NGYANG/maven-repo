@@ -3,13 +3,14 @@
   <groupId>com.github.D10NGYANG</groupId>
   <artifactId>DLJetpackComposeUtil-iosx64</artifactId>
   <versioning>
-    <latest>3.1.0</latest>
-    <release>3.1.0</release>
+    <latest>3.1.1</latest>
+    <release>3.1.1</release>
     <versions>
       <version>3.0.0</version>
       <version>3.0.1</version>
       <version>3.1.0</version>
+      <version>3.1.1</version>
     </versions>
-    <lastUpdated>20250722085345</lastUpdated>
+    <lastUpdated>20250723070323</lastUpdated>
   </versioning>
 </metadata>
