@@ -3,8 +3,8 @@
   <groupId>com.github.D10NGYANG</groupId>
   <artifactId>DLJetpackComposeUtil-wasm-js</artifactId>
   <versioning>
-    <latest>3.1.3</latest>
-    <release>3.1.3</release>
+    <latest>3.1.4</latest>
+    <release>3.1.4</release>
     <versions>
       <version>3.0.0</version>
       <version>3.0.1</version>
@@ -12,7 +12,8 @@
       <version>3.1.1</version>
       <version>3.1.2</version>
       <version>3.1.3</version>
+      <version>3.1.4</version>
     </versions>
-    <lastUpdated>20250723095151</lastUpdated>
+    <lastUpdated>20250801025548</lastUpdated>
   </versioning>
 </metadata>
