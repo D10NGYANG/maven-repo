@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.5/DLPcmResampleUtil-0.2.5.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosArm64Main-0.2.5.klib",
+          "url": "DLPcmResampleUtil-macosarm64-0.2.5.klib",
+          "size": 222613,
+          "sha512": "fdd42eeed072ee03119e7d042c1f8b5f9cea229be8de9f5970c86a74d7ff9bbcefb63776d538c06cc00c6b72d226639dcffd193bed436fd8883396ec2502f755",
+          "sha256": "a1445c3fbf98f3fdbd67933d661ee7c031e11413822be70baa0c48d3e5d5b3f0",
+          "sha1": "ce9f955f87187f3e0aaf86f631aa7f31d2612e40",
+          "md5": "a5d6746e988aa0b0c3f0d90e33b8bb48"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosarm64-0.2.5-sources.jar",
+          "url": "DLPcmResampleUtil-macosarm64-0.2.5-sources.jar",
+          "size": 29527,
+          "sha512": "1a194d4e2857f7193e66f10520343b3936df7d348c00f3bda215e19056c48944d24e2e5f729ca375935618e6184615c890426f7d23562f343c79ee8acc1c407c",
+          "sha256": "a5c1d6a53b898b6678bd2f030f75dd7fce53899ecf8781f4487223aaca919e51",
+          "sha1": "3f9636b6b03ac896e64cca4922a78ef7598e1877",
+          "md5": "32d19eca613b0166d22c4fd22eb7f266"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosarm64-0.2.5-metadata.jar",
+          "url": "DLPcmResampleUtil-macosarm64-0.2.5-metadata.jar",
+          "size": 261,
+          "sha512": "a220891e6927e37e1940a753605f082edc0d3884bd78c11174f64f5d91876c1cab9933c46769f0f64d510d714ff551c2f87ccafef3abf1a259d6705ae50d2ee3",
+          "sha256": "389dd0976e09844a8e318c8fca7e7340549d9b20682f8fd56e617f9305b56e24",
+          "sha1": "c1c09066ba2e5c71dd0bfcac3191d178411e91a6",
+          "md5": "779d98f6c423f07431bb39be575360ce"
+        }
+      ]
+    }
+  ]
+}

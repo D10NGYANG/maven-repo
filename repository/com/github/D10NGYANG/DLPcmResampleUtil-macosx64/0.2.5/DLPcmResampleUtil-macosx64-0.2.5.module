@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.5/DLPcmResampleUtil-0.2.5.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosX64Main-0.2.5.klib",
+          "url": "DLPcmResampleUtil-macosx64-0.2.5.klib",
+          "size": 222601,
+          "sha512": "7d16b789e9584adf7b242c651695d1697fce4ed6c3143d6ff9934ad442b7ff15229f47c4bcba607d1f9dd7c5ed9e1102a50ad2ac1e965841ce0a84c74239f5d9",
+          "sha256": "a031476868449f9a50009bbce39e0af024d8604e0303c46cdf3f3f3bb1c22329",
+          "sha1": "5ef70af868c831dda5cd1875dcc64622677aa211",
+          "md5": "69775d61d25cc46546d94805c1f90cd3"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosx64-0.2.5-sources.jar",
+          "url": "DLPcmResampleUtil-macosx64-0.2.5-sources.jar",
+          "size": 29527,
+          "sha512": "1a194d4e2857f7193e66f10520343b3936df7d348c00f3bda215e19056c48944d24e2e5f729ca375935618e6184615c890426f7d23562f343c79ee8acc1c407c",
+          "sha256": "a5c1d6a53b898b6678bd2f030f75dd7fce53899ecf8781f4487223aaca919e51",
+          "sha1": "3f9636b6b03ac896e64cca4922a78ef7598e1877",
+          "md5": "32d19eca613b0166d22c4fd22eb7f266"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-macosx64-0.2.5-metadata.jar",
+          "url": "DLPcmResampleUtil-macosx64-0.2.5-metadata.jar",
+          "size": 261,
+          "sha512": "c365b29c5bb6c41c795b43d141b41117922eca73c03409797824c0db77b6b45a44ef129333db0e89578fee584259724c7ff9654da4d81eab494ad7ba62904af8",
+          "sha256": "e15752562cbc8bdf5f571bef14eb5cee9d24a037ebbd2ae9d11e99b96bca185b",
+          "sha1": "774bddc95c90ceb9255cf0c12cc2e5794a8f974a",
+          "md5": "a05d379c26425b355ba26c98898ea713"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLPcmResampleUtil/0.2.5/DLPcmResampleUtil-0.2.5.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLPcmResampleUtil",
+    "version": "0.2.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "0.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-linuxX64Main-0.2.5.klib",
+          "url": "DLPcmResampleUtil-linuxx64-0.2.5.klib",
+          "size": 222601,
+          "sha512": "35edeba7365b9b5db7988fb517de549c78e703f8903fa3948525b7c59740d234a3f1123b86a46067d766459cd23856998bdb42f40889194f0c12e6856862e974",
+          "sha256": "731fe3cea7a331eef7d9fce63fc83f1efaa8b8ca5bf7ff994be0bbfc585baf2d",
+          "sha1": "f07419dda91b852dd82bb2d42f0f651d35b742a8",
+          "md5": "5f353f86b16d6bd0d6f3888685ba5fba"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLPcmResampleUtil-linuxx64-0.2.5-sources.jar",
+          "url": "DLPcmResampleUtil-linuxx64-0.2.5-sources.jar",
+          "size": 29527,
+          "sha512": "1a194d4e2857f7193e66f10520343b3936df7d348c00f3bda215e19056c48944d24e2e5f729ca375935618e6184615c890426f7d23562f343c79ee8acc1c407c",
+          "sha256": "a5c1d6a53b898b6678bd2f030f75dd7fce53899ecf8781f4487223aaca919e51",
+          "sha1": "3f9636b6b03ac896e64cca4922a78ef7598e1877",
+          "md5": "32d19eca613b0166d22c4fd22eb7f266"
+        }
+      ]
+    }
+  ]
+}
