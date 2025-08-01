@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.2.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-metadata-0.2.8.jar",
+          "url": "DLVoiceUtil-0.2.8.jar",
+          "size": 4142,
+          "sha512": "504e9fc2a5d15560b9d45ed2e2e723b72772908cd3bb033afd8a45aeb8f82a6c00d219d0e236aa7bf7c0360c32f3cf0d2ad4d0fd4b9edb228d2db60d6c074d46",
+          "sha256": "49ffa6b19bc74943b30c5a48ddeac04f088f76b820154ce7aa58363d63bb6e99",
+          "sha1": "b1fe5c5987db24357777b332ff00e24a4e4b9da8",
+          "md5": "ffa4076797a9c03a3b2f4bb5101dbf3e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLVoiceUtil-kotlin-0.2.8-sources.jar",
+          "url": "DLVoiceUtil-0.2.8-sources.jar",
+          "size": 4312,
+          "sha512": "c78fd808594da040647574574c55938d1d2546ecee2d2802dd3e98de543ee2c12798213651c6fb9e2ceb6027ceccae075b17a510d2495d474d2e972b5f320b75",
+          "sha256": "a52c7180d69096798371715bb3ef1a74ca5cc86d044fd7d19af6f2a26364322c",
+          "sha1": "aa5d33ae3bf13e2fc8d3af867c67c34b38566d58",
+          "md5": "3337726ed38a873f2f4a3b9bbe542b09"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-android/0.2.8/DLVoiceUtil-android-0.2.8.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-android",
+        "version": "0.2.8"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-android/0.2.8/DLVoiceUtil-android-0.2.8.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-android",
+        "version": "0.2.8"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-android/0.2.8/DLVoiceUtil-android-0.2.8.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-android",
+        "version": "0.2.8"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iosarm64/0.2.8/DLVoiceUtil-iosarm64-0.2.8.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iosarm64",
+        "version": "0.2.8"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iosarm64/0.2.8/DLVoiceUtil-iosarm64-0.2.8.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iosarm64",
+        "version": "0.2.8"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iosarm64/0.2.8/DLVoiceUtil-iosarm64-0.2.8.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iosarm64",
+        "version": "0.2.8"
+      }
+    }
+  ]
+}
