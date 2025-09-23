@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.1.0/DLSerialPortUtil-0.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosX64Main-0.1.0.klib",
+          "url": "DLSerialPortUtil-macosx64-0.1.0.klib",
+          "size": 33351,
+          "sha512": "673bb1c6c0bee0efaa00af2c853d2bec17e37fd0282ac144e01f3401a92a8ba0f89226845155a2c481d7496449bd020d0beb6c9b4640bd9bb7f2f33aa955cbc1",
+          "sha256": "cd1d7ddd35a4fe49da90fdc5cf66f06b879a5db165be6b5c4295a26c03b3aa8c",
+          "sha1": "c7d7a264e4a68956604c611a499bfea236a7e4c1",
+          "md5": "24822c343c9d401c8899f0a3141c1b08"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosx64-0.1.0-sources.jar",
+          "url": "DLSerialPortUtil-macosx64-0.1.0-sources.jar",
+          "size": 8106,
+          "sha512": "b513a846979a7e6495805320e19b25aa43d716b708a0ba9b63dcda5e334ada6707c139ff7c175fa997b17c972ffa109d3ed152349ac25aeec41cb4a81b592cc9",
+          "sha256": "735309436d6456729c5bb4fb5e219d23bb2e4758ad3b1fcdb1758a11d68e72be",
+          "sha1": "800b51731e20d122e5ee994ed7a6cb905bb29401",
+          "md5": "5e8c28a81f4174967d4a3210ae5d37ff"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosx64-0.1.0-metadata.jar",
+          "url": "DLSerialPortUtil-macosx64-0.1.0-metadata.jar",
+          "size": 3933,
+          "sha512": "89383fccf2a3070055635cdcf4a2ac9460df5a842f5d850b3315f192318e11d45bcc781a0f694a3ff7bec9083c98cdde553fde1799fa8e2528096effd16e21db",
+          "sha256": "bcde7dd951972cc3efbe290e524383e0a766d825952759ab0a935097dbfda84d",
+          "sha1": "53657f7688666f63a41c1c47fe1ffa1c0291941f",
+          "md5": "8e4021f3b4b59bdf80e7050506df5dcd"
+        }
+      ]
+    }
+  ]
+}

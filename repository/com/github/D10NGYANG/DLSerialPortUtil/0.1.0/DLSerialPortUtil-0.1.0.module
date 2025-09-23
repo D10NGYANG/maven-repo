@@ -1,0 +1,398 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-metadata-0.1.0.jar",
+          "url": "DLSerialPortUtil-0.1.0.jar",
+          "size": 9962,
+          "sha512": "8b2b6016ac3db355011a188878f6c3b888d50197386d3fde966498d2d3d3fad24ae15ef476a3f2598add8868b0974185d3a78cc3306d36477f7a434fc8725675",
+          "sha256": "a263640df69305deb997de774aca5e351aa124e35fcaabfa769e6d7e3b8c9d91",
+          "sha1": "e8cd1e803511429a2d950ec028b333e1cb2ba7cf",
+          "md5": "a0a96e93f846a9d6bde9f913ca1172e2"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-kotlin-0.1.0-sources.jar",
+          "url": "DLSerialPortUtil-0.1.0-sources.jar",
+          "size": 12145,
+          "sha512": "676879a09728f33389c3f94c550912d3e282ff8efe08e0b2f1a934ba322215698f503c6f614099ed2b41bf351bb25d42167451acd63d8f52e6625690e940087a",
+          "sha256": "e609eab766a7f7dd807dc4a1ead22ccd590f4444f7a53dad540c11af3968acc5",
+          "sha1": "b0a635075a85e62905d10b0dbbf157b0cd48b65a",
+          "md5": "59570818b9fdfeeba9fc27130f52a4fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-android/0.1.0/DLSerialPortUtil-android-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-android",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-android/0.1.0/DLSerialPortUtil-android-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-android",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-android/0.1.0/DLSerialPortUtil-android-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-android",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-js/0.1.0/DLSerialPortUtil-js-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-js",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-js/0.1.0/DLSerialPortUtil-js-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-js",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-js/0.1.0/DLSerialPortUtil-js-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-js",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-jvm/0.1.0/DLSerialPortUtil-jvm-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-jvm",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-jvm/0.1.0/DLSerialPortUtil-jvm-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-jvm",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-jvm/0.1.0/DLSerialPortUtil-jvm-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-jvm",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-linuxarm64/0.1.0/DLSerialPortUtil-linuxarm64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-linuxarm64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-linuxarm64/0.1.0/DLSerialPortUtil-linuxarm64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-linuxarm64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-linuxx64/0.1.0/DLSerialPortUtil-linuxx64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-linuxx64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-linuxx64/0.1.0/DLSerialPortUtil-linuxx64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-linuxx64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-macosarm64/0.1.0/DLSerialPortUtil-macosarm64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-macosarm64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-macosarm64/0.1.0/DLSerialPortUtil-macosarm64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-macosarm64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-macosarm64/0.1.0/DLSerialPortUtil-macosarm64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-macosarm64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-macosx64/0.1.0/DLSerialPortUtil-macosx64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-macosx64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-macosx64/0.1.0/DLSerialPortUtil-macosx64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-macosx64",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLSerialPortUtil-macosx64/0.1.0/DLSerialPortUtil-macosx64-0.1.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLSerialPortUtil-macosx64",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}
