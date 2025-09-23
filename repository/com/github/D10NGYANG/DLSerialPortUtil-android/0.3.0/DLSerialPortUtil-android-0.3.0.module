@@ -1,0 +1,254 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.3.0/DLSerialPortUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.licheedev",
+          "module": "android-serialport",
+          "version": {
+            "requires": "2.1.5"
+          }
+        },
+        {
+          "group": "com.github.mik3y",
+          "module": "usb-serial-for-android",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-release.aar",
+          "url": "DLSerialPortUtil-android-0.3.0.aar",
+          "size": 60135,
+          "sha512": "bf7f6a2967c0b9423c303e88bc7128e7eadd325b9c04f9a921161bb0dcd5051e045afe113d9b1dd4d8d1df0749a04baa4ed623ef6c861367d70350ea08d53d09",
+          "sha256": "ed2aba6ab5a14760aee9782c4a33c874e885cb5b6d015f398f522ccf8aa70b46",
+          "sha1": "df9bdd517134d1e1be4375baa1d216b5dbb97a8e",
+          "md5": "dd1d56ce325f316cbc086650bea4b7c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.licheedev",
+          "module": "android-serialport",
+          "version": {
+            "requires": "2.1.5"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.github.mik3y",
+          "module": "usb-serial-for-android",
+          "version": {
+            "requires": "3.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-release.aar",
+          "url": "DLSerialPortUtil-android-0.3.0.aar",
+          "size": 60135,
+          "sha512": "bf7f6a2967c0b9423c303e88bc7128e7eadd325b9c04f9a921161bb0dcd5051e045afe113d9b1dd4d8d1df0749a04baa4ed623ef6c861367d70350ea08d53d09",
+          "sha256": "ed2aba6ab5a14760aee9782c4a33c874e885cb5b6d015f398f522ccf8aa70b46",
+          "sha1": "df9bdd517134d1e1be4375baa1d216b5dbb97a8e",
+          "md5": "dd1d56ce325f316cbc086650bea4b7c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-android-0.3.0-sources.jar",
+          "url": "DLSerialPortUtil-android-0.3.0-sources.jar",
+          "size": 10737,
+          "sha512": "70e6081230cc27dba8edd93d7d8ebf4db93576c771fc351e73da30d41b66afd6742e77bdc9d56c7fa5ab67f591c1aeba6a9aadf25b580e50cfb78e8e1e89d24e",
+          "sha256": "dfd2d657116baf18075724b24ef983b4c39b0d0a3601f4cbf7d2dd9e83fa8e29",
+          "sha1": "cbe5716647c4f3353e8c1133d9ddc493bdfebf2a",
+          "md5": "0a4b21e6b0c6333688c5d49c09ccb9e2"
+        }
+      ]
+    }
+  ]
+}
