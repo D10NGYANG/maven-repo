@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.2.0/DLSerialPortUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.fazecast",
+          "module": "jSerialComm",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-jvm-0.2.0.jar",
+          "url": "DLSerialPortUtil-jvm-0.2.0.jar",
+          "size": 31016,
+          "sha512": "4854d977f2085d3ee14edf84ebde7310180b5f0e02ea7faffef8b5c88a105dd8be94f8c3cfd8ba44c33c822642ca06dc01719509e1b4ba040152ac6e99e08dd8",
+          "sha256": "b0ce3c60c7b25cf462fbecebfbf11ef09f90d7a642b3847d3b13729f5837b785",
+          "sha1": "fe384e091d99a43393ab1a88a6c72157fa1448c6",
+          "md5": "5313c87dc9ab687d35a8c67d9c9ca87b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.fazecast",
+          "module": "jSerialComm",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-jvm-0.2.0.jar",
+          "url": "DLSerialPortUtil-jvm-0.2.0.jar",
+          "size": 31016,
+          "sha512": "4854d977f2085d3ee14edf84ebde7310180b5f0e02ea7faffef8b5c88a105dd8be94f8c3cfd8ba44c33c822642ca06dc01719509e1b4ba040152ac6e99e08dd8",
+          "sha256": "b0ce3c60c7b25cf462fbecebfbf11ef09f90d7a642b3847d3b13729f5837b785",
+          "sha1": "fe384e091d99a43393ab1a88a6c72157fa1448c6",
+          "md5": "5313c87dc9ab687d35a8c67d9c9ca87b"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-jvm-0.2.0-sources.jar",
+          "url": "DLSerialPortUtil-jvm-0.2.0-sources.jar",
+          "size": 6930,
+          "sha512": "bbce06f6fbc49ab735b80bf6840d67afdaebdc14439377bbd482930329641a76a2515ccd3b61d4294107cd7fd3e4a82420dedc3b44145ea2506413f78bc59939",
+          "sha256": "c8e0bc4075f427ec508333016d217f02d8a4d8e0ff37e9ceec7513de8f7ef972",
+          "sha1": "1e580c1945094df9bc3fb9a501943c63f3094945",
+          "md5": "40857d679c9f82e3b8ac3ef66ef89ecb"
+        }
+      ]
+    }
+  ]
+}
