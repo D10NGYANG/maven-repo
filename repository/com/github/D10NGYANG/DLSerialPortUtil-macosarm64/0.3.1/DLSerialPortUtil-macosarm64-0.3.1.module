@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.3.1/DLSerialPortUtil-0.3.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosArm64Main-0.3.1.klib",
+          "url": "DLSerialPortUtil-macosarm64-0.3.1.klib",
+          "size": 34268,
+          "sha512": "bea7fc9dd341617bf60104563f686210ebed2bc30d8844ebcbd972d04653db89fa63cf30f49dcb5bf675f6a4710b0ec42a87a9322aeb08b9c89bc559b0e761c2",
+          "sha256": "9667a9d2a7c5f08175ad99addc05de5e7c91e5710577286cdd0d5f7d5ff7c742",
+          "sha1": "3214099664f10079d9cc8f2185ab5d03f0ef9e3d",
+          "md5": "38a99dd412acc1c3d8446df38aa679c4"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosarm64-0.3.1-sources.jar",
+          "url": "DLSerialPortUtil-macosarm64-0.3.1-sources.jar",
+          "size": 8583,
+          "sha512": "ffd9e3c57d8f1cc0042f46388479ae6696be4ccca3a14b7717fb3c2a4d336aca5ca392843ee50b2b2aa30b55d62c3585bc27d5fb392b61e3b9004293b26b5a2d",
+          "sha256": "2a7691514d97931e0f0e98c89cab960352742ddef1c2c665304f4eeb3cc48171",
+          "sha1": "b4664efaaf673b5c4546f96974bfc4d48c4eed86",
+          "md5": "ee2a5714e6389926037396e9ab6dfea0"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosarm64-0.3.1-metadata.jar",
+          "url": "DLSerialPortUtil-macosarm64-0.3.1-metadata.jar",
+          "size": 4349,
+          "sha512": "1ffbfe224fa8bd8e2dbafa926717dfa2524c848641e6db238d24de1fa357dde4fae2228afd1de103799259d9b56a5bdf226ee1e1a5b1be45292dd8c91b35925f",
+          "sha256": "cf622722bc4dc2660fe80a10ccd078c8cf0a46292861e71a81548a6d6afe7f48",
+          "sha1": "197317e1e0746945d8b1302d23351d1f6791c9d2",
+          "md5": "66ea89718a896140be2e8d3a56e686f7"
+        }
+      ]
+    }
+  ]
+}

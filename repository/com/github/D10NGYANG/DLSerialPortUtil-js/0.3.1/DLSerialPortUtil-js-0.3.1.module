@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.3.1/DLSerialPortUtil-0.3.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.3.1.klib",
+          "url": "DLSerialPortUtil-js-0.3.1.klib",
+          "size": 29622,
+          "sha512": "7b09ff77ae8aaa0d5c21634f3147a43f82df2f1609741b98a02459bf704c9baaf57c645f1f5ff7fa61fbd2101a20202a91d700c63e019b175e75f313b4bab3db",
+          "sha256": "bc178939fce214a27850b5cd4e46aacf094ad91c179c8db9ff4050b247c00c2a",
+          "sha1": "93d7f7efdc94221ad8fdd8b63b4bcfd9f5245689",
+          "md5": "20c6cf2deeea153d7fd198fcbd87ceaa"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.3.1.klib",
+          "url": "DLSerialPortUtil-js-0.3.1.klib",
+          "size": 29622,
+          "sha512": "7b09ff77ae8aaa0d5c21634f3147a43f82df2f1609741b98a02459bf704c9baaf57c645f1f5ff7fa61fbd2101a20202a91d700c63e019b175e75f313b4bab3db",
+          "sha256": "bc178939fce214a27850b5cd4e46aacf094ad91c179c8db9ff4050b247c00c2a",
+          "sha1": "93d7f7efdc94221ad8fdd8b63b4bcfd9f5245689",
+          "md5": "20c6cf2deeea153d7fd198fcbd87ceaa"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.3.1-sources.jar",
+          "url": "DLSerialPortUtil-js-0.3.1-sources.jar",
+          "size": 7386,
+          "sha512": "561b97b373e56c7585e13c6e317b3221c6582f1351ebd1d58fd0def00c7668cacede1adf19dd9148656dbb969350e98799bb52703a43ac6a7adf9e5be336fc4d",
+          "sha256": "a1aaa7527fdb24f999a0ea869306796f75c903f97375de045e9eb5abf67d841b",
+          "sha1": "72af3ffe013a3b420a88d8af1899857b4ec4ac8f",
+          "md5": "877e5642b43e5056d8ce04d8501768ef"
+        }
+      ]
+    }
+  ]
+}
