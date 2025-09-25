@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.1.0/DLLogUtil-0.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-macosArm64Main-0.1.0.klib",
+          "url": "DLLogUtil-macosarm64-0.1.0.klib",
+          "size": 19178,
+          "sha512": "4f1abefe73c108d838512687f550f9d94a7b9c95bf5cf55948eb7eaa75294753daadaf1eb4c3743db76e763ff192ff9ed2d88a323e7885c9b9ce4a8a3f4d7d70",
+          "sha256": "519a6e643548d6a6b2971793596684ecbda3652f67bb5c55cf9b2d3a63c16af8",
+          "sha1": "07e70b2be8cc20881040f6f2c214139a779b0fd3",
+          "md5": "da27b3d09593e42de2abf1e63e3a25ef"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-macosarm64-0.1.0-sources.jar",
+          "url": "DLLogUtil-macosarm64-0.1.0-sources.jar",
+          "size": 4698,
+          "sha512": "0ccf945092107689014e5930145842e013db0f2020012f1dfcfde3893e1881b92763363359ae76b395173e16a5eba3e53732bd2c7c3f576d81a859b0ebfb4644",
+          "sha256": "d39b5f03d6651380a6de96f18c21ec6a72cf57d43651e9fc9548881bfa4ae6ae",
+          "sha1": "2f67183c15aee7b5e9e19c9d560236f8e3ea767c",
+          "md5": "cb3b7c68d2ebfce3bece76696796cade"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-macosarm64-0.1.0-metadata.jar",
+          "url": "DLLogUtil-macosarm64-0.1.0-metadata.jar",
+          "size": 2680,
+          "sha512": "e78e116afc7cdb772a7f89c2466838345772a63426852f383d3fe0e285d1cb9ccf400ec5ef400b7b62c902bff73b3ed98863917baffcf1875a4fa27d821f8f01",
+          "sha256": "39af836ba1ace7d42717cae26533a4f517eb081634ff235fe1dca39e63fdb683",
+          "sha1": "8a5966d3f94d08ed096c6aeaf58f57fae7de133c",
+          "md5": "846f9a5256bd1000510d8a060940ba6d"
+        }
+      ]
+    }
+  ]
+}
