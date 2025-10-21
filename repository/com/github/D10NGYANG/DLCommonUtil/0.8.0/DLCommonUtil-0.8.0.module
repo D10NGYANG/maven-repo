@@ -27,7 +27,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.2.20"
           }
         },
         {
@@ -43,24 +43,17 @@
           "version": {
             "requires": "1.10.2"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-datetime",
-          "version": {
-            "requires": "0.7.1"
-          }
         }
       ],
       "files": [
         {
           "name": "DLCommonUtil-metadata-0.8.0.jar",
           "url": "DLCommonUtil-0.8.0.jar",
-          "size": 21900,
-          "sha512": "4e15d14b76636046bce8ed684dcfd8f41d9398d6f3cea7df7c60736c9fa23de22c8a3f42d5535c082d5c7b2d8c850cd4f10ca3f31968e2739f140e537aaa7579",
-          "sha256": "d3532eea4250851036fb5296a6fc9d735fdecb60734d1de4bde8ae4f8b5d14a1",
-          "sha1": "057c421de8d0fbd8a6d5cfdaa59bd416dd01c6da",
-          "md5": "500d0c6890d8fc033bb7850295cdb8fc"
+          "size": 22023,
+          "sha512": "52aa978d9b6a8b86ac6f00adab8f180eba848d2f431994c688dcbdb61a94280f153d06115cffbc0862b1cbdfa65824d098694c504a93c605ea3a6f083da6e22f",
+          "sha256": "01ea417026f2a7906fa5aaa3302d9625beab4c86085844874f30cab3ca68ac7a",
+          "sha1": "79d25b0007234b913b452546d4a754134819cfcf",
+          "md5": "baa4ceb13d16c6c443a724197c510029"
         }
       ]
     },
@@ -561,56 +554,6 @@
         "url": "../../DLCommonUtil-macosx64/0.8.0/DLCommonUtil-macosx64-0.8.0.module",
         "group": "com.github.D10NGYANG",
         "module": "DLCommonUtil-macosx64",
-        "version": "0.8.0"
-      }
-    },
-    {
-      "name": "wasmJsApiElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-api",
-        "org.jetbrains.kotlin.platform.type": "wasm",
-        "org.jetbrains.kotlin.wasm.target": "js"
-      },
-      "available-at": {
-        "url": "../../DLCommonUtil-wasm-js/0.8.0/DLCommonUtil-wasm-js-0.8.0.module",
-        "group": "com.github.D10NGYANG",
-        "module": "DLCommonUtil-wasm-js",
-        "version": "0.8.0"
-      }
-    },
-    {
-      "name": "wasmJsRuntimeElements-published",
-      "attributes": {
-        "org.gradle.category": "library",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-runtime",
-        "org.jetbrains.kotlin.platform.type": "wasm",
-        "org.jetbrains.kotlin.wasm.target": "js"
-      },
-      "available-at": {
-        "url": "../../DLCommonUtil-wasm-js/0.8.0/DLCommonUtil-wasm-js-0.8.0.module",
-        "group": "com.github.D10NGYANG",
-        "module": "DLCommonUtil-wasm-js",
-        "version": "0.8.0"
-      }
-    },
-    {
-      "name": "wasmJsSourcesElements-published",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.jvm.environment": "non-jvm",
-        "org.gradle.usage": "kotlin-runtime",
-        "org.jetbrains.kotlin.platform.type": "wasm",
-        "org.jetbrains.kotlin.wasm.target": "js"
-      },
-      "available-at": {
-        "url": "../../DLCommonUtil-wasm-js/0.8.0/DLCommonUtil-wasm-js-0.8.0.module",
-        "group": "com.github.D10NGYANG",
-        "module": "DLCommonUtil-wasm-js",
         "version": "0.8.0"
       }
     }

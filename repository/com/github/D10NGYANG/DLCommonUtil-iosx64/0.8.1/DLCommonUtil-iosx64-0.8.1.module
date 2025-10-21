@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.8.1/DLCommonUtil-0.8.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iosX64Main-0.8.1.klib",
+          "url": "DLCommonUtil-iosx64-0.8.1.klib",
+          "size": 319873,
+          "sha512": "a393c217eb0fd64230cbdbbad31271498ed8b851cf4df6cd95b8b417720e6903d7e8526bffabc0684d8a6261d0d750f2341eecaa92c4fdba5d9d3eb40382d763",
+          "sha256": "798fb8018e1324d3a4e5c8c0daedc73138facc1b860626b5bf48234161ec0471",
+          "sha1": "b2b2475db29526f0a68822ceb4fe3743f1fd1a4d",
+          "md5": "5a0be8c3ae423b8826b9b95c59a8bad4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-iosx64-0.8.1-sources.jar",
+          "url": "DLCommonUtil-iosx64-0.8.1-sources.jar",
+          "size": 197110,
+          "sha512": "f0af423b58d6de35a4e89409fd8b3eddca3cd0edbf93383f7ea89a93f32963d60a60db237f5cc593e796927af2c0768fe775e7a3d98e4ac76accf6111962687d",
+          "sha256": "ce1d824dd30881fdc331cbf09a0dba274061afefd43f79c3f0f26cdb55386a16",
+          "sha1": "36d62d8afd00f41460789b3b88f6ffd66c1d646d",
+          "md5": "2b29ea8515dbd3cd102f4c9200e5b56e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-iosx64-0.8.1-metadata.jar",
+          "url": "DLCommonUtil-iosx64-0.8.1-metadata.jar",
+          "size": 3940,
+          "sha512": "6f6f2df31c934374c4872d27ad09de09a7684344690f7c9d2307d2190d779c7cdebfd6bd78f4d4435251243de536edff42e7023e01b60fd75e6a2e8f90818cbf",
+          "sha256": "949a8fe3679ed9a32670f4f5d833448f2e34a2fe079ad1e09af32b5030df0ef5",
+          "sha1": "c6de7bc437a560e9fe718b46b7508a0efd6707cb",
+          "md5": "68031bf851f45a846440c4a10688f177"
+        }
+      ]
+    }
+  ]
+}

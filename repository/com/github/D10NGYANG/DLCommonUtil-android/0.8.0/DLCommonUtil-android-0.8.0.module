@@ -28,7 +28,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.2.20"
           }
         }
       ],
@@ -36,11 +36,11 @@
         {
           "name": "DLCommonUtil-release.aar",
           "url": "DLCommonUtil-android-0.8.0.aar",
-          "size": 190260,
-          "sha512": "886456f104661c7bbdd6ccdd3bd990802b2a81c2bef75b3bc197109b7d647312410844f00f125a16d21c84fd375ea42c8e81329247b07abf53538a864c2e7c4d",
-          "sha256": "6f3242d2e53999315481c0950c6d121bd8b2324dd20a833d377f08c230b28e0e",
-          "sha1": "27e40c421da4f0e702d3b2acef82609f42a38551",
-          "md5": "3b989e7a92d5822e1f0cc3fe4672e9fa"
+          "size": 190119,
+          "sha512": "8ec692db3d0cfd9b6a68c2f67c87f9d648488e349213ab50b3f10ea30870965fffd6a9bd0620083c34854fbf002c698ed6e5cb801a1c9de0f6807598254fce59",
+          "sha256": "d33792fd54cd38a5ed0b0df524750aa4a8cc27347a4f17d93f691154c183333a",
+          "sha1": "51bb68c262c51595266730235b7a5bf3e88aa62f",
+          "md5": "bfb28f78af947382e30d725789af9329"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.2.20"
           },
           "excludes": [
             {
@@ -115,38 +115,17 @@
               "module": "kotlin-test-annotations-common"
             }
           ]
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-datetime",
-          "version": {
-            "requires": "0.7.1"
-          },
-          "excludes": [
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-stdlib-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-annotations-common"
-            }
-          ]
         }
       ],
       "files": [
         {
           "name": "DLCommonUtil-release.aar",
           "url": "DLCommonUtil-android-0.8.0.aar",
-          "size": 190260,
-          "sha512": "886456f104661c7bbdd6ccdd3bd990802b2a81c2bef75b3bc197109b7d647312410844f00f125a16d21c84fd375ea42c8e81329247b07abf53538a864c2e7c4d",
-          "sha256": "6f3242d2e53999315481c0950c6d121bd8b2324dd20a833d377f08c230b28e0e",
-          "sha1": "27e40c421da4f0e702d3b2acef82609f42a38551",
-          "md5": "3b989e7a92d5822e1f0cc3fe4672e9fa"
+          "size": 190119,
+          "sha512": "8ec692db3d0cfd9b6a68c2f67c87f9d648488e349213ab50b3f10ea30870965fffd6a9bd0620083c34854fbf002c698ed6e5cb801a1c9de0f6807598254fce59",
+          "sha256": "d33792fd54cd38a5ed0b0df524750aa4a8cc27347a4f17d93f691154c183333a",
+          "sha1": "51bb68c262c51595266730235b7a5bf3e88aa62f",
+          "md5": "bfb28f78af947382e30d725789af9329"
         }
       ]
     },

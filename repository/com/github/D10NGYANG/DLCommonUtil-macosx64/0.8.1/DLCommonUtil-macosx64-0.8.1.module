@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/0.8.1/DLCommonUtil-0.8.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-macosX64Main-0.8.1.klib",
+          "url": "DLCommonUtil-macosx64-0.8.1.klib",
+          "size": 319886,
+          "sha512": "a00ce64584e90c2603c50d1d7c20b35a03032cc83945391ca766b7fd5426d5dd3b1fd1cc761db5a70c7f43dfa85f538e364435868a7a179d7192bc1dfe087e97",
+          "sha256": "f9d797766bd2906e64bedd356131f15f8060e43985cf1c924824664e44656b9a",
+          "sha1": "8889faaf20a87ba816c1bd5bf905cd84bd60fe43",
+          "md5": "e0ac24c040f12c5a649159274e5c04bb"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-macosx64-0.8.1-sources.jar",
+          "url": "DLCommonUtil-macosx64-0.8.1-sources.jar",
+          "size": 197110,
+          "sha512": "f0af423b58d6de35a4e89409fd8b3eddca3cd0edbf93383f7ea89a93f32963d60a60db237f5cc593e796927af2c0768fe775e7a3d98e4ac76accf6111962687d",
+          "sha256": "ce1d824dd30881fdc331cbf09a0dba274061afefd43f79c3f0f26cdb55386a16",
+          "sha1": "36d62d8afd00f41460789b3b88f6ffd66c1d646d",
+          "md5": "2b29ea8515dbd3cd102f4c9200e5b56e"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-macosx64-0.8.1-metadata.jar",
+          "url": "DLCommonUtil-macosx64-0.8.1-metadata.jar",
+          "size": 3940,
+          "sha512": "4597a226c4bf884463f2dd52f726b308efd84971ca359bb7d34e7a4068cc99a2b362bb88a6724a1b3ea30486ab317030d1dfeb52183362436e406fa77347a0d5",
+          "sha256": "d90961c69bd839755cdf3e3a3a6487f8df8cd5ea82a5d188b075372cfe49013b",
+          "sha1": "16b12719d40cd448b74ba69c1912dd208f88c0f5",
+          "md5": "68b7831d319d15bfdbc2d8cc8645683c"
+        }
+      ]
+    }
+  ]
+}

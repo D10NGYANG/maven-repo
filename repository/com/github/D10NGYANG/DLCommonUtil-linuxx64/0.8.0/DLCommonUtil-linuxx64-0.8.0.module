@@ -30,7 +30,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.2.20"
           }
         },
         {
@@ -46,24 +46,17 @@
           "version": {
             "requires": "1.10.2"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-datetime",
-          "version": {
-            "requires": "0.7.1"
-          }
         }
       ],
       "files": [
         {
           "name": "DLCommonUtil-linuxX64Main-0.8.0.klib",
           "url": "DLCommonUtil-linuxx64-0.8.0.klib",
-          "size": 302115,
-          "sha512": "44863cc8192c884b61aad6ae8638f26a78c0905630f10c43c84cbc755f4e14ccfed43947f7fbfb231a77f187a19e2d7653dd1a6955dc9d5efa80462fbb7b51ee",
-          "sha256": "068cb3666d457a951a4b6a07144d4fb749bcaf9c9ac72deb902eba889a8ea1db",
-          "sha1": "1ea7a0645d8d4919cfee3b477522910bded7fa07",
-          "md5": "184b797c583222b3ef9d87e4280e488e"
+          "size": 313410,
+          "sha512": "c2d588b525f5df688dc9aa678713bea10d375cf0ed4e01db7c4bfc5cd2ad697238c31e7b17dd7a792271f85c0b247d4ed21448455abb967c93ba7860b26c27f9",
+          "sha256": "e1366f5b68c982759a527411331f04571a5976a57eb2221a318c1f61d4b58e28",
+          "sha1": "0e3502e81f14f62ae4a423602198bff4fbaf6c0d",
+          "md5": "23d939e4a4af0a587170507a5a59dfbf"
         }
       ]
     },

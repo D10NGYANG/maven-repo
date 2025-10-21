@@ -30,7 +30,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.2.20"
           }
         },
         {
@@ -46,24 +46,17 @@
           "version": {
             "requires": "1.10.2"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-datetime",
-          "version": {
-            "requires": "0.7.1"
-          }
         }
       ],
       "files": [
         {
           "name": "DLCommonUtil-macosX64Main-0.8.0.klib",
           "url": "DLCommonUtil-macosx64-0.8.0.klib",
-          "size": 308560,
-          "sha512": "98c3dbf1aea74a3791c0d219ebd78cbab26af1498e4c8afaa16f70f854b355f357d2f4d00bb1c6072ef62ea59549d3d5f68cf42d7edbaa0d2c0d2e6ea6407a5a",
-          "sha256": "9f7170499571d1c796830e6d0b79442484b528f3c087744dda8faa1d48cec62f",
-          "sha1": "d07126395a7249a0453cba5acb52f912a0150be5",
-          "md5": "37e43efd7b701bd0cc1934da58d3e794"
+          "size": 319886,
+          "sha512": "a00ce64584e90c2603c50d1d7c20b35a03032cc83945391ca766b7fd5426d5dd3b1fd1cc761db5a70c7f43dfa85f538e364435868a7a179d7192bc1dfe087e97",
+          "sha256": "f9d797766bd2906e64bedd356131f15f8060e43985cf1c924824664e44656b9a",
+          "sha1": "8889faaf20a87ba816c1bd5bf905cd84bd60fe43",
+          "md5": "e0ac24c040f12c5a649159274e5c04bb"
         }
       ]
     },
@@ -105,7 +98,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.2.20"
           }
         },
         {
@@ -121,24 +114,17 @@
           "version": {
             "requires": "1.10.2"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-datetime",
-          "version": {
-            "requires": "0.7.1"
-          }
         }
       ],
       "files": [
         {
           "name": "DLCommonUtil-macosx64-0.8.0-metadata.jar",
           "url": "DLCommonUtil-macosx64-0.8.0-metadata.jar",
-          "size": 3796,
-          "sha512": "6c2a3a468bb2bd3bec64f79993d2894025f043b8e76167c312bf2ff6d2e4d01cad5cdd62d7978cbb24b00667749d49361a4794638fd0f664aeea6afd872a113d",
-          "sha256": "22e68be8623bca8ec06febc864379929abd52fc5fc96113d35f765ca50f39004",
-          "sha1": "f6e6b76a4c745912f54439516c8cf4da0b7231fa",
-          "md5": "fce612b6f5b0c87dc439da1964b20b54"
+          "size": 3940,
+          "sha512": "35e026715884d334c1b2681c1295f7e5b121b7db6006cbddd489949069ff74fe0ef8c6c2cd25aa9ab8d5ea8f367637a28aa2519af0d1e78b35b4393888f5511e",
+          "sha256": "8105de244f13f29a26f9c96d794360fe107f845bc8097fabd9b7c4a50be006b3",
+          "sha1": "8f3b20f3bac76f633787af8d6f844252d82a8229",
+          "md5": "b20c6a963e9048e14b877a933ff4ab4a"
         }
       ]
     }
