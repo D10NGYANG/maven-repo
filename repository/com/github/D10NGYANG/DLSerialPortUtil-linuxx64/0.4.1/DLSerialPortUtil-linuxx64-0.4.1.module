@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.4.1/DLSerialPortUtil-0.4.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-linuxX64Main-0.4.1.klib",
+          "url": "DLSerialPortUtil-linuxx64-0.4.1.klib",
+          "size": 36095,
+          "sha512": "16a03bfde4cbaebbf5660e4b64e6815dcb524f213976459fa473d5a81d7ec71e6c7209f51770ee4254005877ea11a8e7f2a835791261bd8ebb82e24a047b42ff",
+          "sha256": "127f824473f6d4ff50677f49a7247344f7b2bf40f1bf9b68ed377b462a501164",
+          "sha1": "beabd80be760b95c16be76700e709cfc0c764350",
+          "md5": "74d608347ba7187003eab011dcdbe368"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-linuxx64-0.4.1-sources.jar",
+          "url": "DLSerialPortUtil-linuxx64-0.4.1-sources.jar",
+          "size": 9110,
+          "sha512": "9c6fc6d0f6c7b1c1328cb8f488b8bf3540a2f0f13ca7babc860a30ac74add6a1dd7047c1aa8ae7aed9d3584c73e36b996870f314d35fb2ed2f26156307115e2d",
+          "sha256": "5f6dddb623508375c18028ec62facf0c2a4b5f25dd3f700b43fd4dd9da022bf4",
+          "sha1": "e038d44929492863ff9f27bae32ba0278a2c16a1",
+          "md5": "b5fb620e0bbc1c5ba8b5dfda73912c81"
+        }
+      ]
+    }
+  ]
+}
