@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDatastoreUtil/0.3.0/DLDatastoreUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDatastoreUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-iosArm64Main-0.3.0.klib",
+          "url": "DLDatastoreUtil-iosarm64-0.3.0.klib",
+          "size": 30371,
+          "sha512": "86bc894993cd7d813f6e8f7ba179ae696bd2db640ce2a467c3aede7682a98349e179fb833f50a1fddd081b2d994669a0e293cffd8976a03975704fc2ffb20d04",
+          "sha256": "675da501e4b7b0aadcd12a188ff9f8d71314b09f8b105a29ae57003369c3c098",
+          "sha1": "87dc7b50d8541fe78c5f2ae32d8039c5206dd4af",
+          "md5": "ce001d8c7e86daeb97707912335f3002"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDatastoreUtil-iosarm64-0.3.0-sources.jar",
+          "url": "DLDatastoreUtil-iosarm64-0.3.0-sources.jar",
+          "size": 6281,
+          "sha512": "b1fd785edd3218690dd9ed6ab87de08aeac72583871dcadb860002e0a13b7aee7a15f9955fbfa557dc7b4f52b495fc403f8dc394d7ddeb644cad8a6cb00329e6",
+          "sha256": "5ee69081dd77342d8a89adde201ba71919c83eafd0630e76a6c16c7da342a60e",
+          "sha1": "32dff87a744c6fefc1ae1baeab0d98e5e93c0597",
+          "md5": "d95184a4062aeb4b2f5448760145bc38"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-iosarm64-0.3.0-metadata.jar",
+          "url": "DLDatastoreUtil-iosarm64-0.3.0-metadata.jar",
+          "size": 2440,
+          "sha512": "e259c712bfcf9782e97eb98ed51205db73c3743e41586dd74d29c955fcf0ac245aeebcdd2e09bd77c25352164158ba816eed8b9f47b32693640f7fb557ac464a",
+          "sha256": "541f8d8227cd0528a6459b037273c78a7b1bfef5488c2def31f160a68d1810e9",
+          "sha1": "3c7f0bbe66bc3e20030296ebf0e0c1b97fbe7168",
+          "md5": "3616739d20bdc49d07b7247e93f44e90"
+        }
+      ]
+    }
+  ]
+}
