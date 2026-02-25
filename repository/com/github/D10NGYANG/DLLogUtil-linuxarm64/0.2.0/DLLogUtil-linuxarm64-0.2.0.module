@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.0/DLLogUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-linuxArm64Main-0.2.0.klib",
+          "url": "DLLogUtil-linuxarm64-0.2.0.klib",
+          "size": 18838,
+          "sha512": "ab184512380a3de7fd80e2aef6391469dcac50036385d4dfc2c5adb8201640296616e8a8853a3ac0eedb769454df872321ce752ad595aa164d8c209c9e6e54c3",
+          "sha256": "2a4e700d9d2fa235f6c70cec098bc2af6ad52d535ba5632c0f16b5ea925f35ad",
+          "sha1": "b49e486002a9981597ec56ec7dd3447174ec63c7",
+          "md5": "ad5da236159d464305d96d9a7ffa04b7"
+        }
+      ]
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-linuxarm64-0.2.0-sources.jar",
+          "url": "DLLogUtil-linuxarm64-0.2.0-sources.jar",
+          "size": 4815,
+          "sha512": "e6b4c1db614812cc9061d5fe03f631d4efa1ed37f049b11787aab603ef45088951188d5bf3e8ecbce22039c28654bda9fc96a1381327ae702f9c8321ff77d411",
+          "sha256": "d3bc7e3484fe7e0abc74b294892cf31a885474f57f9098a22f38b1e1c42e9db5",
+          "sha1": "6d6751a5a8a7b2e0f91ada8bb359882f87cdf7fa",
+          "md5": "597c935f5268b10b6b0aaedea85e59d6"
+        }
+      ]
+    }
+  ]
+}

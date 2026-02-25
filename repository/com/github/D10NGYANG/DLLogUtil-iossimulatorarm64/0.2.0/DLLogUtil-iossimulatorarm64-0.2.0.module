@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.0/DLLogUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iosSimulatorArm64Main-0.2.0.klib",
+          "url": "DLLogUtil-iossimulatorarm64-0.2.0.klib",
+          "size": 19815,
+          "sha512": "2ab67f201b4d6e27d51852fb3e463c2638c46969be076ec49076b8aa383008cfd5cb133df275ca82bced61efa38b207c54c2a3dc4beff481be6c3eb70f5f9694",
+          "sha256": "b56fa2e4f1402a4a70606252352ea269f70005238885bbbd81a368bccc058057",
+          "sha1": "d77000a9d293476ba62a033aed69cabedc2d0e3e",
+          "md5": "fa8bd45181da7e51b3b6542b91564a25"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-iossimulatorarm64-0.2.0-sources.jar",
+          "url": "DLLogUtil-iossimulatorarm64-0.2.0-sources.jar",
+          "size": 4796,
+          "sha512": "e0f7a897bcd6a39499119b843e53229b90d5bfa1d3312bfa7ff2d371121db87a70b827181badb6221f8f77e182adffa37590e215822d475c8a5074da920619f3",
+          "sha256": "78f605a469a0a5b3162532936c87c6442ca488f7dd3287b654443186a32804fd",
+          "sha1": "48fda9de870fb7ecc107bd0e302062413919942a",
+          "md5": "6b63e94e9e0a3be1312bdd6187906073"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iossimulatorarm64-0.2.0-metadata.jar",
+          "url": "DLLogUtil-iossimulatorarm64-0.2.0-metadata.jar",
+          "size": 2680,
+          "sha512": "bdd0015161f4c05e9b5e0e5d7ea236918ccac2f343ec4d20f32742794908b77fec5260b9e545130281125e33b07592c01cfaa5775666d0cbc450a456624f07d6",
+          "sha256": "0a48a7ad14c52ac09dd86ecb0007ac371113fdf992da189edfbc0a9dc208fa62",
+          "sha1": "a17a8ea28929ac35eb2a819f0d7f96249ef9dc42",
+          "md5": "8411ac7318dad8d0a7d5efab8ba8a408"
+        }
+      ]
+    }
+  ]
+}

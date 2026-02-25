@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.0/DLLogUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-jvm-0.2.0.jar",
+          "url": "DLLogUtil-jvm-0.2.0.jar",
+          "size": 10155,
+          "sha512": "41d6d40499e7184ec0f495d6cedfe2e14ed9c6244a7a20f2dd35d355a30e386ce164d7e0165534e9d53f6d507bf8113d460f700001c4d8644eaa2ec8fb5cff44",
+          "sha256": "810ec98566cb2d0f231d32d271efc5c248afe6a1b77933e7648886d25c7905cc",
+          "sha1": "a69364b160bc403bf1fd10a7df6f63b331c5da51",
+          "md5": "86c19bb70f3f54a5c1005a8b8d0f1eee"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-jvm-0.2.0.jar",
+          "url": "DLLogUtil-jvm-0.2.0.jar",
+          "size": 10155,
+          "sha512": "41d6d40499e7184ec0f495d6cedfe2e14ed9c6244a7a20f2dd35d355a30e386ce164d7e0165534e9d53f6d507bf8113d460f700001c4d8644eaa2ec8fb5cff44",
+          "sha256": "810ec98566cb2d0f231d32d271efc5c248afe6a1b77933e7648886d25c7905cc",
+          "sha1": "a69364b160bc403bf1fd10a7df6f63b331c5da51",
+          "md5": "86c19bb70f3f54a5c1005a8b8d0f1eee"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-jvm-0.2.0-sources.jar",
+          "url": "DLLogUtil-jvm-0.2.0-sources.jar",
+          "size": 4601,
+          "sha512": "f4691cb1a0f9a4914bb3dca0243aa7d7f6b1674ebd191a3765c08db81a3a5fc17c76f7e2ae67e9d0465fe51810f4df4271550803e9d362b449a7f82a21726108",
+          "sha256": "b2e9afb9aee13624517eab71e18e2ba60306a810e99bab8a2fd0a1caf8d92abc",
+          "sha1": "4493cef0d4fd08d4b16e342e1f9f0f3c4ab0a862",
+          "md5": "6d73150d541687cf60ff83c51b59bfdb"
+        }
+      ]
+    }
+  ]
+}

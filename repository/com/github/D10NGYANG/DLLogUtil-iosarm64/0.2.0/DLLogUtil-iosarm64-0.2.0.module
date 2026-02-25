@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.0/DLLogUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iosArm64Main-0.2.0.klib",
+          "url": "DLLogUtil-iosarm64-0.2.0.klib",
+          "size": 19750,
+          "sha512": "de328f7d95e0a21b8ec3a11823b94bc254afe9d9a518a9c5161d0781a7d284e6c45e8bbe13fa84cce135554cfba65e7f7454608ead9b6ae215412394b63eb0e5",
+          "sha256": "a39756d28e25d824343f4e88f1e6cd0f59d2e5adedb678b1ca539aa5f396eea2",
+          "sha1": "b93b5d9e5965be9e7965cc9b0c285b5d8e025529",
+          "md5": "27befce057e0d360425515aff5a76af3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-iosarm64-0.2.0-sources.jar",
+          "url": "DLLogUtil-iosarm64-0.2.0-sources.jar",
+          "size": 4796,
+          "sha512": "e0f7a897bcd6a39499119b843e53229b90d5bfa1d3312bfa7ff2d371121db87a70b827181badb6221f8f77e182adffa37590e215822d475c8a5074da920619f3",
+          "sha256": "78f605a469a0a5b3162532936c87c6442ca488f7dd3287b654443186a32804fd",
+          "sha1": "48fda9de870fb7ecc107bd0e302062413919942a",
+          "md5": "6b63e94e9e0a3be1312bdd6187906073"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iosarm64-0.2.0-metadata.jar",
+          "url": "DLLogUtil-iosarm64-0.2.0-metadata.jar",
+          "size": 2680,
+          "sha512": "d29bda0645ce726a7e28e594087e2aeb6b2dba26330531464a8aa23263a0156947ebaed74732f61b2e14017fa6a66c03d550f0038a150cdc17789de21d083dc0",
+          "sha256": "7620674d303184d91869b89a89cc3c65f3bcf320e90324dc989962230b3421f8",
+          "sha1": "b4f2c94a4aeba4adbd23d46a744ac640b3efec05",
+          "md5": "03518e097da97e34da665357f32419ab"
+        }
+      ]
+    }
+  ]
+}

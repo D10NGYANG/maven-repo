@@ -1,0 +1,654 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-metadata-0.2.0.jar",
+          "url": "DLLogUtil-0.2.0.jar",
+          "size": 6698,
+          "sha512": "3c55b5c6c729033e557c1b8fd19cd3c43f350dfeb089a786f25c278d2d40130f6c8c280e9ee5dae0b0fba5da08242158b4b366bd64ff75a2bf25bbae8ab95bae",
+          "sha256": "7232efa63f5d4a0ab427d7d920d30a866f8975b18271fce607d54747191cf67c",
+          "sha1": "ce7a9b61b5d2a30731875ec2094374c0b58f0912",
+          "md5": "6cdb29ee9d09a31e8ef1a446f8d9b1f0"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-kotlin-0.2.0-sources.jar",
+          "url": "DLLogUtil-0.2.0-sources.jar",
+          "size": 5928,
+          "sha512": "7c218426442fe7b1dc85b4810f6c364150d6aa2aa5cd57a1ff9bb55c7bd99e47569d375376769a42db1df28399dcd0c9b40e234f812446d9132e132cc06317bd",
+          "sha256": "109df8d2d802e0c262d044236b72a263af912b37e99df4ef69144f926f25d73e",
+          "sha1": "f289679672a2d4c2b4b96648513df2db87d6e840",
+          "md5": "5fe7b2d2a4dc110cd2430daa1d119529"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-android/0.2.0/DLLogUtil-android-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-android",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-android/0.2.0/DLLogUtil-android-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-android",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-android/0.2.0/DLLogUtil-android-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-android",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iosarm64/0.2.0/DLLogUtil-iosarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iosarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iosarm64/0.2.0/DLLogUtil-iosarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iosarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iosarm64/0.2.0/DLLogUtil-iosarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iosarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iossimulatorarm64/0.2.0/DLLogUtil-iossimulatorarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iossimulatorarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iossimulatorarm64/0.2.0/DLLogUtil-iossimulatorarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iossimulatorarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iossimulatorarm64/0.2.0/DLLogUtil-iossimulatorarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iossimulatorarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iosx64/0.2.0/DLLogUtil-iosx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iosx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iosx64/0.2.0/DLLogUtil-iosx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iosx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-iosx64/0.2.0/DLLogUtil-iosx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-iosx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-js/0.2.0/DLLogUtil-js-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-js/0.2.0/DLLogUtil-js-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-js/0.2.0/DLLogUtil-js-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-jvm/0.2.0/DLLogUtil-jvm-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-jvm",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-jvm/0.2.0/DLLogUtil-jvm-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-jvm",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-jvm/0.2.0/DLLogUtil-jvm-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-jvm",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-linuxarm64/0.2.0/DLLogUtil-linuxarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-linuxarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-linuxarm64/0.2.0/DLLogUtil-linuxarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-linuxarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-linuxx64/0.2.0/DLLogUtil-linuxx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-linuxx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-linuxx64/0.2.0/DLLogUtil-linuxx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-linuxx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-macosarm64/0.2.0/DLLogUtil-macosarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-macosarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-macosarm64/0.2.0/DLLogUtil-macosarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-macosarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-macosarm64/0.2.0/DLLogUtil-macosarm64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-macosarm64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-macosx64/0.2.0/DLLogUtil-macosx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-macosx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-macosx64/0.2.0/DLLogUtil-macosx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-macosx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-macosx64/0.2.0/DLLogUtil-macosx64-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-macosx64",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-wasm-js/0.2.0/DLLogUtil-wasm-js-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-wasm-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-wasm-js/0.2.0/DLLogUtil-wasm-js-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-wasm-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-wasm-js/0.2.0/DLLogUtil-wasm-js-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-wasm-js",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-wasm-wasi/0.2.0/DLLogUtil-wasm-wasi-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-wasm-wasi",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-wasm-wasi/0.2.0/DLLogUtil-wasm-wasi-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-wasm-wasi",
+        "version": "0.2.0"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../DLLogUtil-wasm-wasi/0.2.0/DLLogUtil-wasm-wasi-0.2.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLLogUtil-wasm-wasi",
+        "version": "0.2.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.0/DLLogUtil-0.2.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-wasi-0.2.0.klib",
+          "url": "DLLogUtil-wasm-wasi-0.2.0.klib",
+          "size": 16005,
+          "sha512": "6b455698582f7b2a0b868398e3bfc5e3a3882c2419b76c3df861e7391f17526b65bfa45f73f86cd64794b28929d314fe88fbef155540140aff85ac454be628bd",
+          "sha256": "3ea61329dde0a92eb16c64c2ad0008b619a2df89006eb116612c90fcbfcb244c",
+          "sha1": "8406ff9db87967e34b5653cc4e6995b8f3acc5d2",
+          "md5": "14f5121e2c8d01d74f4fc85736925f1d"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-wasi-0.2.0.klib",
+          "url": "DLLogUtil-wasm-wasi-0.2.0.klib",
+          "size": 16005,
+          "sha512": "6b455698582f7b2a0b868398e3bfc5e3a3882c2419b76c3df861e7391f17526b65bfa45f73f86cd64794b28929d314fe88fbef155540140aff85ac454be628bd",
+          "sha256": "3ea61329dde0a92eb16c64c2ad0008b619a2df89006eb116612c90fcbfcb244c",
+          "sha1": "8406ff9db87967e34b5653cc4e6995b8f3acc5d2",
+          "md5": "14f5121e2c8d01d74f4fc85736925f1d"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-wasi-0.2.0-sources.jar",
+          "url": "DLLogUtil-wasm-wasi-0.2.0-sources.jar",
+          "size": 4429,
+          "sha512": "cfcda0abd693145ff0b3713d85bc5ea1d98d00bd775be6f64e4b2aecf74ed72dd5e2a4d1e728ebedf6514da48d467ed75660685817dce90f9e44f2b38e61a83f",
+          "sha256": "92f608349c01218c38e4bf8e1d7f60306392b4cc8c67d266e29bd81356e5d8b5",
+          "sha1": "82c1df2bd535d5e399e413bf3d938dfd7472491a",
+          "md5": "f8ef09d9ae40cbc370d2b00c9198a50a"
+        }
+      ]
+    }
+  ]
+}
