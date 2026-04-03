@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLBluetoothUtil/0.7.0/DLBluetoothUtil-0.7.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLBluetoothUtil",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-wasm-js-0.7.0.klib",
+          "url": "DLBluetoothUtil-wasm-js-0.7.0.klib",
+          "size": 63239,
+          "sha512": "75d46b26a7bee887b78e42fda8220343e5312c458bcebb50d223c084ff288cbad92e46270271b3d720ca41fd6ec962bcb0d7e20ccbe76cfb2845803e9208ed71",
+          "sha256": "d8d0bb8502dc580434de8fe6b6c24260629760e5da860ed53162d2bde0fe25de",
+          "sha1": "d3d633526e75b20ad992fab2de8cf40cce25f6b9",
+          "md5": "e7138365efcd805bd1e601e51c8d7728"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-wasm-js-0.7.0.klib",
+          "url": "DLBluetoothUtil-wasm-js-0.7.0.klib",
+          "size": 63239,
+          "sha512": "75d46b26a7bee887b78e42fda8220343e5312c458bcebb50d223c084ff288cbad92e46270271b3d720ca41fd6ec962bcb0d7e20ccbe76cfb2845803e9208ed71",
+          "sha256": "d8d0bb8502dc580434de8fe6b6c24260629760e5da860ed53162d2bde0fe25de",
+          "sha1": "d3d633526e75b20ad992fab2de8cf40cce25f6b9",
+          "md5": "e7138365efcd805bd1e601e51c8d7728"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "DLBluetoothUtil-wasm-js-0.7.0-sources.jar",
+          "url": "DLBluetoothUtil-wasm-js-0.7.0-sources.jar",
+          "size": 14699,
+          "sha512": "633fbacfa62184f5af6b41b007f856a185400030c3caf9a246a7a7238f45bbdeff4d54fb68a982c4ed824de65fe6591b07afbbe9e5e3927ddd5c08863ffb6bde",
+          "sha256": "7840c7687adb9fda8568a1640e0b15f443ee54e96158636d70ff9c81d1ecb577",
+          "sha1": "921ad0235144ce8b6fb4123649445329831ecc46",
+          "md5": "0d6a334545f7dff993ad97635950dbf3"
+        }
+      ]
+    }
+  ]
+}
