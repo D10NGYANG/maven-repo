@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.1/DLLogUtil-0.2.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-release.aar",
+          "url": "DLLogUtil-android-0.2.1.aar",
+          "size": 10217,
+          "sha512": "33ff52af3d716eca95bedc1707cc2acc064d2a6e752d77474463cb67088333800ed481470348868baeedc289d3d45c340a52610b50e5eff7ed431106edc7fb96",
+          "sha256": "23208a2bc65a355002e4e91075e70de7c85f02e83c3484a00527a56944905c19",
+          "sha1": "b37cde1d2a6c6aa40df68bf0d8c16f1e341fc6f4",
+          "md5": "a8984527a98b557d1e79383e6295971d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-release.aar",
+          "url": "DLLogUtil-android-0.2.1.aar",
+          "size": 10217,
+          "sha512": "33ff52af3d716eca95bedc1707cc2acc064d2a6e752d77474463cb67088333800ed481470348868baeedc289d3d45c340a52610b50e5eff7ed431106edc7fb96",
+          "sha256": "23208a2bc65a355002e4e91075e70de7c85f02e83c3484a00527a56944905c19",
+          "sha1": "b37cde1d2a6c6aa40df68bf0d8c16f1e341fc6f4",
+          "md5": "a8984527a98b557d1e79383e6295971d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-android-0.2.1-sources.jar",
+          "url": "DLLogUtil-android-0.2.1-sources.jar",
+          "size": 4532,
+          "sha512": "2fd9c5485048a49ada9534ed5847a059fc9f18008726ef27fd3bf444c5c77b19a93beb843fc5e7896362a1848f5bf60d833a9ea66f7d8831df6a862b4292b95c",
+          "sha256": "1f2dc1a224d45e3215c869f7dc0dd65673fde4b4528e84c38611950151e98c34",
+          "sha1": "27ac7907de54df67d04fee1e49451e94650166f0",
+          "md5": "c31a520fc8086d6d472fc9f219c86bfd"
+        }
+      ]
+    }
+  ]
+}

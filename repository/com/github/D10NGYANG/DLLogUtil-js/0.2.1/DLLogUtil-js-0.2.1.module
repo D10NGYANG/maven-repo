@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.1/DLLogUtil-0.2.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-js-0.2.1.klib",
+          "url": "DLLogUtil-js-0.2.1.klib",
+          "size": 16534,
+          "sha512": "4cebd38c635f353a3787c6437acab1a489123de9bfed79eab410a745b5cfe48aed24baefb22788828c14fae50f73feaae7c74772a0137798d9c5e83e477af409",
+          "sha256": "e8d6c7bef740e6e4274c927a66b03cf7d8646c74b759ed2e9e4d24d2668ac87e",
+          "sha1": "7998ec012a67e9b842786c8f12aa7344bad91074",
+          "md5": "b44e5c2d72a7ce8310af36152e1a9aad"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-js-0.2.1.klib",
+          "url": "DLLogUtil-js-0.2.1.klib",
+          "size": 16534,
+          "sha512": "4cebd38c635f353a3787c6437acab1a489123de9bfed79eab410a745b5cfe48aed24baefb22788828c14fae50f73feaae7c74772a0137798d9c5e83e477af409",
+          "sha256": "e8d6c7bef740e6e4274c927a66b03cf7d8646c74b759ed2e9e4d24d2668ac87e",
+          "sha1": "7998ec012a67e9b842786c8f12aa7344bad91074",
+          "md5": "b44e5c2d72a7ce8310af36152e1a9aad"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-js-0.2.1-sources.jar",
+          "url": "DLLogUtil-js-0.2.1-sources.jar",
+          "size": 4435,
+          "sha512": "7738390df242905cf043901d97687363f174f9c767ace90f1d4743ac4760fd46d67a39aeec48c48df6aa553261a1d73b6ab092ed35047126a414244a57b2cc9a",
+          "sha256": "f826c6576a9e9f30ff3bc111764eafa35cf39e48bb7213ea0187db46ed8535f8",
+          "sha1": "bf34f329fe71a6eb8c82314f419550bdb622b03d",
+          "md5": "287fe380149cd0b9a22326f5ba6aaf1b"
+        }
+      ]
+    }
+  ]
+}

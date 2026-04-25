@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/2.3.1/DLDateUtil-2.3.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "2.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-macosX64Main-2.3.1.klib",
+          "url": "DLDateUtil-macosx64-2.3.1.klib",
+          "size": 94425,
+          "sha512": "f74e033b64d38b9d79a39fda86e7b769e9222359b8e220c1fe0b39e0c1063c310aaa1ba1f7eb6d0541c9d0185314fee00db9cab3798bdf72027e434d237c1e1c",
+          "sha256": "9c3ff2fd3dbf886e6dd9145d1fd864d1a343b338e897fd1a016222cab8500ef7",
+          "sha1": "31a8e32447c062fdec24a8cdafe6d3bde8bf3d74",
+          "md5": "0e5e33829220f25eb6059d8a846a4956"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-macosx64-2.3.1-sources.jar",
+          "url": "DLDateUtil-macosx64-2.3.1-sources.jar",
+          "size": 21080,
+          "sha512": "953123f22ca1bab8337e14eb7ae72468bb4bc8cfda101870babf688f28ef9a052d4710666c1e41cfca592ea2b72f1985206df35253bb2725749b2b0ee21bbbef",
+          "sha256": "917128fe4961ed7e500c08691e152d79f1719117212fcf759ecf06b91d727aed",
+          "sha1": "bcd5c894ffb1e6e97692f5938153db16c80311f8",
+          "md5": "acd570a277f326e858bf775b1155a5e4"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-macosx64-2.3.1-metadata.jar",
+          "url": "DLDateUtil-macosx64-2.3.1-metadata.jar",
+          "size": 261,
+          "sha512": "a4d696ede1c3f34fdc7d87b46acbacea652100df8e590386c5a25663d4535865456306f60b9e47a7494699377dc0b422274e92c8f2a04cd671432e4a3ea3d632",
+          "sha256": "ae21b57bdf2b4a0e9891933e0b15be34a88e786182422e20b0158bf4f55bfdda",
+          "sha1": "57cd7907a0a66dccc9d46882ecc7f2a7b01a64a8",
+          "md5": "0ff8f5fb41ace8e614df491dfdc61e51"
+        }
+      ]
+    }
+  ]
+}

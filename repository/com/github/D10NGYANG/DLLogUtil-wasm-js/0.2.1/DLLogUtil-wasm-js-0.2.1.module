@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.2.1/DLLogUtil-0.2.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-js-0.2.1.klib",
+          "url": "DLLogUtil-wasm-js-0.2.1.klib",
+          "size": 17079,
+          "sha512": "533e90487cdbd693a2749272ac513ff93318e7aeee3b64f03192f8df3118333df46a44c59bd132fd86d730a96297cc2aeea7b1c8dc7bf97a91b4bac9e41fa901",
+          "sha256": "048e2f2c8737236a4141fba208cff33876ba000301c58d37b2c2e851f7ef2dec",
+          "sha1": "4d4fb9a6d730498e0423d956731f2a388ae2e259",
+          "md5": "505ba275c498bf45ecfa456c5265833c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-js-0.2.1.klib",
+          "url": "DLLogUtil-wasm-js-0.2.1.klib",
+          "size": 17079,
+          "sha512": "533e90487cdbd693a2749272ac513ff93318e7aeee3b64f03192f8df3118333df46a44c59bd132fd86d730a96297cc2aeea7b1c8dc7bf97a91b4bac9e41fa901",
+          "sha256": "048e2f2c8737236a4141fba208cff33876ba000301c58d37b2c2e851f7ef2dec",
+          "sha1": "4d4fb9a6d730498e0423d956731f2a388ae2e259",
+          "md5": "505ba275c498bf45ecfa456c5265833c"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-js-0.2.1-sources.jar",
+          "url": "DLLogUtil-wasm-js-0.2.1-sources.jar",
+          "size": 4583,
+          "sha512": "24b035ff7c6a853909737718bdd57e4c6e25d201c50031bb56f0c7a6d149a252c802730ce0449685c62341129db33c0c846372202a461236d663713fea517d32",
+          "sha256": "346091f1e213bd6ceaf927a5dde3bef686dd9c0dd612d638b333a6415dec6ed8",
+          "sha1": "de3ccff443dd1e8ebc976eea3b1c9dbd5b6b7e34",
+          "md5": "2067d6220dd6c9fc22ddb45749cd4572"
+        }
+      ]
+    }
+  ]
+}
