@@ -1,0 +1,509 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLJetpackComposeUtil",
+    "version": "3.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.10.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-metadata-3.3.0.jar",
+          "url": "DLJetpackComposeUtil-3.3.0.jar",
+          "size": 50500,
+          "sha512": "84845906f60d1e846dd319afb75df898160975914e3c65b7958fca15afacdda58a3f597a1f98716c355a7e7450f32c3a1b8412db68e9eef3486533ff8092faa5",
+          "sha256": "6e5db52d20433f2697b4e8a28be9d557af683574e2ce7db938e69d60d6d601db",
+          "sha1": "7d676371dc4afb6d4bb2f30e8d30c9a6058d1a2a",
+          "md5": "d965b9cc62da45f15188c2ef603c632b"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-kotlin-3.3.0-sources.jar",
+          "url": "DLJetpackComposeUtil-3.3.0-sources.jar",
+          "size": 100736,
+          "sha512": "e3889064c6bb4b0b3381e67574c707da6ad171826615b64a2ece92975dd5a1226bfe939ac0d997363f4c8b3cf47c25c39617ff33801f9fc85ecff3a301ea4817",
+          "sha256": "2c2e5557c6451a40cc48e8c0f174976a2999fc98d4b2051b81cc60090ea339ce",
+          "sha1": "35510e79c6f4d79e7bad20c3ec05bc49b485ccb0",
+          "md5": "037080a98cac4274bfe997244ef4181a"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-android/3.3.0/DLJetpackComposeUtil-android-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-android",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-android/3.3.0/DLJetpackComposeUtil-android-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-android",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-android/3.3.0/DLJetpackComposeUtil-android-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-android",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iosarm64/3.3.0/DLJetpackComposeUtil-iosarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iosarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iosarm64/3.3.0/DLJetpackComposeUtil-iosarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iosarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iosarm64/3.3.0/DLJetpackComposeUtil-iosarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iosarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iosarm64/3.3.0/DLJetpackComposeUtil-iosarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iosarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iossimulatorarm64/3.3.0/DLJetpackComposeUtil-iossimulatorarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iossimulatorarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iossimulatorarm64/3.3.0/DLJetpackComposeUtil-iossimulatorarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iossimulatorarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iossimulatorarm64/3.3.0/DLJetpackComposeUtil-iossimulatorarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iossimulatorarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-iossimulatorarm64/3.3.0/DLJetpackComposeUtil-iossimulatorarm64-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-iossimulatorarm64",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-js/3.3.0/DLJetpackComposeUtil-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-js/3.3.0/DLJetpackComposeUtil-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-js/3.3.0/DLJetpackComposeUtil-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-js/3.3.0/DLJetpackComposeUtil-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-jvm/3.3.0/DLJetpackComposeUtil-jvm-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-jvm",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-jvm/3.3.0/DLJetpackComposeUtil-jvm-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-jvm",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-jvm/3.3.0/DLJetpackComposeUtil-jvm-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-jvm",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-wasm-js/3.3.0/DLJetpackComposeUtil-wasm-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-wasm-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-wasm-js/3.3.0/DLJetpackComposeUtil-wasm-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-wasm-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-wasm-js/3.3.0/DLJetpackComposeUtil-wasm-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-wasm-js",
+        "version": "3.3.0"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLJetpackComposeUtil-wasm-js/3.3.0/DLJetpackComposeUtil-wasm-js-3.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLJetpackComposeUtil-wasm-js",
+        "version": "3.3.0"
+      }
+    }
+  ]
+}
