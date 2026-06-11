@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.6.0/DLSerialPortUtil-0.6.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-wasm-js-0.6.0.klib",
+          "url": "DLSerialPortUtil-wasm-js-0.6.0.klib",
+          "size": 40450,
+          "sha512": "847d498a3997e12e7d726d60d01da47ef3de2915f19ab24e7d7a4eeb069c16ee026ff0259195d599954cbf7c7a9528eb518648e65af0cd79ad24af392df787d7",
+          "sha256": "2eb860fed381e2f90016ecf1a35e2653ad4df4d8255999d9e8a90b1f4ba53e22",
+          "sha1": "3503c3432f4920e96d7aed112688f7fd9dedf942",
+          "md5": "4ebd92c7a9f50287aebd5526da83d454"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-wasm-js-0.6.0.klib",
+          "url": "DLSerialPortUtil-wasm-js-0.6.0.klib",
+          "size": 40450,
+          "sha512": "847d498a3997e12e7d726d60d01da47ef3de2915f19ab24e7d7a4eeb069c16ee026ff0259195d599954cbf7c7a9528eb518648e65af0cd79ad24af392df787d7",
+          "sha256": "2eb860fed381e2f90016ecf1a35e2653ad4df4d8255999d9e8a90b1f4ba53e22",
+          "sha1": "3503c3432f4920e96d7aed112688f7fd9dedf942",
+          "md5": "4ebd92c7a9f50287aebd5526da83d454"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-wasm-js-0.6.0-sources.jar",
+          "url": "DLSerialPortUtil-wasm-js-0.6.0-sources.jar",
+          "size": 9291,
+          "sha512": "f19ac2d6b200d47cf7ed9c35406a61229535f06ae3542f4ecde2c9d8f29c582e552b6ee4b1066966be8e1c218f1c6b237eb673832e98c68408efb9cddd4bcfa3",
+          "sha256": "458da1e999ea4f0ea60e3c9cbbaa38b47ed1f51f38c859a1ec716c66368178fa",
+          "sha1": "d8e233394845295b21ca910da5612caf3d4ebf76",
+          "md5": "a1f553131cd95b897112637506416be2"
+        }
+      ]
+    }
+  ]
+}

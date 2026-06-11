@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.6.0/DLSerialPortUtil-0.6.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.6.0.klib",
+          "url": "DLSerialPortUtil-js-0.6.0.klib",
+          "size": 35971,
+          "sha512": "bf38981226f82a6f4cb33bc2d68877e208ac85ae7b7d088d6d68951ada95cb9c9779a876cbb2e36a7f8b0778e993183a2b7e83150fefc53d037f11fa41e09b4c",
+          "sha256": "49ec66ed0248dbeba12b8c5e718cce3f2a70613b107fc8ca2fb310b7e61b71f3",
+          "sha1": "31e40bd39a0472096a94cdaa3c68f832dc0b51bc",
+          "md5": "4ab026f563f1cd6ccd9fc9be027e9177"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.6.0.klib",
+          "url": "DLSerialPortUtil-js-0.6.0.klib",
+          "size": 35971,
+          "sha512": "bf38981226f82a6f4cb33bc2d68877e208ac85ae7b7d088d6d68951ada95cb9c9779a876cbb2e36a7f8b0778e993183a2b7e83150fefc53d037f11fa41e09b4c",
+          "sha256": "49ec66ed0248dbeba12b8c5e718cce3f2a70613b107fc8ca2fb310b7e61b71f3",
+          "sha1": "31e40bd39a0472096a94cdaa3c68f832dc0b51bc",
+          "md5": "4ab026f563f1cd6ccd9fc9be027e9177"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.6.0-sources.jar",
+          "url": "DLSerialPortUtil-js-0.6.0-sources.jar",
+          "size": 8415,
+          "sha512": "2e13e4889c595d30c0454697f65825dacee18a7bf865cc9672154df59ffc3b8d35275767dd35e5785da6fa414bf5078f112545a55c006d2adeed12efaa9df57e",
+          "sha256": "412949634ac6ed1a11137a188a99c2018c7c65aa1b5f47921ca58c2c57f3cbfa",
+          "sha1": "07c8566d2fd3a102606afa16ba473f0125f72fda",
+          "md5": "4807e4c1cb6ed66f3035557744c93505"
+        }
+      ]
+    }
+  ]
+}
