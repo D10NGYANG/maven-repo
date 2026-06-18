@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/1.0.2/DLCommonUtil-1.0.2.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-linuxX64Main-1.0.2.klib",
+          "url": "DLCommonUtil-linuxx64-1.0.2.klib",
+          "size": 280614,
+          "sha512": "7e6b502d015ff3a1054e52a246ab117f69f3ccf97b4ae57aacc2d4a5a83eb8b6c418ed974353d131f5237188027cb10e4b67b767bd48c1bf36a9236633dbcc2d",
+          "sha256": "159d6c8e30d5bfe9c64b2fc8468b8b32cde6a6489ec3866792380c8f4c292553",
+          "sha1": "d4dcd438ee9fc8be19423c76665bcb2dadb5ac52",
+          "md5": "924efcf2a4ec90313de877af9e31cadc"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-linuxx64-1.0.2-sources.jar",
+          "url": "DLCommonUtil-linuxx64-1.0.2-sources.jar",
+          "size": 96196,
+          "sha512": "a4eb1793d3810323ae1a92c33608eeddcf3ca8dd99053dd9cee367d6be8dd812880bee6e56a36cab0925b436613091f55ea4244b21e5f2b5947fea2252cb5864",
+          "sha256": "2fe778689bbb40d92c07690d38a6fb248bd02c8d1ee64e6df4cc5eb56e3251a2",
+          "sha1": "f0c6e7d0d6ca794b8b2f982982dc53a5b0c72d59",
+          "md5": "e4610bd5ff800d7097c4f48485b43e8a"
+        }
+      ]
+    }
+  ]
+}

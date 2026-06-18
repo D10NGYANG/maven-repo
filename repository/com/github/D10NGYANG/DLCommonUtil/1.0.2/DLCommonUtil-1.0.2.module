@@ -1,0 +1,501 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-metadata-1.0.2.jar",
+          "url": "DLCommonUtil-1.0.2.jar",
+          "size": 70713,
+          "sha512": "319283b3dafb72d27974b91f20321743325761cd367b8ec32d948f4b63083a7f56091fbe2ab98191ca444a7da83b8c13fdee895fc553492f308272c9626372d0",
+          "sha256": "ca920afd6d9a10be053bbf15dcc480a9e8bbf0c670d060b4c0f943b44019672d",
+          "sha1": "0ed6c9f50d71043e5048f3f0924d5c22ee5f8f16",
+          "md5": "eb7b4b5d1dd4fcde1fc48ec7fc1a96bf"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-kotlin-1.0.2-sources.jar",
+          "url": "DLCommonUtil-1.0.2-sources.jar",
+          "size": 99130,
+          "sha512": "7706f88136e0b0e763b2cfca6c8583947f02a819fdc231d23bd3c89dee766ab3323ec0ee187416a19b302324988bf70ea38ab8133d07eb41ee9cca2389a9bc0d",
+          "sha256": "c49e26a8357eb8b730560d105b31c54c7fdd0914f71d5482e5105732f359dc8f",
+          "sha1": "1431c4280f3c084fd955029c5ca1104941895750",
+          "md5": "a3d978e1a4ffa7afe08fe0edf59727c1"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-android/1.0.2/DLCommonUtil-android-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-android",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-android/1.0.2/DLCommonUtil-android-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-android",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-android/1.0.2/DLCommonUtil-android-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-android",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iosarm64/1.0.2/DLCommonUtil-iosarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iosarm64/1.0.2/DLCommonUtil-iosarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iosarm64/1.0.2/DLCommonUtil-iosarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iossimulatorarm64/1.0.2/DLCommonUtil-iossimulatorarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iossimulatorarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iossimulatorarm64/1.0.2/DLCommonUtil-iossimulatorarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iossimulatorarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iossimulatorarm64/1.0.2/DLCommonUtil-iossimulatorarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iossimulatorarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iosx64/1.0.2/DLCommonUtil-iosx64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iosx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iosx64/1.0.2/DLCommonUtil-iosx64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iosx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-iosx64/1.0.2/DLCommonUtil-iosx64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-iosx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-js/1.0.2/DLCommonUtil-js-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-js",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-js/1.0.2/DLCommonUtil-js-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-js",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-js/1.0.2/DLCommonUtil-js-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-js",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-jvm/1.0.2/DLCommonUtil-jvm-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-jvm",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-jvm/1.0.2/DLCommonUtil-jvm-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-jvm",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-jvm/1.0.2/DLCommonUtil-jvm-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-jvm",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-linuxarm64/1.0.2/DLCommonUtil-linuxarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-linuxarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-linuxarm64/1.0.2/DLCommonUtil-linuxarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-linuxarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-linuxx64/1.0.2/DLCommonUtil-linuxx64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-linuxx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-linuxx64/1.0.2/DLCommonUtil-linuxx64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-linuxx64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-macosarm64/1.0.2/DLCommonUtil-macosarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-macosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-macosarm64/1.0.2/DLCommonUtil-macosarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-macosarm64",
+        "version": "1.0.2"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLCommonUtil-macosarm64/1.0.2/DLCommonUtil-macosarm64-1.0.2.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLCommonUtil-macosarm64",
+        "version": "1.0.2"
+      }
+    }
+  ]
+}
