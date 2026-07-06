@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.6.1/DLSerialPortUtil-0.6.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosX64Main-0.6.1.klib",
+          "url": "DLSerialPortUtil-macosx64-0.6.1.klib",
+          "size": 53572,
+          "sha512": "23933b38b386284c86e65b1c348645f4215f28f13b405204f805c3deddd2a0e6ad9ea1f4d085b84a3124a679738bca87d098fcc32895f75d37943288f772453a",
+          "sha256": "a72d1881e230b9e7f0aecce009fdefdd45dcf6107f2fc29d44b14a5366d8bf81",
+          "sha1": "f381e9a593917f3c4711571e07d9f2a0cd2f488c",
+          "md5": "5068d5b63a639d97fc4cfdf09bc2bd73"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosx64-0.6.1-sources.jar",
+          "url": "DLSerialPortUtil-macosx64-0.6.1-sources.jar",
+          "size": 12263,
+          "sha512": "2f07280a6922443b735e8e5d013d20e3043769d53eadbbffeabbc9d14715178d5f6dee07e7987eaa6fc58705ffeff18aa363cab765633ca20236f8262369542e",
+          "sha256": "045162a85fbb961fde098f80c1df7152c37a195520c53447cd39f60ea965d647",
+          "sha1": "1da275c999f545d3558f2f01fb3ba7fc68301d39",
+          "md5": "de6d3572ba8410efe5eb348322a1c968"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosx64-0.6.1-metadata.jar",
+          "url": "DLSerialPortUtil-macosx64-0.6.1-metadata.jar",
+          "size": 4404,
+          "sha512": "8ca4c3637692f61a807c49201796465fc5625298202b19e4e0456a40b13e0c8a26dcbe54a12764f46634797eb05ddf77349e4caf25bd6b9e2a0f17a0cb343bc7",
+          "sha256": "723797725e0d8cccfd9f0f01ef3a7e10e57332313452cb3c2cfe2956912bf190",
+          "sha1": "f9214d979e1a92b8e5d1a8275c099540fcdebec6",
+          "md5": "e1dbe461a740206e91162ecd13910bf6"
+        }
+      ]
+    }
+  ]
+}

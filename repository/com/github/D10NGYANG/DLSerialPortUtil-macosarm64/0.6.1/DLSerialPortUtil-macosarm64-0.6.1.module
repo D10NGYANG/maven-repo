@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.6.1/DLSerialPortUtil-0.6.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosArm64Main-0.6.1.klib",
+          "url": "DLSerialPortUtil-macosarm64-0.6.1.klib",
+          "size": 53584,
+          "sha512": "7b6139e026c9eec3aae3ee73babf221b1012cc251d3954da7de0c9288f109982c7e1ef26464c60f4d463ef195f2279c1ae8585020368467e6bc715c68e5f730c",
+          "sha256": "05f11ceb40a24c917847ed84217bbf413c166420b8e8e6763518388af7e296d9",
+          "sha1": "b75713c04597993ac8c4dbd62ef9ab19c87a2f32",
+          "md5": "33ed712ce1352a9cd868eee2d67cb824"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosarm64-0.6.1-sources.jar",
+          "url": "DLSerialPortUtil-macosarm64-0.6.1-sources.jar",
+          "size": 12263,
+          "sha512": "2f07280a6922443b735e8e5d013d20e3043769d53eadbbffeabbc9d14715178d5f6dee07e7987eaa6fc58705ffeff18aa363cab765633ca20236f8262369542e",
+          "sha256": "045162a85fbb961fde098f80c1df7152c37a195520c53447cd39f60ea965d647",
+          "sha1": "1da275c999f545d3558f2f01fb3ba7fc68301d39",
+          "md5": "de6d3572ba8410efe5eb348322a1c968"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-macosarm64-0.6.1-metadata.jar",
+          "url": "DLSerialPortUtil-macosarm64-0.6.1-metadata.jar",
+          "size": 4404,
+          "sha512": "3b71385b9782cf9318100898ad6b2e7a355891d940c90b22e8a6b090483f3e59e8da80b0e99a454d663ea2b4c44c0ad7b4a2d3194db03566e56d3d98226a00df",
+          "sha256": "fae3db91b8189975fb778d855fc8aa0a22235d152eed7457a2917d7ada03a9fd",
+          "sha1": "418cb8d2eadd0a9df2177ffafb161116bf72d4a8",
+          "md5": "c39267755de58fcc96381cfecf1c1540"
+        }
+      ]
+    }
+  ]
+}
