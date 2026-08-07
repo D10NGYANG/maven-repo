@@ -1,0 +1,240 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLBluetoothUtil/0.9.0/DLBluetoothUtil-0.9.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLBluetoothUtil",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-release.aar",
+          "url": "DLBluetoothUtil-android-0.9.0.aar",
+          "size": 179972,
+          "sha512": "1a4726ae158f1546c344de664be0d671aefc7d7c0a0fd2a45ba8425590e71e6cec67ed6ff93f0aa206490449f96428fa2be5be0f6d5355dbe9fe12d7bbc48d54",
+          "sha256": "0e45d24b5e47ea7b4849f378612d1c887b15dcd45c17e67611197a1648738dec",
+          "sha1": "7babf74d4ef77ec84f59c5a89baf8ad7ff5ec706",
+          "md5": "9a42d52270e9ee02f9d69254509c5f08"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLAppUtil",
+          "version": {
+            "requires": "2.7.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-release.aar",
+          "url": "DLBluetoothUtil-android-0.9.0.aar",
+          "size": 179972,
+          "sha512": "1a4726ae158f1546c344de664be0d671aefc7d7c0a0fd2a45ba8425590e71e6cec67ed6ff93f0aa206490449f96428fa2be5be0f6d5355dbe9fe12d7bbc48d54",
+          "sha256": "0e45d24b5e47ea7b4849f378612d1c887b15dcd45c17e67611197a1648738dec",
+          "sha1": "7babf74d4ef77ec84f59c5a89baf8ad7ff5ec706",
+          "md5": "9a42d52270e9ee02f9d69254509c5f08"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLBluetoothUtil-android-0.9.0-sources.jar",
+          "url": "DLBluetoothUtil-android-0.9.0-sources.jar",
+          "size": 28002,
+          "sha512": "7f528783d42bb67e7fb400192588ccf193724e2f6fbde870c73097d0034178f9982ac2d2060f3ee1e4e25275ea3298203c1509e137719f30624b96ed70ad6f61",
+          "sha256": "c6f73b3d5a5e06f89abf77fc3ded57ee2f5289b35d974d438b16e3b020555489",
+          "sha1": "ee82bf580738cb2fc77d4525837fd0479ff60870",
+          "md5": "16cfc58f3acfa421b3c2730798557f71"
+        }
+      ]
+    }
+  ]
+}
