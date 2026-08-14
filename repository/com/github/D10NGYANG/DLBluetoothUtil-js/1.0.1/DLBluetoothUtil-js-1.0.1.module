@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLBluetoothUtil/1.0.1/DLBluetoothUtil-1.0.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLBluetoothUtil",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-js-1.0.1.klib",
+          "url": "DLBluetoothUtil-js-1.0.1.klib",
+          "size": 81258,
+          "sha512": "16c9e7321a000c1dd42ff83938f56f3d6375e54553800a1be70b3c1cd9f8c34384360c494b1798f2b7853ddd74963fb23503c0c563d16868eaa5e6f2db0097ae",
+          "sha256": "400924818789ce6142c6730f0de5476df08297b369854232e189805dd66550ec",
+          "sha1": "2508de787b39a5e11c4dcc399c12eb4fbf694423",
+          "md5": "99beecb544eaf86fbd3e6666c4276cf2"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-js-1.0.1.klib",
+          "url": "DLBluetoothUtil-js-1.0.1.klib",
+          "size": 81258,
+          "sha512": "16c9e7321a000c1dd42ff83938f56f3d6375e54553800a1be70b3c1cd9f8c34384360c494b1798f2b7853ddd74963fb23503c0c563d16868eaa5e6f2db0097ae",
+          "sha256": "400924818789ce6142c6730f0de5476df08297b369854232e189805dd66550ec",
+          "sha1": "2508de787b39a5e11c4dcc399c12eb4fbf694423",
+          "md5": "99beecb544eaf86fbd3e6666c4276cf2"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLBluetoothUtil-js-1.0.1-sources.jar",
+          "url": "DLBluetoothUtil-js-1.0.1-sources.jar",
+          "size": 24151,
+          "sha512": "a308ea57756c05e5c61bd3dd8e4b40d8f9a0936ff1f5c7485564025f7e9d59cefe739d9dc62bcad4b6a6880c04ba524a74e064a97e09ecca0553ac4304d6ad64",
+          "sha256": "62a082219423e13ca699f80962db09ee4434da6d74ccd74bda08bc0b7f829091",
+          "sha1": "737cf33f121d47f8cc2bdf3469c3642e9e797d65",
+          "md5": "3a773e54dcf0604d3d7e0bfce05fc37e"
+        }
+      ]
+    }
+  ]
+}

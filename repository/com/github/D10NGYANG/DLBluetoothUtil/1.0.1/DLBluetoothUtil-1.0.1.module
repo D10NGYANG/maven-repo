@@ -1,0 +1,267 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLBluetoothUtil",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-metadata-1.0.1.jar",
+          "url": "DLBluetoothUtil-1.0.1.jar",
+          "size": 12897,
+          "sha512": "d6e344ccf55ada7be7021b050ccd2c41c6a03af13736d7f6e2a117dbb96e2598ca5f2cfbfe74b1a8a71b06e0b271649d645c9b171d1272470ec00e0e941778a7",
+          "sha256": "713a79160741bf7f565a88b2291f39a6f1ffded5f706aeac7189597e3af67469",
+          "sha1": "3d85bb453414604fdf6b2054eace3e92f9945bdd",
+          "md5": "52cd177d47644d738288f7479c56874e"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLBluetoothUtil-kotlin-1.0.1-sources.jar",
+          "url": "DLBluetoothUtil-1.0.1-sources.jar",
+          "size": 17795,
+          "sha512": "b1783a7cfd0293659df4de195f6fecff6120f95ece72a954c3bd8c93a1c2240a13165c56d57cd3c968d2968efdb8cb70ac03b3c45cafb9469259e5f80f303d3f",
+          "sha256": "8db7983f2564282c3ae2ff7d16913d4cd966ca6932baca3e9522f55dff189286",
+          "sha1": "dd574f08cfff32fe584981a7d9c794e3a419b90f",
+          "md5": "bf148c3139f228186b0713d25316816e"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-android/1.0.1/DLBluetoothUtil-android-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-android",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-android/1.0.1/DLBluetoothUtil-android-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-android",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-android/1.0.1/DLBluetoothUtil-android-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-android",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-iosarm64/1.0.1/DLBluetoothUtil-iosarm64-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-iosarm64/1.0.1/DLBluetoothUtil-iosarm64-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-iosarm64/1.0.1/DLBluetoothUtil-iosarm64-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-js/1.0.1/DLBluetoothUtil-js-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-js",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-js/1.0.1/DLBluetoothUtil-js-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-js",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-js/1.0.1/DLBluetoothUtil-js-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-js",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-wasm-js/1.0.1/DLBluetoothUtil-wasm-js-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-wasm-js",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-wasm-js/1.0.1/DLBluetoothUtil-wasm-js-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-wasm-js",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../DLBluetoothUtil-wasm-js/1.0.1/DLBluetoothUtil-wasm-js-1.0.1.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLBluetoothUtil-wasm-js",
+        "version": "1.0.1"
+      }
+    }
+  ]
+}

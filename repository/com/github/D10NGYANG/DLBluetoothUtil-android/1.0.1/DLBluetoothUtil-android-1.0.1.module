@@ -1,0 +1,198 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLBluetoothUtil/1.0.1/DLBluetoothUtil-1.0.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLBluetoothUtil",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-release.aar",
+          "url": "DLBluetoothUtil-android-1.0.1.aar",
+          "size": 207589,
+          "sha512": "5bb7419ad28299b844e2fdbcb50a16922956a3da8d762e8db4ee89613186dbeff5e0fab48e99cfc739c30176fd5f3067d8130e8ce434b45388f2f7d6bbbca986",
+          "sha256": "e7dfefe3a07c6d21bfc4eb85a313392f659d2a1bf239ebb43e6b01e445d5ee56",
+          "sha1": "596bbdf1db13e5a4dee2aa6718b66c2829495bff",
+          "md5": "2a90cc6d11ceb5da013a51adf419c42e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLBluetoothUtil-release.aar",
+          "url": "DLBluetoothUtil-android-1.0.1.aar",
+          "size": 207589,
+          "sha512": "5bb7419ad28299b844e2fdbcb50a16922956a3da8d762e8db4ee89613186dbeff5e0fab48e99cfc739c30176fd5f3067d8130e8ce434b45388f2f7d6bbbca986",
+          "sha256": "e7dfefe3a07c6d21bfc4eb85a313392f659d2a1bf239ebb43e6b01e445d5ee56",
+          "sha1": "596bbdf1db13e5a4dee2aa6718b66c2829495bff",
+          "md5": "2a90cc6d11ceb5da013a51adf419c42e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLBluetoothUtil-android-1.0.1-sources.jar",
+          "url": "DLBluetoothUtil-android-1.0.1-sources.jar",
+          "size": 32810,
+          "sha512": "1eb59ad62cd9c9667d474f75083136032cab7935efc9813d628da6986f899dd9fcdd28d6183e2262eccff849506dfae39ac44255775d5246ce6c9122661cbf6c",
+          "sha256": "1925b0dbb1a8a8573a7cde161fd5937636b18b16dfade1c0396a453c7a411a36",
+          "sha1": "f0dfcdb007c773292585fa705084427726f171c3",
+          "md5": "7972b39d3923f564e359f8d67603a6fa"
+        }
+      ]
+    }
+  ]
+}
