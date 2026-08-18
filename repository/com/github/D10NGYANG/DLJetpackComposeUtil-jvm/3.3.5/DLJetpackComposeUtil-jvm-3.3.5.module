@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLJetpackComposeUtil/3.3.5/DLJetpackComposeUtil-3.3.5.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLJetpackComposeUtil",
+    "version": "3.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-jvm-3.3.5.jar",
+          "url": "DLJetpackComposeUtil-jvm-3.3.5.jar",
+          "size": 849065,
+          "sha512": "086fc882652b17c7f3ea66d7490d83ea39838215ce978ed587614c9b23a4bf5613a63cdaa02276a9005406094ee144db939c865656e8b2e4e4188d718bfdb52e",
+          "sha256": "13c702dd5f208ba221259e5991a294c64f094af1a204521b2bd46b1363801e31",
+          "sha1": "0b2a9146c678cd91fff1d6d74763fd1c24715312",
+          "md5": "563ae26580ddc425f4a69108615972ad"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.11.0-alpha07"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-jvm-3.3.5.jar",
+          "url": "DLJetpackComposeUtil-jvm-3.3.5.jar",
+          "size": 849065,
+          "sha512": "086fc882652b17c7f3ea66d7490d83ea39838215ce978ed587614c9b23a4bf5613a63cdaa02276a9005406094ee144db939c865656e8b2e4e4188d718bfdb52e",
+          "sha256": "13c702dd5f208ba221259e5991a294c64f094af1a204521b2bd46b1363801e31",
+          "sha1": "0b2a9146c678cd91fff1d6d74763fd1c24715312",
+          "md5": "563ae26580ddc425f4a69108615972ad"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-jvm-3.3.5-sources.jar",
+          "url": "DLJetpackComposeUtil-jvm-3.3.5-sources.jar",
+          "size": 104268,
+          "sha512": "8f436681826df23faaa1f025564e5248bd925e10b56c8508ffcd1d4d71dbc1383841a4ba99f8ef86fb2867990a938b56127426bdbb4b32c73cbaeb4f559816f3",
+          "sha256": "0977b629ec6398a1a8c99347abd7a079f2f736217cf54ae8eed768469bcfa491",
+          "sha1": "475ff5d4e9a674e73bd19c3eabec5fcacd50b916",
+          "md5": "1e14dceafa03d24b728da8a3a44d7c02"
+        }
+      ]
+    }
+  ]
+}
