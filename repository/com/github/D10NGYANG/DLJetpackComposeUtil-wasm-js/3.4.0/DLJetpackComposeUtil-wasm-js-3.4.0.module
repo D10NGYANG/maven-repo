@@ -1,0 +1,274 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLJetpackComposeUtil/3.4.0/DLJetpackComposeUtil-3.4.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLJetpackComposeUtil",
+    "version": "3.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-wasm-js-3.4.0.klib",
+          "url": "DLJetpackComposeUtil-wasm-js-3.4.0.klib",
+          "size": 656248,
+          "sha512": "2f273f5e4af01f3bdab5ea39dff000234e03862ea7ac36258b24f17ea1e9b6e2de7c8167ee70c6680b8127733ab8685f303af9a9a2bce9c25532658338d8bea0",
+          "sha256": "1c0452c4d93ea393576ed0b754ade572fa8672a9a8ec39e5d60089de60b7ee9f",
+          "sha1": "785912ba818f9c6250b937450d3c3930506fe5df",
+          "md5": "d4138aac8bc3709960cfcce8ba31ed51"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-wasm-js-3.4.0.klib",
+          "url": "DLJetpackComposeUtil-wasm-js-3.4.0.klib",
+          "size": 656248,
+          "sha512": "2f273f5e4af01f3bdab5ea39dff000234e03862ea7ac36258b24f17ea1e9b6e2de7c8167ee70c6680b8127733ab8685f303af9a9a2bce9c25532658338d8bea0",
+          "sha256": "1c0452c4d93ea393576ed0b754ade572fa8672a9a8ec39e5d60089de60b7ee9f",
+          "sha1": "785912ba818f9c6250b937450d3c3930506fe5df",
+          "md5": "d4138aac8bc3709960cfcce8ba31ed51"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-wasm-js-3.4.0-sources.jar",
+          "url": "DLJetpackComposeUtil-wasm-js-3.4.0-sources.jar",
+          "size": 104328,
+          "sha512": "e6d99e7278e9ab5f47636e4d2d9df1c0f0f905b19e7aaf65838c3f15ff31d641579639f618137a56fc7aba3141eb28d1914889b49a1add17de92a2ddf1409ec8",
+          "sha256": "87ec49650d5eae9e04bd712e64a4beacc6d6482770dcb913be6e3ff7a8aef9c7",
+          "sha1": "b49bf563c2c713d3393fd057044a7f77ff4fd1a8",
+          "md5": "f19226f34ae8deac68c42d07ce989c4e"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.12.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLJetpackComposeUtil-3.4.0.kotlin_resources.zip",
+          "url": "DLJetpackComposeUtil-wasm-js-3.4.0-kotlin_resources.kotlin_resources.zip",
+          "size": 10276,
+          "sha512": "eee3b70f8b051d37ca33bb2c4503e685a9061a974fca15f145e7743d23588928c5623fe48d24844980de8f49d998020606109c0623ab9dc0fd8b92c0beafbbe7",
+          "sha256": "71c3fb700d48549d2a7dcbf72f0e834929fdd239d3ef611b16f6319f62757d54",
+          "sha1": "d3a93e9354c0205377ba5bb1071f3378a54166d1",
+          "md5": "94dc8dd8fb32aa5c60aa5bde46d72e6f"
+        }
+      ]
+    }
+  ]
+}
