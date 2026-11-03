@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/1.1.0/DLCommonUtil-1.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-jvm-1.1.0.jar",
+          "url": "DLCommonUtil-jvm-1.1.0.jar",
+          "size": 147954,
+          "sha512": "698b095b11ce6900572dc0bb3cb057932b402d33cdb763a13af5d346585d0ca850a15d391030ed1da730f4f724ea911fa250802281c99dfce6f3a87a6a9a3e3c",
+          "sha256": "b403817f9bbce04f1a91e4cd760a4e0d68f0912ea60c21997dc2c47b6d90ce35",
+          "sha1": "2335e7cdc57511f9529f29c7256ff3a81a73d49a",
+          "md5": "221bf9688e259beb5c986844a9b762d2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-jvm-1.1.0.jar",
+          "url": "DLCommonUtil-jvm-1.1.0.jar",
+          "size": 147954,
+          "sha512": "698b095b11ce6900572dc0bb3cb057932b402d33cdb763a13af5d346585d0ca850a15d391030ed1da730f4f724ea911fa250802281c99dfce6f3a87a6a9a3e3c",
+          "sha256": "b403817f9bbce04f1a91e4cd760a4e0d68f0912ea60c21997dc2c47b6d90ce35",
+          "sha1": "2335e7cdc57511f9529f29c7256ff3a81a73d49a",
+          "md5": "221bf9688e259beb5c986844a9b762d2"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-jvm-1.1.0-sources.jar",
+          "url": "DLCommonUtil-jvm-1.1.0-sources.jar",
+          "size": 96939,
+          "sha512": "588eea5b30d4681fb91f65b07cf9c1cbe40f06f01f085c6a6767a72429579cf64123a583f460491620248c25402c7a7935c72aa96d858d68435555516eb99b65",
+          "sha256": "108e405593a5013f4fe516c76a7021b1137bca97148c4394ed9234a9ff159951",
+          "sha1": "48a33e9e97e176b17a3352c92077560df7230cf5",
+          "md5": "9b46d231ebf050fc4d6ed4c6b8681c7b"
+        }
+      ]
+    }
+  ]
+}

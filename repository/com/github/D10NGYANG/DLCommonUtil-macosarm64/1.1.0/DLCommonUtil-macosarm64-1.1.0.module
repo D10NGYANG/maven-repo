@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCommonUtil/1.1.0/DLCommonUtil-1.1.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCommonUtil",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-macosArm64Main-1.1.0.klib",
+          "url": "DLCommonUtil-macosarm64-1.1.0.klib",
+          "size": 257491,
+          "sha512": "258e00a25fc5bf9a70c0f58e8e55acfb1d9956cd4311e890b9db3ba7c58768274317308f9958ff4d77db614ddc88c65aaf4123244ba11413f6835e96d51c7b41",
+          "sha256": "8f92ce3181afa0474c504db6205f6223726707b007a63007bbde29ae82bbcc38",
+          "sha1": "52ba5b738f8e775cc3c88be1323c3106b48dbe5f",
+          "md5": "d59d47164d5e8861d778bd68f81a45c6"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLCommonUtil-macosarm64-1.1.0-sources.jar",
+          "url": "DLCommonUtil-macosarm64-1.1.0-sources.jar",
+          "size": 97122,
+          "sha512": "87a4e052afb30290b61771fd3b6b4e243ff8dbe7a4a3d50e7665510bd16a668ab138eddec84cfea28e0fbdc0b5cb8f975ebb82a6462875930d3cff6887679dcf",
+          "sha256": "d11f92ad00ea58ae296fc9a849811e83c6a01ea849de19343386e4024a173e36",
+          "sha1": "45edec593099be2e1d97acfc95719bdebc9537b7",
+          "md5": "317cf0409d5c2b9377d1fca3b4070395"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCommonUtil-macosarm64-1.1.0-metadata.jar",
+          "url": "DLCommonUtil-macosarm64-1.1.0-metadata.jar",
+          "size": 4090,
+          "sha512": "c6bd6f0bd04d3c181dec3818bcd8e9b9c8ecdff51d77032b544fad43df298a6e3c4eb8ddc879fe69ed238463a571ca9b017b953d1588c3b69991a240b668a5c7",
+          "sha256": "01befabea16583034bbdd60ec851868e5c77e101f533cb306fb050c8241022c3",
+          "sha1": "e4ce39de79dc281991846cb1eff3277c92bf58a0",
+          "md5": "51b34e26aca026bd761b4e4925f8f1e8"
+        }
+      ]
+    }
+  ]
+}
