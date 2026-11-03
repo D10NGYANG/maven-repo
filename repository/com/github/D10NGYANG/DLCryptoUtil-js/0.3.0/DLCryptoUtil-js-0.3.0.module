@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLCryptoUtil/0.3.0/DLCryptoUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLCryptoUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-js-0.3.0.klib",
+          "url": "DLCryptoUtil-js-0.3.0.klib",
+          "size": 41337,
+          "sha512": "3454309ada1662bee84da23cf821f199d7ee6dc224cd1b3e813766787357a4d4e53bcae64277fa89ab2ff2f96ce56a084dae44cf90741f1584f652a4ae253bb9",
+          "sha256": "8660115a846a89b6721751b08c7d67f654fd43971833f6ae12256958774712c3",
+          "sha1": "fc22bd81d71970a9645d3e02f449df26dd30bfae",
+          "md5": "3de31d65c1a6160661d8635ec2471ab2"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLCryptoUtil-js-0.3.0.klib",
+          "url": "DLCryptoUtil-js-0.3.0.klib",
+          "size": 41337,
+          "sha512": "3454309ada1662bee84da23cf821f199d7ee6dc224cd1b3e813766787357a4d4e53bcae64277fa89ab2ff2f96ce56a084dae44cf90741f1584f652a4ae253bb9",
+          "sha256": "8660115a846a89b6721751b08c7d67f654fd43971833f6ae12256958774712c3",
+          "sha1": "fc22bd81d71970a9645d3e02f449df26dd30bfae",
+          "md5": "3de31d65c1a6160661d8635ec2471ab2"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLCryptoUtil-js-0.3.0-sources.jar",
+          "url": "DLCryptoUtil-js-0.3.0-sources.jar",
+          "size": 11267,
+          "sha512": "d56b67d1d54cf9e18b3db9b3af2f0fc8ab287d9fc80d9a08864d1ed8fd72ce40dc9595acfd3ed6743f85f40c0f4e98639209c9450d6e3584190fafa17c148509",
+          "sha256": "34ee8be626a5bf039940c917c3c1618dda7528f547b917090a609d410c6f25ac",
+          "sha1": "72d3a016759690a1454884c48220cb98b0b40a0a",
+          "md5": "b00b41530113e9a7a35d855054f7e592"
+        }
+      ]
+    }
+  ]
+}
