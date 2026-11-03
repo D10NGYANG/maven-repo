@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDateUtil/3.0.0/DLDateUtil-3.0.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDateUtil",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-release.aar",
+          "url": "DLDateUtil-android-3.0.0.aar",
+          "size": 49881,
+          "sha512": "1ed744482c1570d7a127d6fa8c261b8e265ef06bbfe125a5abcaf99c50bb0ddf6b6607c93978b95b30c967b960afd2fb53779f5408f11058b6e9e7f6204b1d75",
+          "sha256": "7e93c1042cda9e47076739c397293ba4432e40bdb5d266d9c9e2e1b3c9a2648d",
+          "sha1": "e4f314a17a66c33390cb817451efa340e476c9aa",
+          "md5": "aca290783283174958afe50cab75a0bf"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDateUtil-release.aar",
+          "url": "DLDateUtil-android-3.0.0.aar",
+          "size": 49881,
+          "sha512": "1ed744482c1570d7a127d6fa8c261b8e265ef06bbfe125a5abcaf99c50bb0ddf6b6607c93978b95b30c967b960afd2fb53779f5408f11058b6e9e7f6204b1d75",
+          "sha256": "7e93c1042cda9e47076739c397293ba4432e40bdb5d266d9c9e2e1b3c9a2648d",
+          "sha1": "e4f314a17a66c33390cb817451efa340e476c9aa",
+          "md5": "aca290783283174958afe50cab75a0bf"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLDateUtil-android-3.0.0-sources.jar",
+          "url": "DLDateUtil-android-3.0.0-sources.jar",
+          "size": 21749,
+          "sha512": "51fd059d8be7e916010e25e6551809e2b2b6ced9d894418a61b58ba61bcb0fd637abbeb5faa434fca47283f4b153687a317261793f291d47264498dd62a25e7b",
+          "sha256": "48c4333a7585b9a42b1254d9f4fd56cb7dafcb7da1c3ae70abee8954d7afd36c",
+          "sha1": "5c6e1dabc686286b4f43f41f64209be262d8c029",
+          "md5": "18542366a57171858b7b80d3495c1e45"
+        }
+      ]
+    }
+  ]
+}
