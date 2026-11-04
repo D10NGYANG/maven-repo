@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.7.1/DLSerialPortUtil-0.7.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-wasm-js-0.7.1.klib",
+          "url": "DLSerialPortUtil-wasm-js-0.7.1.klib",
+          "size": 74241,
+          "sha512": "b0abfe89b2afc26c40261845d4831604e01d948cc137fd466dec6476a9d0518facbc44646f299e09c47b4122939aee412a6a1794ebf0a8b700faa573b6cfc6ff",
+          "sha256": "2836de2b17cf9517f2e326771a1202d317abcdab76b2ff7f0459ec03bebbce93",
+          "sha1": "1a6ebbf81e26909906b6c0d0f9f4ef64a1f2eab0",
+          "md5": "3852fbf4dcf12ec81085aa8c83b1fd93"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-wasm-js-0.7.1.klib",
+          "url": "DLSerialPortUtil-wasm-js-0.7.1.klib",
+          "size": 74241,
+          "sha512": "b0abfe89b2afc26c40261845d4831604e01d948cc137fd466dec6476a9d0518facbc44646f299e09c47b4122939aee412a6a1794ebf0a8b700faa573b6cfc6ff",
+          "sha256": "2836de2b17cf9517f2e326771a1202d317abcdab76b2ff7f0459ec03bebbce93",
+          "sha1": "1a6ebbf81e26909906b6c0d0f9f4ef64a1f2eab0",
+          "md5": "3852fbf4dcf12ec81085aa8c83b1fd93"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-wasm-js-0.7.1-sources.jar",
+          "url": "DLSerialPortUtil-wasm-js-0.7.1-sources.jar",
+          "size": 15230,
+          "sha512": "639758a3f38eebe1f44ec4bf483dfde503eac18f1047f19c1a3da09fe3d810e732ca9f64cb562bacaa43dae2a87c62f108c3b15b9cf389aedaac7c388e1574c9",
+          "sha256": "cd733a1875a69c8dd67e48c74668c2267158152df05a8f5e438420a399069f4d",
+          "sha1": "b70c7b61ab4b77483f2ea1a81d7c1b512a030b26",
+          "md5": "80a3ccfa9ca76b46f01835c0f3f18325"
+        }
+      ]
+    }
+  ]
+}

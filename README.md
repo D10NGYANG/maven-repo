@@ -24,6 +24,25 @@ dependencyResolutionManagement {
 ```
 
 
+## DLSerialPortUtil 0.7.1
+
+Kotlin Multiplatform 串口通讯库，使用上方 Maven 仓库地址。
+
+```kotlin
+// KMP commonMain
+implementation("com.github.D10NGYANG:DLSerialPortUtil:0.7.1")
+// 仅 JVM 或 Android 项目也可分别选择平台坐标，和根坐标择一
+implementation("com.github.D10NGYANG:DLSerialPortUtil-jvm:0.7.1")
+implementation("com.github.D10NGYANG:DLSerialPortUtil-android:0.7.1")
+```
+
+包含根模块及 Android、JVM、JS、WasmJS、Linux x64/arm64、macOS x64/arm64 制品。Android USB 驱动的传递依赖还需要 `maven("https://jitpack.io")`。
+
+修复串口打开/关闭竞争、取消泄漏、Web 读错误恢复和 POSIX fd 复用/挂断问题；公共 Flow/Logger 依赖通过 api 暴露。Kotlin 2.2.21、Coroutines 1.11.0、DLLogUtil 0.3.0；保持 Android minSdk 26、Java 8 字节码和公共串口 API。日志采集最多缓冲 1024 条，慢消费者会丢弃旧诊断日志，不影响串口 RX 的 64 块 replay/背压语义。
+
+[升级说明](https://github.com/D10NGYANG/DLSerialPortUtil/blob/0.7.1/MIGRATION_0.7.1.md) · [GitHub Release](https://github.com/D10NGYANG/DLSerialPortUtil/releases/tag/0.7.1)
+
+
 ## DLCryptoUtil 0.3.0
 
 DLCryptoUtil 的 Maven 制品使用上面的仓库地址。

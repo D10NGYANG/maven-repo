@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.7.1/DLSerialPortUtil-0.7.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.7.1.klib",
+          "url": "DLSerialPortUtil-js-0.7.1.klib",
+          "size": 68859,
+          "sha512": "420a83e53df6e4b414fc8d5cf94a651722d5797bf7cd00b76e156189a4601cacd702e7fee44244443df3c8f7bd5285e06bb9c829dc569abb808afc1768b6c562",
+          "sha256": "7fb4dd8407a63fbb63742cfd8286fbcb9a983ac5fe7276dabec51f1d355b4c67",
+          "sha1": "90a9d12fc24bda7ecd227650ada2dc6dc9ec73cb",
+          "md5": "806e26daa1a4d51842d9e818d493ce17"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.7.1.klib",
+          "url": "DLSerialPortUtil-js-0.7.1.klib",
+          "size": 68859,
+          "sha512": "420a83e53df6e4b414fc8d5cf94a651722d5797bf7cd00b76e156189a4601cacd702e7fee44244443df3c8f7bd5285e06bb9c829dc569abb808afc1768b6c562",
+          "sha256": "7fb4dd8407a63fbb63742cfd8286fbcb9a983ac5fe7276dabec51f1d355b4c67",
+          "sha1": "90a9d12fc24bda7ecd227650ada2dc6dc9ec73cb",
+          "md5": "806e26daa1a4d51842d9e818d493ce17"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-js-0.7.1-sources.jar",
+          "url": "DLSerialPortUtil-js-0.7.1-sources.jar",
+          "size": 14245,
+          "sha512": "66f4b5878b3572e24e47504c7fe01f71e298fd0659a7fd058de089c01abfb1860ab4a6ae3494c68a5c0f9507b1861c9f7f77ca0904dea75e5a2cad5ffbed198e",
+          "sha256": "9e36bc79e2a0207f3d591638c6835c0d60118cd61aeb9552ac116de849bfc20e",
+          "sha1": "4ed311da0b3f4ab6fcce45b9177402df51ebb3cd",
+          "md5": "bb75deb3e5774e7bc931b12227f96472"
+        }
+      ]
+    }
+  ]
+}

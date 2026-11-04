@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLSerialPortUtil/0.7.1/DLSerialPortUtil-0.7.1.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLSerialPortUtil",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.fazecast",
+          "module": "jSerialComm",
+          "version": {
+            "requires": "2.11.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-jvm-0.7.1.jar",
+          "url": "DLSerialPortUtil-jvm-0.7.1.jar",
+          "size": 84294,
+          "sha512": "713249a852c7fc2e9c89b002ef4d7b775aeb5ad9278cc21e6f344f1f5a411799422b5b20c98a272ab9d5c9a717fdd6aa1fdbe0ecc337e4c3cdbba6f376703f12",
+          "sha256": "1ec60653429527d135618071f3f0e9dcfbca219af4c3960e3c7511e676fb1212",
+          "sha1": "66e1800c239b0b460439afbc9a7eafe89ccb8acc",
+          "md5": "4827db5213f6cdf765c50b74ac9ecb59"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.fazecast",
+          "module": "jSerialComm",
+          "version": {
+            "requires": "2.11.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLLogUtil",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLSerialPortUtil-jvm-0.7.1.jar",
+          "url": "DLSerialPortUtil-jvm-0.7.1.jar",
+          "size": 84294,
+          "sha512": "713249a852c7fc2e9c89b002ef4d7b775aeb5ad9278cc21e6f344f1f5a411799422b5b20c98a272ab9d5c9a717fdd6aa1fdbe0ecc337e4c3cdbba6f376703f12",
+          "sha256": "1ec60653429527d135618071f3f0e9dcfbca219af4c3960e3c7511e676fb1212",
+          "sha1": "66e1800c239b0b460439afbc9a7eafe89ccb8acc",
+          "md5": "4827db5213f6cdf765c50b74ac9ecb59"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLSerialPortUtil-jvm-0.7.1-sources.jar",
+          "url": "DLSerialPortUtil-jvm-0.7.1-sources.jar",
+          "size": 13392,
+          "sha512": "41f77bab9c5d42309f3a0a951dee74c6aa3f7b3c17d1498783fc76a84ca6aacb0996f31f46345950b5e8178ea081b242df889e9963fde41f452bf6784248e7e9",
+          "sha256": "4b5ae98cf3636e4be634f88556078d92d29657313cd67662dc14662d6209f035",
+          "sha1": "ea36cb5697e5f6c354ccb7851125be5c76e3b6a2",
+          "md5": "34404062f2376119552b2b4c33e47477"
+        }
+      ]
+    }
+  ]
+}
