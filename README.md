@@ -56,3 +56,19 @@ implementation("com.github.D10NGYANG:DLBluetoothUtil-android:1.1.0")
 包含根模块、Android、iOS arm64、iOS simulator arm64、JS 和 WasmJS 制品。新增 Apple Silicon 模拟器支持；修复连接取消泄漏、队列异常和通知状态。Android payload 上限为 `minOf(MTU - 3, 512)`，超长写入立即失败；公共 BLE API 签名保持兼容，DLLogUtil 仍为 0.2.1。
 
 [升级说明](https://github.com/D10NGYANG/DLBluetoothUtil/blob/dev/docs/MIGRATION_1.1.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLBluetoothUtil/releases/tag/1.1.0)
+
+
+## DLVoiceUtil 0.3.0
+
+Android/iOS PCM 录音与播放工具，支持小端、16bit、单声道音频。
+
+```kotlin
+// KMP commonMain，由 Gradle 选择目标平台制品
+implementation("com.github.D10NGYANG:DLVoiceUtil:0.3.0")
+// 仅 Android 项目也可选择平台坐标，二者择一
+implementation("com.github.D10NGYANG:DLVoiceUtil-android:0.3.0")
+```
+
+包含根模块、Android、iOS arm64 和 iOS simulator arm64 制品。新增可等待的录音停止 API 与错误 Flow，修复录放音数据、资源释放和会话问题。升级需匹配 Kotlin 2.4.21 元数据；Android minSdk 26、compileSdk 至少 37。
+
+[升级说明](https://github.com/D10NGYANG/DLVoiceUtil/blob/v0.3.0/docs/migration/0.3.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLVoiceUtil/releases/tag/v0.3.0)

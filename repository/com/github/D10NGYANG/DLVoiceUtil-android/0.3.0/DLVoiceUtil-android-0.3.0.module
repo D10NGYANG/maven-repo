@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLVoiceUtil/0.3.0/DLVoiceUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil.aar",
+          "url": "DLVoiceUtil-android-0.3.0.aar",
+          "size": 95062,
+          "sha512": "ad1cfe1ff4a9c43fe36bbbddb4ba49553e54e39ded170a2d71cf9d69521e859da51137f9e67e9567ee9f1987901e95cdedcdadb8a2b1cab7261b9982dcebafe7",
+          "sha256": "e25e1cd395055009f457617b5a2c102750aa08d84c0eea2d84d24a8d0aa40c87",
+          "sha1": "9f150852f703459baa5c3a0b7af9467a648b8de2",
+          "md5": "f12d9939e7a74b59f2abf0bf8eaf87b5"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil.aar",
+          "url": "DLVoiceUtil-android-0.3.0.aar",
+          "size": 95062,
+          "sha512": "ad1cfe1ff4a9c43fe36bbbddb4ba49553e54e39ded170a2d71cf9d69521e859da51137f9e67e9567ee9f1987901e95cdedcdadb8a2b1cab7261b9982dcebafe7",
+          "sha256": "e25e1cd395055009f457617b5a2c102750aa08d84c0eea2d84d24a8d0aa40c87",
+          "sha1": "9f150852f703459baa5c3a0b7af9467a648b8de2",
+          "md5": "f12d9939e7a74b59f2abf0bf8eaf87b5"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLVoiceUtil-android-0.3.0-sources.jar",
+          "url": "DLVoiceUtil-android-0.3.0-sources.jar",
+          "size": 11136,
+          "sha512": "3dcb1149b0c3874361cef1d682187b313f1dd3a5f59752f257b58fba61aa04f053e58067f5d24f9ecb639270b7dc55a897a7c44e1a4a8f3ed4f703e57d958440",
+          "sha256": "d21034a32eedc05e883165a47738b22e0b838acf910c8256ae79ce57d775c45f",
+          "sha1": "5ddfd22f847a18f9d8d7c5b800dfd8b911d92bec",
+          "md5": "2eba45c7c2f1d2d0e53af47a83a53151"
+        }
+      ]
+    }
+  ]
+}

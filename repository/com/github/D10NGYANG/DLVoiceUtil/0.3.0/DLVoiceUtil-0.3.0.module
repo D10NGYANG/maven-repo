@@ -1,0 +1,233 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.D10NGYANG",
+    "module": "DLVoiceUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "com.github.D10NGYANG",
+          "module": "DLCommonUtil",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLVoiceUtil-metadata-0.3.0.jar",
+          "url": "DLVoiceUtil-0.3.0.jar",
+          "size": 4580,
+          "sha512": "032583c1d615d2fce6866fb7f006955eff0f804a94892ba59af7d0cb941d069f217e474217090dd7fb9a271e0fb987f1ce6811c798ce50a406cb213b7be55e4f",
+          "sha256": "f49165cc5ee45f13f12ebf8f88138d999a570fb8b723c05d49ff58f3a95bfd79",
+          "sha1": "de2a3f8263102d92f0e68b682d8f08065e24fb1d",
+          "md5": "7e39f2766ba43c5735ed66a2db49cdc9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "DLVoiceUtil-kotlin-0.3.0-sources.jar",
+          "url": "DLVoiceUtil-0.3.0-sources.jar",
+          "size": 10657,
+          "sha512": "90303d92a8c3a3af84538e689fd4787083117cc40e35909687c4640be85be5cace413d0108b4409fd666b81d914acc2dfbfb3f0bfa16d6064e50c47045f85586",
+          "sha256": "25a3bd598b38b637818875a2e46649f1ba6f721c2dd20494ca6edd9ccc252004",
+          "sha1": "860bfb3d7e6659bd793f0c316d93a205c0f68a45",
+          "md5": "29d1654b55d6d87a8bf2bdac5651230b"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-android/0.3.0/DLVoiceUtil-android-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-android",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-android/0.3.0/DLVoiceUtil-android-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-android",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-android/0.3.0/DLVoiceUtil-android-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-android",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iosarm64/0.3.0/DLVoiceUtil-iosarm64-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iosarm64",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iosarm64/0.3.0/DLVoiceUtil-iosarm64-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iosarm64",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iosarm64/0.3.0/DLVoiceUtil-iosarm64-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iosarm64",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iossimulatorarm64/0.3.0/DLVoiceUtil-iossimulatorarm64-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iossimulatorarm64",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iossimulatorarm64/0.3.0/DLVoiceUtil-iossimulatorarm64-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iossimulatorarm64",
+        "version": "0.3.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../DLVoiceUtil-iossimulatorarm64/0.3.0/DLVoiceUtil-iossimulatorarm64-0.3.0.module",
+        "group": "com.github.D10NGYANG",
+        "module": "DLVoiceUtil-iossimulatorarm64",
+        "version": "0.3.0"
+      }
+    }
+  ]
+}
