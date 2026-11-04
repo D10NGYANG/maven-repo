@@ -1,7 +1,7 @@
 # maven-repo
 我的开源项目maven仓库
 
-# 镜像地址
+# 仓库地址
 ```kotlin
 maven("https://raw.githubusercontent.com/D10NGYANG/maven-repo/main/repository")
 ```
@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 
 ## DLCryptoUtil 0.3.0
 
-本仓库是 DLCryptoUtil 提供给外部用户的 Maven 制品仓库；不依赖内网 Nexus。
+DLCryptoUtil 的 Maven 制品使用上面的仓库地址。
 
 ```kotlin
 // KMP commonMain
@@ -44,7 +44,7 @@ implementation("com.github.D10NGYANG:DLCryptoUtil-jvm:0.3.0")
 
 ## DLBluetoothUtil 1.1.0
 
-本仓库是 DLBluetoothUtil 面向外部用户的 Maven 制品仓库，使用上面的 `main/repository` 地址，无需内部 Nexus 或 JitPack。
+DLBluetoothUtil 的 Maven 制品使用上面的 `main/repository` 地址。
 
 ```kotlin
 // KMP commonMain（通过 Gradle 元数据选择平台）
