@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.3.0/DLLogUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-release.aar",
+          "url": "DLLogUtil-android-0.3.0.aar",
+          "size": 11168,
+          "sha512": "f95ae243eae83c2260f5520f85fa52487add6ff27ba553fc121e881383992d27daaf6ba535b2aaf50b8859c08062d5b00f8627ee50bab89c0141db6d1558b7f3",
+          "sha256": "799f16c1f03e1a8f60bb4aa7171172384fbf443004948ebe4b735dea3b343321",
+          "sha1": "ecfe2f8a9dcd2ae6ff7ecf74605153cb4d44e19f",
+          "md5": "6b1dc1922e4d297f4d152c4b6f58210d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-release.aar",
+          "url": "DLLogUtil-android-0.3.0.aar",
+          "size": 11168,
+          "sha512": "f95ae243eae83c2260f5520f85fa52487add6ff27ba553fc121e881383992d27daaf6ba535b2aaf50b8859c08062d5b00f8627ee50bab89c0141db6d1558b7f3",
+          "sha256": "799f16c1f03e1a8f60bb4aa7171172384fbf443004948ebe4b735dea3b343321",
+          "sha1": "ecfe2f8a9dcd2ae6ff7ecf74605153cb4d44e19f",
+          "md5": "6b1dc1922e4d297f4d152c4b6f58210d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-android-0.3.0-sources.jar",
+          "url": "DLLogUtil-android-0.3.0-sources.jar",
+          "size": 4733,
+          "sha512": "fe53f39dffd58c2006cd4744dbe0627311f82cc0409a2c33b3b5831f8efe946f407f24ffac264b2550e48ff865f48e0daae4389c3733628ff8eb3091a6e7efa1",
+          "sha256": "2f6f6d19bfcdc2f745f8f97457d94577803eda9354ee72f39a4cb1c05bd74d1f",
+          "sha1": "213a102bcbb28c4a4e64db69b58839fe61a417f0",
+          "md5": "d0910f4d36b7d44c26e3cedb1313a788"
+        }
+      ]
+    }
+  ]
+}

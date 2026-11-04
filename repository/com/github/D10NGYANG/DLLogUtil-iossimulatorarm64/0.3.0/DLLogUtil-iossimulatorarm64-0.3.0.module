@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.3.0/DLLogUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iosSimulatorArm64Main-0.3.0.klib",
+          "url": "DLLogUtil-iossimulatorarm64-0.3.0.klib",
+          "size": 22188,
+          "sha512": "e553bdfc7089a29c6d99e6f92cedc7526233e6f880ea10e410013d53b516c898ecc7137456e4c6f86a31173c90b105f9ca7edda9e5fb0b717dade1a73bfe4537",
+          "sha256": "2cc4d41eddfb12eaf13ff67a075a7707b6ad991f89a850d9ba12ecc7b23f89e1",
+          "sha1": "c4759b7562283920c84ae58f2163e997baed85e5",
+          "md5": "b7cf6551bcd9e06d7fad0ccdf52996a5"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-iossimulatorarm64-0.3.0-sources.jar",
+          "url": "DLLogUtil-iossimulatorarm64-0.3.0-sources.jar",
+          "size": 5143,
+          "sha512": "1e6af5fa72b703760b049b088016b6b44a6d9c5581b83a3f4cd1aeb72cb8688ec69cac7bbc15344efe784b101170e76fb645d069d994d5cd84a41b7f4a9819ba",
+          "sha256": "08cfa8f5d19a30e57d0d57c86121944069c76ace0f98905937b6193ec74214b0",
+          "sha1": "890746571275267f30095450946cc084bf7bdccd",
+          "md5": "4bbdc512c144a4f5a819adb878d7c6dd"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iossimulatorarm64-0.3.0-metadata.jar",
+          "url": "DLLogUtil-iossimulatorarm64-0.3.0-metadata.jar",
+          "size": 2680,
+          "sha512": "cdefc4af8816c11035cf6ce8327225fc997da491d8b36cb7441a290ae746ac1d1de42468180d7e8e517329155445327ad45e9ba410d6f42edb01ae3150391d87",
+          "sha256": "9d79727787456bc68da391778c41947fb3b5a3b90a66f3be09d1dee3cbfc4cdf",
+          "sha1": "b6ee831846740b7fbe25d5639887bcd93f2e11be",
+          "md5": "2a0384263ccc0d705934760df4ba068a"
+        }
+      ]
+    }
+  ]
+}

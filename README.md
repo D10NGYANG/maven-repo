@@ -72,3 +72,23 @@ implementation("com.github.D10NGYANG:DLVoiceUtil-android:0.3.0")
 包含根模块、Android、iOS arm64 和 iOS simulator arm64 制品。新增可等待的录音停止 API 与错误 Flow，修复录放音数据、资源释放和会话问题。升级需匹配 Kotlin 2.4.21 元数据；Android minSdk 26、compileSdk 至少 37。
 
 [升级说明](https://github.com/D10NGYANG/DLVoiceUtil/blob/v0.3.0/docs/migration/0.3.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLVoiceUtil/releases/tag/v0.3.0)
+
+
+## DLLogUtil 0.3.0
+
+轻量级 Kotlin Multiplatform 日志库，Maven 制品使用上面的仓库地址。
+
+```kotlin
+// KMP commonMain，由 Gradle 选择目标平台制品
+implementation("com.github.D10NGYANG:DLLogUtil:0.3.0")
+// 纯 JVM/Java 工程可选择平台坐标，二者择一
+implementation("com.github.D10NGYANG:DLLogUtil-jvm:0.3.0")
+// 仅 Android 工程也可选择平台坐标
+implementation("com.github.D10NGYANG:DLLogUtil-android:0.3.0")
+```
+
+包含根模块及 Android、JVM、JS、WasmJS、WasmWASI、Linux x64/arm64、macOS x64/arm64、iOS arm64/simulator arm64/x64 制品。
+
+修复工厂并发访问和 Apple 日志输出；全局等级应用于后续新建 Logger；`getAll()` 返回注册表快照。日志流最多缓冲 1024 条，慢消费者积压时丢弃最旧消息。Kotlin 2.2.21、协程 1.11.0；保持 Java 8 字节码和 Android minSdk 26。
+
+[升级说明](https://github.com/D10NGYANG/DLLogUtil/blob/0.3.0/docs/upgrade-0.3.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLLogUtil/releases/tag/0.3.0)

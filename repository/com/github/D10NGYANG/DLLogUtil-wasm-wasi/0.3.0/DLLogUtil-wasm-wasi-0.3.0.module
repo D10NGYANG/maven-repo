@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.3.0/DLLogUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-wasi-0.3.0.klib",
+          "url": "DLLogUtil-wasm-wasi-0.3.0.klib",
+          "size": 17987,
+          "sha512": "ebb4bdcd0436c8b17ff9a81e753d0844a287ff32dc1e66a3411e37c4e32dd4423f7060151d85b0eb54408921d988a4339ea38bb0ccdd8d5938bdb8d4f3ec65cc",
+          "sha256": "131b646987f4407fc6ebb66986a38fd7bc95f7cd6bb6d34e4650a4416cac61a7",
+          "sha1": "9791bc17cfdf65079d55ebdd9d6fc76761ccde20",
+          "md5": "425f4cdeea2883e363ae1c636789a225"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-wasi-0.3.0.klib",
+          "url": "DLLogUtil-wasm-wasi-0.3.0.klib",
+          "size": 17987,
+          "sha512": "ebb4bdcd0436c8b17ff9a81e753d0844a287ff32dc1e66a3411e37c4e32dd4423f7060151d85b0eb54408921d988a4339ea38bb0ccdd8d5938bdb8d4f3ec65cc",
+          "sha256": "131b646987f4407fc6ebb66986a38fd7bc95f7cd6bb6d34e4650a4416cac61a7",
+          "sha1": "9791bc17cfdf65079d55ebdd9d6fc76761ccde20",
+          "md5": "425f4cdeea2883e363ae1c636789a225"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-wasm-wasi-0.3.0-sources.jar",
+          "url": "DLLogUtil-wasm-wasi-0.3.0-sources.jar",
+          "size": 4639,
+          "sha512": "b228f5a83794e7e4467c66eceb4e8caa3caab883ee1aec17c47565da12ddf8d8afd54e415c8780977b9e6fcf894a5ff44648dca68d08fe9d482d3396768d61ce",
+          "sha256": "598085cc07262cbbc76d3722e93b65b493c5449cb418f042c108198659816f48",
+          "sha1": "447c6c96212ccaf9a6c598e969778280e309a768",
+          "md5": "cebf07629191bbd0554b5d36f6020da4"
+        }
+      ]
+    }
+  ]
+}

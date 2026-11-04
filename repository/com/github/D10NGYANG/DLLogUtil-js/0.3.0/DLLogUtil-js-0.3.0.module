@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.3.0/DLLogUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-js-0.3.0.klib",
+          "url": "DLLogUtil-js-0.3.0.klib",
+          "size": 18509,
+          "sha512": "578185a10546d5fb7fb8e6e01553f04ffc10861883ae2748920a36e0fd95408b7f23fb8a6cbfec70f8db9633225d6698404f4c0b324951984ae2c9d776abf957",
+          "sha256": "8bfb0daccfad94b9840e1af5fbcc44403890f6b80b11feacc30eacc94323d7df",
+          "sha1": "5b05e7fbdd62ec9f1c11333cfd798ef5726b90cf",
+          "md5": "6a3b82178afbfa4f5531e068fc599f7b"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-js-0.3.0.klib",
+          "url": "DLLogUtil-js-0.3.0.klib",
+          "size": 18509,
+          "sha512": "578185a10546d5fb7fb8e6e01553f04ffc10861883ae2748920a36e0fd95408b7f23fb8a6cbfec70f8db9633225d6698404f4c0b324951984ae2c9d776abf957",
+          "sha256": "8bfb0daccfad94b9840e1af5fbcc44403890f6b80b11feacc30eacc94323d7df",
+          "sha1": "5b05e7fbdd62ec9f1c11333cfd798ef5726b90cf",
+          "md5": "6a3b82178afbfa4f5531e068fc599f7b"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-js-0.3.0-sources.jar",
+          "url": "DLLogUtil-js-0.3.0-sources.jar",
+          "size": 4636,
+          "sha512": "be3f7a5fd860080cece415be2f98a8b748c762bfb15554fe7eb619f69f66dd0fe1033e5b81751f5c09e3f05e4108afc0f3a904457f2291423ce69622a95b174a",
+          "sha256": "9df571d8cbdcdaf8cb30dfa27f30f3867a89105a71097a9230d9e16bd9ca5617",
+          "sha1": "59239b747a556b5c48a4024fe5f6cce77cbb9c0d",
+          "md5": "b410eab3f4bee24eecf0043b5e0a3b3c"
+        }
+      ]
+    }
+  ]
+}

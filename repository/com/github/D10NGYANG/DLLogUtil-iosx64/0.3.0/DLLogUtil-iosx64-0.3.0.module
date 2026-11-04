@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLLogUtil/0.3.0/DLLogUtil-0.3.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLLogUtil",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iosX64Main-0.3.0.klib",
+          "url": "DLLogUtil-iosx64-0.3.0.klib",
+          "size": 22110,
+          "sha512": "aca6680747a093574ce0c8dad0af51e86dc8ef2b2f858ed0407b849da56279f24c543824e33a88b6f683edbdb36d35f4b787ef2c59400edbe759947228b33ed9",
+          "sha256": "c96394954a494c14e3743363f426945ed74a1ff81166d82350674f7bdcf9727e",
+          "sha1": "4f45fb7c5a37c3275cfafb96b05380e2846facc0",
+          "md5": "bd37cfe3c6cfc243c32418eb4b7271f8"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "DLLogUtil-iosx64-0.3.0-sources.jar",
+          "url": "DLLogUtil-iosx64-0.3.0-sources.jar",
+          "size": 5143,
+          "sha512": "1e6af5fa72b703760b049b088016b6b44a6d9c5581b83a3f4cd1aeb72cb8688ec69cac7bbc15344efe784b101170e76fb645d069d994d5cd84a41b7f4a9819ba",
+          "sha256": "08cfa8f5d19a30e57d0d57c86121944069c76ace0f98905937b6193ec74214b0",
+          "sha1": "890746571275267f30095450946cc084bf7bdccd",
+          "md5": "4bbdc512c144a4f5a819adb878d7c6dd"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLLogUtil-iosx64-0.3.0-metadata.jar",
+          "url": "DLLogUtil-iosx64-0.3.0-metadata.jar",
+          "size": 2680,
+          "sha512": "cdefc4af8816c11035cf6ce8327225fc997da491d8b36cb7441a290ae746ac1d1de42468180d7e8e517329155445327ad45e9ba410d6f42edb01ae3150391d87",
+          "sha256": "9d79727787456bc68da391778c41947fb3b5a3b90a66f3be09d1dee3cbfc4cdf",
+          "sha1": "b6ee831846740b7fbe25d5639887bcd93f2e11be",
+          "md5": "2a0384263ccc0d705934760df4ba068a"
+        }
+      ]
+    }
+  ]
+}
