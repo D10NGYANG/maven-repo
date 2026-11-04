@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../DLDatastoreUtil-Processor/0.5.0/DLDatastoreUtil-Processor-0.5.0.module",
+    "group": "com.github.D10NGYANG",
+    "module": "DLDatastoreUtil-Processor",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Processor-jvm-0.5.0.jar",
+          "url": "DLDatastoreUtil-Processor-jvm-0.5.0.jar",
+          "size": 20177,
+          "sha512": "b95be7088c89b68f9798bfd77697c415991f431c33d0e29d665cb2eb057ee0482ced37bb7b1df54548bf4695270a16c02003cb71f4223536231552575973fcba",
+          "sha256": "ba5165cfbed6b3e70f1ad82eea7fb848c0167ebe9197ac7550928e30238d906a",
+          "sha1": "d9aaf28be69b19f28862fc3a044342f9301423a6",
+          "md5": "9ea0fb0ac0447278f9c50201fd8693df"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "2.3.13"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Processor-jvm-0.5.0.jar",
+          "url": "DLDatastoreUtil-Processor-jvm-0.5.0.jar",
+          "size": 20177,
+          "sha512": "b95be7088c89b68f9798bfd77697c415991f431c33d0e29d665cb2eb057ee0482ced37bb7b1df54548bf4695270a16c02003cb71f4223536231552575973fcba",
+          "sha256": "ba5165cfbed6b3e70f1ad82eea7fb848c0167ebe9197ac7550928e30238d906a",
+          "sha1": "d9aaf28be69b19f28862fc3a044342f9301423a6",
+          "md5": "9ea0fb0ac0447278f9c50201fd8693df"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "DLDatastoreUtil-Processor-jvm-0.5.0-sources.jar",
+          "url": "DLDatastoreUtil-Processor-jvm-0.5.0-sources.jar",
+          "size": 4764,
+          "sha512": "f66abbe7657ddf420998320006399baac020e4af30afe12126637d7317b99aea92425a140601ac91b2a5290afe1174d0b03159d037082fc419e30ff6962b8479",
+          "sha256": "602098ff71273571fdf7f23948677b5fb37e8617ea29ae8196a595ef64f5e7dc",
+          "sha1": "b70ecdfc2753ab9109f8a52655e30d6b5a960b0f",
+          "md5": "4be5046c5d7c8f66dd73c0776ea51b34"
+        }
+      ]
+    }
+  ]
+}

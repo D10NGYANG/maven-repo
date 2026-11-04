@@ -43,6 +43,23 @@ implementation("com.github.D10NGYANG:DLSerialPortUtil-android:0.7.1")
 [升级说明](https://github.com/D10NGYANG/DLSerialPortUtil/blob/0.7.1/MIGRATION_0.7.1.md) · [GitHub Release](https://github.com/D10NGYANG/DLSerialPortUtil/releases/tag/0.7.1)
 
 
+## DLDatastoreUtil 0.5.0
+
+Android/iOS Preferences DataStore 封装，使用上面的 Maven 仓库地址。
+
+```kotlin
+implementation("com.github.D10NGYANG:DLDatastoreUtil:0.5.0")
+// 仅使用注解生成方式时添加，与运行库保持同版本。
+ksp("com.github.D10NGYANG:DLDatastoreUtil-Processor:0.5.0")
+```
+
+提供 KMP 根模块、Android、iOS arm64、iOS simulator arm64，以及 KSP Processor/JVM 制品。使用 Kotlin 2.4.21、DataStore 1.3.0、Serialization 1.12.0；Android minSdk 26，不再支持 iosX64。
+
+修复动态 Map 类型、同名实例、枚举读写和 KSP 复杂类型生成。多参数动态键含冒号时采用无歧义编码；旧歧义键需业务确认后迁移。Android 混淆需匹配支持 Kotlin 2.4 的 R8。
+
+[升级说明](https://github.com/D10NGYANG/DLDatastoreUtil/blob/0.5.0/docs/upgrade-0.5.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLDatastoreUtil/releases/tag/0.5.0)
+
+
 ## DLCryptoUtil 0.3.0
 
 DLCryptoUtil 的 Maven 制品使用上面的仓库地址。
