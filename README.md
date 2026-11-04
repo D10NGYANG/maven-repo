@@ -42,20 +42,19 @@ implementation("com.github.D10NGYANG:DLCryptoUtil-jvm:0.3.0")
 [完整升级说明](https://github.com/D10NGYANG/DLCryptoUtil/blob/main/docs/upgrade-0.3.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLCryptoUtil/releases/tag/v0.3.0)
 
 
-## DLBluetoothUtil 1.1.0
+## DLBluetoothUtil 1.1.1
 
-DLBluetoothUtil 的 Maven 制品使用上面的 `main/repository` 地址。
+跨平台BLE通讯库，通过上方Maven地址安装。
 
 ```kotlin
-// KMP commonMain（通过 Gradle 元数据选择平台）
-implementation("com.github.D10NGYANG:DLBluetoothUtil:1.1.0")
-// 仅 Android 项目也可直接选择平台坐标，二者择一
-implementation("com.github.D10NGYANG:DLBluetoothUtil-android:1.1.0")
+implementation("com.github.D10NGYANG:DLBluetoothUtil:1.1.1")
+// 仅Android项目可选平台坐标，与上面二者择一
+implementation("com.github.D10NGYANG:DLBluetoothUtil-android:1.1.1")
 ```
 
-包含根模块、Android、iOS arm64、iOS simulator arm64、JS 和 WasmJS 制品。新增 Apple Silicon 模拟器支持；修复连接取消泄漏、队列异常和通知状态。Android payload 上限为 `minOf(MTU - 3, 512)`，超长写入立即失败；公共 BLE API 签名保持兼容，DLLogUtil 仍为 0.2.1。
+支持Android、iOS arm64、iOS simulator arm64、JS、WasmJS。1.1.1升级DLLogUtil0.3.0，修复Apple日志输出与时间戳、改善日志并发安全；日志缓冲最多1024条，积压丢旧，全局等级影响后续Logger。BLE公共API保持不变。
 
-[升级说明](https://github.com/D10NGYANG/DLBluetoothUtil/blob/dev/docs/MIGRATION_1.1.0.md) · [GitHub Release](https://github.com/D10NGYANG/DLBluetoothUtil/releases/tag/1.1.0)
+[升级说明](https://github.com/D10NGYANG/DLBluetoothUtil/blob/1.1.1/docs/RELEASE_1.1.1.md) · [GitHub Release](https://github.com/D10NGYANG/DLBluetoothUtil/releases/tag/1.1.1)
 
 
 ## DLVoiceUtil 0.3.0
